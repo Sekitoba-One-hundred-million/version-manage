@@ -1,0 +1,128 @@
+standard_time.pickle download finish Gilgamesh
+up_average.pickle download finish Gilgamesh
+up_pace_regressin.pickle download finish Gilgamesh
+up_kind_ave_data.pickle download finish Gilgamesh
+money_class_true_skill_data.pickle download finish Gilgamesh
+race_ave_true_skill.pickle download finish Gilgamesh
+race_money_data.pickle download finish Gilgamesh
+time_index_data.pickle download finish Gilgamesh
+race_info_data.pickle download finish Gilgamesh
+jockey_analyze_data.pickle download finish Gilgamesh
+jockey_id_data.pickle download finish Gilgamesh
+jockey_year_rank_data.pickle download finish Gilgamesh
+trainer_analyze_data.pickle download finish Gilgamesh
+race_trainer_id_data.pickle download finish Gilgamesh
+race_rank_data.pickle download finish Gilgamesh
+next_race_data.pickle download finish Gilgamesh
+foot_used.pickle download finish Gilgamesh
+wrap_data.pickle download finish Gilgamesh
+race_data.pickle download finish Gilgamesh
+horce_data_storage.pickle download finish Gilgamesh
+slow_start_data.pickle download finish Gilgamesh
+waku_three_rate_data.pickle download finish Gilgamesh
+baba_index_data.pickle download finish Gilgamesh
+parent_id_data.pickle download finish Gilgamesh
+omega_index_data.pickle download finish Gilgamesh
+race_day.pickle download finish Gilgamesh
+horce_sex_data.pickle download finish Gilgamesh
+race_jockey_id_data.pickle download finish Gilgamesh
+true_skill_data.pickle download finish Gilgamesh
+corner_true_skill_data.pickle download finish Gilgamesh
+predict_first_passing_rank.pickle download finish Gilgamesh
+predict_last_passing_rank.pickle download finish Gilgamesh
+first_corner_rank.pickle download finish Gilgamesh
+up3_true_skill_data.pickle download finish Gilgamesh
+test_wide_odds.pickle download finish Gilgamesh
+test_baren_odds.pickle download finish Gilgamesh
+start rank:2
+start rank:1
+start rank:4
+start rank:3
+start rank:5
+1-instance.pickle download finish Gilgamesh
+2-instance.pickle download finish Gilgamesh
+3-instance.pickle download finish Gilgamesh
+4-instance.pickle download finish Gilgamesh
+5-instance.pickle download finish Gilgamesh
+test_model.pickle download finish Gilgamesh
+[LightGBM] [Warning] Unknown parameter: max_position
+[LightGBM] [Warning] Unknown parameter: max_position
+[LightGBM] [Warning] Auto-choosing row-wise multi-threading, the overhead of testing was 0.030911 seconds.
+You can set `force_row_wise=true` to remove the overhead.
+And if memory is not enough, you can set `force_col_wise=true`.
+[LightGBM] [Info] Total Bins 4225
+[LightGBM] [Info] Number of data points in the train set: 610457, number of used features: 48
+[LightGBM] [Warning] Unknown parameter: max_position
+Training until validation scores don't improve for 30 rounds
+[10]	training's ndcg@1: 0.447836	training's ndcg@2: 0.48296	training's ndcg@3: 0.50595	valid_1's ndcg@1: 0.426554	valid_1's ndcg@2: 0.462203	valid_1's ndcg@3: 0.490479
+[20]	training's ndcg@1: 0.467957	training's ndcg@2: 0.498799	training's ndcg@3: 0.518431	valid_1's ndcg@1: 0.426376	valid_1's ndcg@2: 0.465147	valid_1's ndcg@3: 0.493931
+[30]	training's ndcg@1: 0.482374	training's ndcg@2: 0.509965	training's ndcg@3: 0.527577	valid_1's ndcg@1: 0.431585	valid_1's ndcg@2: 0.469931	valid_1's ndcg@3: 0.498789
+[40]	training's ndcg@1: 0.495455	training's ndcg@2: 0.519628	training's ndcg@3: 0.535453	valid_1's ndcg@1: 0.429913	valid_1's ndcg@2: 0.470952	valid_1's ndcg@3: 0.499159
+[50]	training's ndcg@1: 0.507558	training's ndcg@2: 0.52796	training's ndcg@3: 0.542819	valid_1's ndcg@1: 0.433174	valid_1's ndcg@2: 0.472658	valid_1's ndcg@3: 0.501367
+[60]	training's ndcg@1: 0.519379	training's ndcg@2: 0.536214	training's ndcg@3: 0.549486	valid_1's ndcg@1: 0.432155	valid_1's ndcg@2: 0.473952	valid_1's ndcg@3: 0.502537
+[70]	training's ndcg@1: 0.528998	training's ndcg@2: 0.544254	training's ndcg@3: 0.555907	valid_1's ndcg@1: 0.431449	valid_1's ndcg@2: 0.47405	valid_1's ndcg@3: 0.50356
+[80]	training's ndcg@1: 0.539232	training's ndcg@2: 0.551943	training's ndcg@3: 0.562234	valid_1's ndcg@1: 0.435042	valid_1's ndcg@2: 0.475268	valid_1's ndcg@3: 0.504908
+[90]	training's ndcg@1: 0.548892	training's ndcg@2: 0.559029	training's ndcg@3: 0.568034	valid_1's ndcg@1: 0.437069	valid_1's ndcg@2: 0.475853	valid_1's ndcg@3: 0.50568
+[100]	training's ndcg@1: 0.557555	training's ndcg@2: 0.56641	training's ndcg@3: 0.573363	valid_1's ndcg@1: 0.439008	valid_1's ndcg@2: 0.476937	valid_1's ndcg@3: 0.506973
+[110]	training's ndcg@1: 0.56578	training's ndcg@2: 0.572635	training's ndcg@3: 0.578684	valid_1's ndcg@1: 0.437238	valid_1's ndcg@2: 0.476775	valid_1's ndcg@3: 0.507799
+[120]	training's ndcg@1: 0.573616	training's ndcg@2: 0.578902	training's ndcg@3: 0.58374	valid_1's ndcg@1: 0.435922	valid_1's ndcg@2: 0.477489	valid_1's ndcg@3: 0.507922
+[130]	training's ndcg@1: 0.580331	training's ndcg@2: 0.58429	training's ndcg@3: 0.58847	valid_1's ndcg@1: 0.435093	valid_1's ndcg@2: 0.477786	valid_1's ndcg@3: 0.507932
+Early stopping, best iteration is:
+[101]	training's ndcg@1: 0.558463	training's ndcg@2: 0.566979	training's ndcg@3: 0.573848	valid_1's ndcg@1: 0.439183	valid_1's ndcg@2: 0.477229	valid_1's ndcg@3: 0.507424
+trainer_true_skill: 1034
+last_passing_rank: 937
+jockey_true_skill: 866
+up3_horce_true_skill: 860
+weight: 789
+up_rate: 631
+speed_index: 607
+ave_burden_weight_diff: 585
+before_race_score: 549
+horce_true_skill: 527
+speed_index_index: 514
+before_speed: 502
+up3_horce_true_skill_index: 490
+money: 489
+dist_kind_count: 466
+jockey_true_skill_index: 455
+trainer_true_skill_index: 447
+waku_three_rate: 438
+race_interval: 412
+race_level_check: 405
+all_horce_num: 399
+before_diff: 393
+up_rate_index: 372
+age: 366
+corner_diff_rank_ave: 360
+omega: 315
+horce_true_skill_index: 274
+jockey_year_rank: 252
+omega_index: 248
+before_first_passing_rank: 242
+horce_num: 230
+before_continue_not_three_rank: 202
+diff_load_weight: 199
+dist_kind: 179
+first_passing_rank: 179
+before_last_passing_rank: 162
+corner_diff_rank_ave_index: 140
+before_id_weight: 139
+place: 125
+father_rank: 120
+horce_sex: 119
+my_limb_count: 110
+limb: 103
+mother_rank: 98
+burden_weight: 97
+jockey_rank: 68
+baba: 43
+weather: 37
+odds_data.pickle download finish Gilgamesh
+
+選択数:1
+単勝 回収率81.06461255461019%
+複勝 回収率83.71579673488057%
+単勝 勝率29.7769602207404%
+複勝 勝率59.80685214991952%
+賭けた回数4349回
+mdcd:17.078

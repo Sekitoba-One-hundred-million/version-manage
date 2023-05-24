@@ -1,0 +1,156 @@
+standard_time.pickle download finish Gilgamesh
+up_average.pickle download finish Gilgamesh
+up_pace_regressin.pickle download finish Gilgamesh
+up_kind_ave_data.pickle download finish Gilgamesh
+money_class_true_skill_data.pickle download finish Gilgamesh
+race_ave_true_skill.pickle download finish Gilgamesh
+race_money_data.pickle download finish Gilgamesh
+time_index_data.pickle download finish Gilgamesh
+train_time_data.pickle download finish Gilgamesh
+train_ave_data.pickle download finish Gilgamesh
+train_ave_key_data.pickle download finish Gilgamesh
+race_info_data.pickle download finish Gilgamesh
+jockey_analyze_data.pickle download finish Gilgamesh
+jockey_id_data.pickle download finish Gilgamesh
+jockey_year_rank_data.pickle download finish Gilgamesh
+trainer_analyze_data.pickle download finish Gilgamesh
+race_trainer_id_data.pickle download finish Gilgamesh
+race_rank_data.pickle download finish Gilgamesh
+next_race_data.pickle download finish Gilgamesh
+foot_used.pickle download finish Gilgamesh
+wrap_data.pickle download finish Gilgamesh
+race_data.pickle download finish Gilgamesh
+horce_data_storage.pickle download finish Gilgamesh
+baba_index_data.pickle download finish Gilgamesh
+parent_id_data.pickle download finish Gilgamesh
+race_day.pickle download finish Gilgamesh
+horce_sex_data.pickle download finish Gilgamesh
+race_jockey_id_data.pickle download finish Gilgamesh
+true_skill_data.pickle download finish Gilgamesh
+waku_three_rate_data.pickle download finish Gilgamesh
+corner_horce_body.pickle download finish Gilgamesh
+first_passing_true_skill_data.pickle download finish Gilgamesh
+predict_first_passing_rank.pickle download finish Gilgamesh
+start rank:1
+start rank:2
+start rank:4
+start rank:3
+start rank:5
+1-instance.pickle download finish Gilgamesh
+2-instance.pickle download finish Gilgamesh
+3-instance.pickle download finish Gilgamesh
+4-instance.pickle download finish Gilgamesh
+5-instance.pickle download finish Gilgamesh
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.099860 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 4912
+[LightGBM] [Info] Number of data points in the train set: 610176, number of used features: 56
+[LightGBM] [Info] Start training from score 7.385789
+Training until validation scores don't improve for 30 rounds
+[10]	training's l2: 17.9444	valid_1's l2: 17.4419
+[20]	training's l2: 16.7733	valid_1's l2: 16.3719
+[30]	training's l2: 15.8116	valid_1's l2: 15.5018
+[40]	training's l2: 15.0202	valid_1's l2: 14.7938
+[50]	training's l2: 14.3679	valid_1's l2: 14.2168
+[60]	training's l2: 13.8293	valid_1's l2: 13.7472
+[70]	training's l2: 13.3845	valid_1's l2: 13.3664
+[80]	training's l2: 13.0169	valid_1's l2: 13.0575
+[90]	training's l2: 12.7118	valid_1's l2: 12.8062
+[100]	training's l2: 12.458	valid_1's l2: 12.6024
+[110]	training's l2: 12.2466	valid_1's l2: 12.4373
+[120]	training's l2: 12.0705	valid_1's l2: 12.3037
+[130]	training's l2: 11.9229	valid_1's l2: 12.1962
+[140]	training's l2: 11.7985	valid_1's l2: 12.1091
+[150]	training's l2: 11.6933	valid_1's l2: 12.0383
+[160]	training's l2: 11.6047	valid_1's l2: 11.9813
+[170]	training's l2: 11.5294	valid_1's l2: 11.9356
+[180]	training's l2: 11.4649	valid_1's l2: 11.8991
+[190]	training's l2: 11.4091	valid_1's l2: 11.8695
+[200]	training's l2: 11.3607	valid_1's l2: 11.8463
+[210]	training's l2: 11.3187	valid_1's l2: 11.8276
+[220]	training's l2: 11.2817	valid_1's l2: 11.8136
+[230]	training's l2: 11.2486	valid_1's l2: 11.8022
+[240]	training's l2: 11.219	valid_1's l2: 11.7927
+[250]	training's l2: 11.1921	valid_1's l2: 11.7845
+[260]	training's l2: 11.1677	valid_1's l2: 11.7785
+[270]	training's l2: 11.1455	valid_1's l2: 11.7746
+[280]	training's l2: 11.1247	valid_1's l2: 11.7709
+[290]	training's l2: 11.1055	valid_1's l2: 11.7682
+[300]	training's l2: 11.0876	valid_1's l2: 11.7665
+[310]	training's l2: 11.0706	valid_1's l2: 11.7647
+[320]	training's l2: 11.0543	valid_1's l2: 11.7631
+[330]	training's l2: 11.039	valid_1's l2: 11.7619
+[340]	training's l2: 11.0243	valid_1's l2: 11.761
+[350]	training's l2: 11.0102	valid_1's l2: 11.7602
+[360]	training's l2: 10.9965	valid_1's l2: 11.7595
+[370]	training's l2: 10.9836	valid_1's l2: 11.7597
+[380]	training's l2: 10.9711	valid_1's l2: 11.7594
+[390]	training's l2: 10.9587	valid_1's l2: 11.7593
+[400]	training's l2: 10.9462	valid_1's l2: 11.7587
+[410]	training's l2: 10.9342	valid_1's l2: 11.7584
+[420]	training's l2: 10.9226	valid_1's l2: 11.7577
+[430]	training's l2: 10.9112	valid_1's l2: 11.7571
+[440]	training's l2: 10.8996	valid_1's l2: 11.7559
+[450]	training's l2: 10.8884	valid_1's l2: 11.755
+[460]	training's l2: 10.8775	valid_1's l2: 11.755
+[470]	training's l2: 10.8667	valid_1's l2: 11.7552
+[480]	training's l2: 10.8559	valid_1's l2: 11.7552
+Early stopping, best iteration is:
+[459]	training's l2: 10.8785	valid_1's l2: 11.7548
+popular: 5767
+all_horce_num: 5076
+predict_first_passing_rank: 5060
+horce_first_passing_true_skill_index: 4578
+dist_kind: 4171
+place: 3438
+past_ave_horce_body_index: 2924
+ave_burden_weight_diff: 2907
+horce_true_skill: 2415
+speed_index: 2167
+std_race_ave_horce_body: 2152
+speed_index_index: 2057
+up_rate: 1841
+horce_first_passing_true_skill: 1700
+before_diff: 1660
+jockey_true_skill: 1635
+jockey_first_passing_true_skill_index: 1550
+horce_true_skill_index: 1539
+trainer_first_passing_true_skill_index: 1511
+before_first_passing_rank: 1422
+jockey_first_passing_true_skill: 1350
+horce_num: 1345
+corner_diff_rank_ave_index: 1334
+corner_diff_rank_ave: 1254
+trainer_first_passing_true_skill: 1253
+up_rate_index: 1167
+before_last_passing_rank: 1144
+dist_kind_count: 1021
+past_ave_horce_body: 967
+up3_standard_value: 967
+weight: 949
+ave_first_passing_rank: 905
+jockey_true_skill_index: 887
+before_rank: 827
+my_limb_count: 820
+age: 796
+past_min_horce_body_index: 796
+past_std_horce_body: 767
+trainer_true_skill: 750
+one_popular_odds: 690
+past_max_horce_body: 663
+two_popular_odds: 615
+diff_load_weight: 432
+trainer_true_skill_index: 430
+limb: 363
+past_min_horce_body: 308
+escape_within_rank: 260
+before_id_weight: 243
+one_popular_limb: 233
+burden_weight: 221
+escape_limb1_count: 187
+two_popular_limb: 134
+weather: 68
+baba: 64
+horce_sex: 55
+escape_limb2_count: 31
+score: 3.7779091338886177

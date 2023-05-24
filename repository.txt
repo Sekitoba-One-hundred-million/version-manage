@@ -1,0 +1,6 @@
+first_passing_rank ./main.sh 2
+last_passing_rank ./main.sh 2
+rank_learn ./main.sh 2
+sekitoba_data_collect
+sekitoba_use_data
+sekitoba_library
