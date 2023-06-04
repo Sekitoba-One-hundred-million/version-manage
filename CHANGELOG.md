@@ -1,3 +1,6 @@
+## version 1.2
+update first_passing_rank score
+
 ## version 1.1
 improvement first_passing_rank and fix rank_learn
 add `odds` and `jockey_limb_judgment` in first_passing_rank
