@@ -1,3 +1,8 @@
+## version 1.3
+add train_score
+add simulation_test
+add optuna in rank_learn, first_passing and simulation_test
+
 ## version 1.2
 update first_passing_rank score
 
