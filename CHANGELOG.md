@@ -1,3 +1,7 @@
+## version 1.4
+fix learn_data in predict_first_passing_rank and predict_last_passing_rank
+add stand and index
+
 ## version 1.3
 add train_score
 add simulation_test

@@ -30,232 +30,170 @@ true_skill_data.pickle download finish Gilgamesh
 waku_three_rate_data.pickle download finish Gilgamesh
 corner_horce_body.pickle download finish Gilgamesh
 omega_index_data.pickle download finish Gilgamesh
-jockey_judgment_last_data.pickle download finish Gilgamesh
-jockey_judgment_last_rate_data.pickle download finish Gilgamesh
-trainer_judgment_data.pickle download finish Gilgamesh
-trainer_judgment_rate_data.pickle download finish Gilgamesh
 first_passing_true_skill_data.pickle download finish Gilgamesh
 last_passing_true_skill_data.pickle download finish Gilgamesh
 predict_first_passing_rank.pickle download finish Gilgamesh
-trainer_judgment_last_rate_data.pickle download finish Gilgamesh
-trainer_judgment_last_rate_data.pickle download finish Gilgamesh
-trainer_judgment_last_rate_data.pickle download finish Gilgamesh
-trainer_judgment_last_rate_data.pickle download finish Gilgamesh
-trainer_judgment_last_rate_data.pickle download finish Gilgamesh
-start rank:1
-start rank:2
 start rank:5
-start rank:4
+start rank:2
 start rank:3
+start rank:1
+start rank:4
 1-instance.pickle download finish Gilgamesh
 2-instance.pickle download finish Gilgamesh
 3-instance.pickle download finish Gilgamesh
 4-instance.pickle download finish Gilgamesh
 5-instance.pickle download finish Gilgamesh
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.274206 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.185477 seconds.
 You can set `force_col_wise=true` to remove the overhead.
-[LightGBM] [Info] Total Bins 29944
-[LightGBM] [Info] Number of data points in the train set: 610176, number of used features: 172
-[LightGBM] [Info] Start training from score 7.363246
+[LightGBM] [Info] Total Bins 17536
+[LightGBM] [Info] Number of data points in the train set: 610176, number of used features: 114
+[LightGBM] [Info] Start training from score 7.262672
 Training until validation scores don't improve for 30 rounds
-[10]	training's l2: 24.9389	valid_1's l2: 24.4754
-[20]	training's l2: 23.0874	valid_1's l2: 22.9326
-[30]	training's l2: 21.5661	valid_1's l2: 21.6888
-[40]	training's l2: 20.314	valid_1's l2: 20.6871
-[50]	training's l2: 19.2828	valid_1's l2: 19.8831
-[60]	training's l2: 18.433	valid_1's l2: 19.2397
-[70]	training's l2: 17.731	valid_1's l2: 18.7247
-[80]	training's l2: 17.1497	valid_1's l2: 18.3147
-[90]	training's l2: 16.668	valid_1's l2: 17.9905
-[100]	training's l2: 16.2679	valid_1's l2: 17.7336
-[110]	training's l2: 15.9347	valid_1's l2: 17.5318
-[120]	training's l2: 15.6561	valid_1's l2: 17.373
-[130]	training's l2: 15.4218	valid_1's l2: 17.2503
-[140]	training's l2: 15.2235	valid_1's l2: 17.1535
-[150]	training's l2: 15.0565	valid_1's l2: 17.0812
-[160]	training's l2: 14.9151	valid_1's l2: 17.0281
-[170]	training's l2: 14.7952	valid_1's l2: 16.9888
-[180]	training's l2: 14.6911	valid_1's l2: 16.9598
-[190]	training's l2: 14.6011	valid_1's l2: 16.9398
-[200]	training's l2: 14.5218	valid_1's l2: 16.9247
-[210]	training's l2: 14.4524	valid_1's l2: 16.9162
-[220]	training's l2: 14.3913	valid_1's l2: 16.912
-[230]	training's l2: 14.3359	valid_1's l2: 16.9102
-[240]	training's l2: 14.2859	valid_1's l2: 16.9129
-[250]	training's l2: 14.2408	valid_1's l2: 16.917
-[260]	training's l2: 14.1993	valid_1's l2: 16.923
+[10]	training's l2: 26.2597	valid_1's l2: 25.7137
+[20]	training's l2: 24.368	valid_1's l2: 24.0688
+[30]	training's l2: 22.8123	valid_1's l2: 22.7365
+[40]	training's l2: 21.5307	valid_1's l2: 21.6577
+[50]	training's l2: 20.4748	valid_1's l2: 20.7868
+[60]	training's l2: 19.6012	valid_1's l2: 20.0833
+[70]	training's l2: 18.878	valid_1's l2: 19.5141
+[80]	training's l2: 18.2787	valid_1's l2: 19.055
+[90]	training's l2: 17.7805	valid_1's l2: 18.6866
+[100]	training's l2: 17.3657	valid_1's l2: 18.3912
+[110]	training's l2: 17.02	valid_1's l2: 18.1541
+[120]	training's l2: 16.7304	valid_1's l2: 17.9671
+[130]	training's l2: 16.4869	valid_1's l2: 17.8181
+[140]	training's l2: 16.2816	valid_1's l2: 17.6992
+[150]	training's l2: 16.1077	valid_1's l2: 17.6056
+[160]	training's l2: 15.959	valid_1's l2: 17.5316
+[170]	training's l2: 15.8314	valid_1's l2: 17.475
+[180]	training's l2: 15.721	valid_1's l2: 17.4313
+[190]	training's l2: 15.6252	valid_1's l2: 17.3973
+[200]	training's l2: 15.5408	valid_1's l2: 17.373
+[210]	training's l2: 15.4663	valid_1's l2: 17.3546
+[220]	training's l2: 15.4008	valid_1's l2: 17.3414
+[230]	training's l2: 15.3407	valid_1's l2: 17.3326
+[240]	training's l2: 15.2871	valid_1's l2: 17.3262
+[250]	training's l2: 15.2371	valid_1's l2: 17.3236
+[260]	training's l2: 15.1922	valid_1's l2: 17.3216
+[270]	training's l2: 15.1507	valid_1's l2: 17.3216
+[280]	training's l2: 15.1113	valid_1's l2: 17.323
+[290]	training's l2: 15.0739	valid_1's l2: 17.3244
+[300]	training's l2: 15.0394	valid_1's l2: 17.3274
 Early stopping, best iteration is:
-[233]	training's l2: 14.3203	valid_1's l2: 16.9098
-predict_first_passing_rank: 3559
-dist_kind: 2977
-odds: 2595
-horce_last_passing_true_skill_index: 2259
-place: 1843
-ave_first_last_diff: 1828
-all_horce_num: 1436
-ave_burden_weight_diff: 1394
-jockey_judgment_limb_index: 1258
-past_ave_horce_body_index: 1176
-ave_first_passing_rank: 998
-before_first_passing_rank: 926
-speed_index_index: 751
-corner_diff_rank_ave_index: 668
-jockey_judgment_popular: 649
-popular: 644
-before_speed: 618
-before_first_last_diff: 534
-up_rate: 515
-best_first_passing_rank: 486
-ave_race_horce_true_skill: 475
-ave_speed_index: 408
-trainer_judgment_rate_limb_0: 372
-trainer_judgment_rate_limb_2: 372
-omega_index: 353
-speed_index: 341
-best_second_passing_rank: 334
-jockey_true_skill: 321
-before_diff: 295
-horce_true_skill_index: 292
-up3_standard_value: 282
-max_race_horce_true_skill: 276
-jockey_judgment_popular_index: 272
-up_rate_index: 269
-jockey_judgment_rate_limb_0: 268
-horce_true_skill: 254
-dist_kind_count: 240
-passing_regression: 233
-horce_last_passing_true_skill: 213
-match_rank: 208
-trainer_judgment_rate_popular_2: 207
-jockey_true_skill_index: 203
-jockey_judgment_rate_popular_2: 200
-money: 193
-min_past_ave_horce_body: 174
-diff_pace_first_passing: 168
-trainer_judgment_rate_popular_0: 166
-past_min_horce_body_index: 162
-before_rank: 155
-ave_past_max_horce_body: 154
-jockey_judgment_rate_popular_0: 152
-three_average: 149
-min_speed_index: 140
-std_up_rate: 137
-horce_num: 136
-ave_up_rate: 134
-limb: 131
-diff_pace_time: 130
-ave_past_ave_horce_body: 128
-trainer_judgment_rate_baba_0: 127
-age: 126
-corner_diff_rank_ave: 121
-level_score: 117
-std_race_ave_horce_body: 115
-pace_up: 113
-min_race_horce_true_skill: 107
-escape_within_rank: 102
-past_std_horce_body: 102
-jockey_judgment_limb: 100
-before_last_passing_rank: 92
-trainer_judgment_rate_limb_1: 92
-best_weight: 87
-max_up_rate: 83
-omega: 82
-two_rate: 82
-std_race_horce_true_skill: 75
-min_past_max_horce_body: 71
-trainer_judgment_rate_dist_0: 70
-ave_race_jockey_true_skill: 70
-min_past_min_horce_body: 66
-my_limb_count: 65
-jockey_judgment_rate_kind_1: 60
-one_rate: 60
-std_past_max_horce_body: 59
-jockey_judgment_rate_limb_2: 58
-jockey_judgment_rate_limb_1: 57
-trainer_judgment_rate_baba_2: 57
-trainer_judgment_rate_kind_0: 56
-trainer_judgment_rate_flame_num_0: 55
-max_past_max_horce_body: 55
-trainer_judgment_rate_place_0: 53
-past_ave_horce_body: 53
-trainer_judgment_rate_dist_2: 52
-jockey_judgment_rate_dist_1: 51
-jockey_judgment_dist_index: 47
-jockey_judgment_rate_popular_1: 46
-jockey_last_passing_true_skill_index: 46
-min_race_jockey_true_skill: 46
-max_past_min_horce_body: 45
-jockey_judgment_kind_index: 44
-max_past_ave_horce_body: 44
-jockey_judgment_rate_dist_2: 43
-ave_past_min_horce_body: 42
-std_speed_index: 39
-jockey_judgment_rate_place_1: 38
-trainer_judgment_rate_kind_2: 37
-three_rate: 36
-jockey_judgment_rate_dist_0: 35
-jockey_judgment_rate_baba_1: 34
-trainer_judgment_rate_place_2: 34
-max_race_jockey_true_skill: 34
-diff_load_weight: 33
-trainer_judgment_rate_dist_1: 32
-jockey_judgment_dist: 31
-three_difference: 31
-jockey_judgment_rate_flame_num_1: 29
-trainer_judgment_rate_flame_num_1: 28
-min_up_rate: 28
-jockey_judgment_place: 27
-high_level_score: 27
-trainer_judgment_rate_flame_num_2: 26
-weight: 26
-jockey_judgment_rate_kind_0: 23
-jockey_judgment_baba: 22
-jockey_judgment_place_index: 22
-past_max_horce_body: 22
-jockey_judgment_baba_index: 20
-burden_weight: 19
-jockey_judgment_rate_flame_num_0: 19
-jockey_judgment_rate_baba_0: 19
-jockey_year_rank: 18
-jockey_judgment_rate_kind_2: 18
-past_min_horce_body: 18
-before_continue_not_three_rank: 17
-escape_limb1_count: 17
-jockey_judgment_rate_flame_num_2: 17
-jockey_last_passing_true_skill: 16
-std_past_min_horce_body: 16
-two_popular_odds: 15
-jockey_judgment_flame_num: 14
-trainer_judgment_rate_popular_1: 14
-trainer_judgment_rate_place_1: 14
-trainer_judgment_rate_baba_1: 13
-one_popular_odds: 12
-popular_rank: 12
-std_race_jockey_true_skill: 12
+[272]	training's l2: 15.1423	valid_1's l2: 17.3211
+predict_first_passing_rank: 4727
+dist_kind: 3295
+odds: 2797
+ave_first_passing_rank: 2356
+all_horce_num: 2119
+ave_first_last_diff: 2076
+before_first_passing_rank: 2006
+ave_burden_weight_diff: 1735
+popular: 1703
+place: 1637
+predict_first_passing_rank_index: 1482
+horce_last_passing_true_skill: 1239
+limb: 1216
+past_ave_horce_body_index: 939
+before_speed: 827
+best_first_passing_rank: 731
+ave_past_ave_horce_body: 674
+up_rate: 663
+horce_num: 648
+ave_speed_index: 605
+best_second_passing_rank: 581
+diff_pace_first_passing: 574
+speed_index_index: 506
+before_first_last_diff: 501
+speed_index: 438
+up3_standard_value: 424
+min_past_ave_horce_body: 418
+past_min_horce_body_index: 399
+ave_race_horce_true_skill: 390
+jockey_true_skill: 382
+dist_kind_count: 378
+corner_diff_rank_ave_index: 368
+match_rank: 367
+corner_diff_rank_ave: 352
+my_limb_count: 298
+min_past_max_horce_body: 290
+diff_pace_time: 274
+escape_limb1_count: 263
+omega_index: 249
+jockey_last_passing_true_skill: 249
+past_std_horce_body: 242
+min_race_horce_true_skill: 237
+ave_past_max_horce_body: 221
+before_diff: 216
+pace_up: 213
+up_rate_index: 211
+ave_up_rate: 210
+horce_true_skill: 206
+min_race_jockey_true_skill: 205
+before_rank: 192
+omega: 189
+past_ave_horce_body: 186
+money: 178
+escape_within_rank: 175
+level_score: 175
+max_race_horce_true_skill: 160
+passing_regression: 151
+ave_race_jockey_true_skill: 147
+burden_weight: 139
+ave_past_min_horce_body: 136
+best_weight: 134
+min_speed_index: 133
+three_average: 130
+max_up_rate: 130
+horce_true_skill_index: 126
+min_up_rate: 105
+min_past_min_horce_body: 90
+before_continue_not_three_rank: 84
+before_last_passing_rank: 84
+max_past_ave_horce_body: 81
+past_min_horce_body: 79
+one_rate: 63
+past_max_horce_body: 61
+trainer_true_skill_index: 60
+two_rate: 60
+weight: 58
+std_up_rate: 56
+max_race_jockey_true_skill: 52
+std_speed_index: 50
+max_past_max_horce_body: 46
+std_past_min_horce_body: 43
+three_difference: 42
+jockey_true_skill_index: 40
+std_race_horce_true_skill: 40
+diff_load_weight: 36
+jockey_year_rank: 36
+std_race_ave_horce_body: 35
+std_race_jockey_true_skill: 35
+ave_race_trainer_true_skill: 33
+trainer_true_skill: 32
+three_rate: 31
+high_level_score: 31
+age: 29
+std_past_max_horce_body: 27
+max_past_min_horce_body: 26
+two_popular_odds: 18
+escape_limb2_count: 17
+horce_sex: 17
+max_race_trainer_true_skill: 17
+popular_rank: 16
+min_race_trainer_true_skill: 15
 std_race_trainer_true_skill: 12
-jockey_judgment_rate_place_0: 11
-jockey_judgment_rate_baba_2: 10
-jockey_judgment_rate_place_2: 9
-trainer_true_skill_index: 9
-average_speed: 8
-jockey_judgment_kind: 7
-jockey_judgment_flame_num_index: 7
-two_popular_limb: 7
-trainer_true_skill: 6
-ave_race_trainer_true_skill: 6
-before_popular: 5
-min_race_trainer_true_skill: 5
-max_race_trainer_true_skill: 5
-baba: 4
-trainer_judgment_rate_kind_1: 4
-one_popular_limb: 4
-before_id_weight: 2
-escape_limb2_count: 1
-horce_sex: 1
-jockey_rank: 0
-trainer_rank: 0
+one_popular_odds: 10
+predict_stand_first_passing_rank: 9
+before_popular: 9
+one_popular_limb: 7
+baba: 6
+two_popular_limb: 5
+before_id_weight: 3
+average_speed: 2
+jockey_rank: 1
+trainer_rank: 1
 weather: 0
-trainer_last_passing_true_skill: 0
-trainer_last_passing_true_skill_index: 0
 std_past_ave_horce_body: 0
-score: 3.9047492730069924
+score1: 3.894255228642237
+score2: 3.4326943199467483
