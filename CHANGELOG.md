@@ -1,3 +1,7 @@
+## version 1.5
+update learn_data in predict_first_passing_rank and predict_last_passing_rank
+predict_last_passing_rank change rank_diff
+
 ## version 1.4
 fix learn_data in predict_first_passing_rank and predict_last_passing_rank
 add stand and index
