@@ -1,0 +1,69 @@
+standard_time.pickle download finish Gilgamesh
+up_average.pickle download finish Gilgamesh
+up_pace_regressin.pickle download finish Gilgamesh
+up_kind_ave_data.pickle download finish Gilgamesh
+money_class_true_skill_data.pickle download finish Gilgamesh
+race_ave_true_skill.pickle download finish Gilgamesh
+race_money_data.pickle download finish Gilgamesh
+time_index_data.pickle download finish Gilgamesh
+train_time_data.pickle download finish Gilgamesh
+train_ave_data.pickle download finish Gilgamesh
+train_ave_key_data.pickle download finish Gilgamesh
+race_info_data.pickle download finish Gilgamesh
+jockey_analyze_data.pickle download finish Gilgamesh
+jockey_id_data.pickle download finish Gilgamesh
+jockey_year_rank_data.pickle download finish Gilgamesh
+trainer_analyze_data.pickle download finish Gilgamesh
+race_trainer_id_data.pickle download finish Gilgamesh
+race_rank_data.pickle download finish Gilgamesh
+next_race_data.pickle download finish Gilgamesh
+foot_used.pickle download finish Gilgamesh
+wrap_data.pickle download finish Gilgamesh
+race_data.pickle download finish Gilgamesh
+horce_data_storage.pickle download finish Gilgamesh
+race_day.pickle download finish Gilgamesh
+race_jockey_id_data.pickle download finish Gilgamesh
+true_skill_data.pickle download finish Gilgamesh
+first_passing_true_skill_data.pickle download finish Gilgamesh
+baba_index_data.pickle download finish Gilgamesh
+start rank:3
+start rank:1
+start rank:2
+start rank:4
+start rank:5
+1 1-instance.pickle
+1-instance.pickle download finish Gilgamesh
+2 2-instance.pickle
+2-instance.pickle download finish Gilgamesh
+3 3-instance.pickle
+3-instance.pickle download finish Gilgamesh
+4 4-instance.pickle
+4-instance.pickle download finish Gilgamesh
+5 5-instance.pickle
+5-instance.pickle download finish Gilgamesh
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.002132 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 8398
+[LightGBM] [Info] Number of data points in the train set: 7437, number of used features: 44
+[LightGBM] [Info] Start training from score -0.549119
+Training until validation scores don't improve for 30 rounds
+[10]	training's l2: 3.33198	valid_1's l2: 3.29802
+[20]	training's l2: 2.67922	valid_1's l2: 2.67575
+[30]	training's l2: 2.37826	valid_1's l2: 2.40669
+[40]	training's l2: 2.21031	valid_1's l2: 2.27811
+[50]	training's l2: 2.0949	valid_1's l2: 2.20714
+[60]	training's l2: 2.00679	valid_1's l2: 2.15179
+[70]	training's l2: 1.94013	valid_1's l2: 2.11668
+[80]	training's l2: 1.88048	valid_1's l2: 2.09291
+[90]	training's l2: 1.82703	valid_1's l2: 2.0761
+[100]	training's l2: 1.77901	valid_1's l2: 2.06927
+[110]	training's l2: 1.73435	valid_1's l2: 2.06414
+[120]	training's l2: 1.69533	valid_1's l2: 2.0591
+[130]	training's l2: 1.65636	valid_1's l2: 2.05359
+[140]	training's l2: 1.62146	valid_1's l2: 2.0518
+[150]	training's l2: 1.5907	valid_1's l2: 2.04849
+[160]	training's l2: 1.56069	valid_1's l2: 2.05191
+[170]	training's l2: 1.53214	valid_1's l2: 2.05048
+Did not meet early stopping. Best iteration is:
+[175]	training's l2: 1.51757	valid_1's l2: 2.04867
+score: 0.6647114785810557

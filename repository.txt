@@ -1,8 +1,9 @@
+race_pace_simulation ./main.sh 2
 train_score ./main.sh 2
 first_passing_rank ./main.sh 2
 last_passing_rank ./main.sh 2
+up3 ./main.sh 2
 rank_learn ./main.sh 2
-simulation_test python main.py
 sekitoba_data_collect
 sekitoba_use_data
 sekitoba_library
