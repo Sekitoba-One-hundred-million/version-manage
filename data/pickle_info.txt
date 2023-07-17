@@ -17,7 +17,11 @@ jockey_judgment_rate_data.pickle sekitoba_use_data/jockey_judgment_rate.py
 trainer_judgment_data.pickle sekitoba_use_data/trainer_judgment.py
 trainer_judgment_rate_data.pickle sekitoba_use_data/trainer_judgment_rate.py
 last_passing_true_skill_data.pickle sekitoba_use_data/last_passing_true_skill_create.py
+jockey_judgment_up3_data.pickle sekitoba_use_data/jockey_judgment_up3.py
+jockey_judgment_up3_rate_data.pickle sekitoba_use_data/jockey_judgment_up3_rate.py
+trainer_judgment_up3_data.pickle sekitoba_use_data/trainer_judgment_up3.py
 up3_true_skill_data.pickle sekitoba_use_data/up3_true_skill_create.py
+up3_ave_data.pickle sekitoba_use_data/up3_ave.py
 corner_true_skill_data.pickle sekitoba_use_data/corner_true_skill_create.py
 first_corner_rank.pickle sekitoba_use_data/first_corner_rank.py
 race_money_data.pickle sekitoba_data_collect/race_money.py
@@ -44,6 +48,8 @@ omega_index_data.pickle sekitoba_data_collect/omega_index_get.py
 omega_index_data.pickle sekitoba_data_collect/three_odds_collect.py
 first_up3_halon.pickle sekitoba_data_collect/first_up3_collect.py
 first_up3_halon.pickle sekitoba_data_collect/first_up3_collect.py
+wide_odds_data.pickle sekitoba_data_collect/wide_odds_collect.py
+wide_odds_data.pickle sekitoba_data_collect/wide_odds_collect.py
 standard_time.pickle None
 up_average.pickle None
 1-instance.pickle None
@@ -54,8 +60,8 @@ up_average.pickle None
 predict_train_score.pickle None
 predict_pace_data.pickle None
 predict_first_passing_rank.pickle None
-jockey_judgment_up3_data.pickle None
-trainer_judgment_up3_data.pickle None
-predict_last_passing_rank.pickle None
 slow_start_data.pickle None
+predict_last_passing_rank.pickle None
 predict_up3.pickle None
+rank_model.pickle None
+rank_simu_data.pickle None

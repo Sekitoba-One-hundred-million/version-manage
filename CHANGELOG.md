@@ -1,3 +1,6 @@
+## version 1.7
+update wide simulation
+
 ## version 1.6
 add predict pace
 add predict up3
