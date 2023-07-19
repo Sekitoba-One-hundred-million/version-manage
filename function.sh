@@ -82,24 +82,33 @@ function pickle_search {
         touch $data_dir/$pickle_info
     fi
 
-    for pickle in `cat $pickle_txt`; do
-        gr=`cat $data_dir/$pickle_info | grep $pickle`
+    for pickle in `sort ${pickle_txt} | uniq`; do
+        find_check=0
+        grep -q ${pickle} ${data_dir}/${pickle_info}
 
         if [ $? -eq 0 ]; then
             continue
         fi
-        
+
+        echo ${pickle}
         for python_file in `ls $1/*.py`; do
             grep_result=`cat ${python_file} | grep ${pickle} | grep pickle_upload`
-            #echo $python_file $pickle
+            
             if [ $? -eq 0 ]; then
-                grep_result=`echo $grep_result | sed 's/\"/ /g'`
-                str_array=($grep_result)
-                for str_data in "${str_array[@]}"; do
-                    if [[ $pickle == $str_data ]]; then
-                        echo $pickle $python_file >> $data_dir/$pickle_info
+                grep_result=`echo ${grep_result} | sed 's/\"/ /g'`
+                array=(${grep_result})
+
+                # grepで見つけたのが完全一致かを確認
+                for str_data in "${array[@]}"; do
+                    if [ ${pickle} == ${str_data} ]; then
+                        find_check=1
+                        echo ${pickle} ${python_file} >> ${data_dir}/${pickle_info}
                     fi
                 done
+
+                if [ ${find_check} -eq 1 ]; then
+                    break
+                fi
             fi
         done
     done
@@ -133,19 +142,27 @@ function load_pickle_get {
 }
 
 function pickle_multi_delete {
-    instance_file=$pickle_txt.instance
-    cp $pickle_txt $instance_file
-    rm $pickle_txt
-    touch $pickle_txt
+    for pickle in `sort ${pickle_txt} | uniq`; do
+        grep -q ${pickle} ${data_dir}/${pickle_info}
 
-    for pickle in `cat $instance_file`; do
-        grep_result=`cat $pickle_txt | grep $pickle`
-        
-        if [ ! $? -eq 0 ]; then
-            echo $pickle >> $pickle_txt
+        if [ $? -eq 0 ]; then
+            continue
         fi
-    done
 
-    rm $instance_file
+        echo "${pickle} None" >> ${data_dir}/${pickle_info}
+    done
+    
+    instance_file=${pickle_txt}.instance
+    cp ${data_dir}/${pickle_info} ${instance_file}
+    rm ${data_dir}/${pickle_info}
+    sort ${instance_file} | uniq >> ${data_dir}/${pickle_info}
+    rm ${instance_file}
 }
 
+function uniq_create {
+    file_name=$1
+    cp ${file_name} ${file_name}.instance
+    rm ${file_name}
+    sort ${file_name}.instance | uniq >> ${file_name}
+    rm ${file_name}.instance
+}

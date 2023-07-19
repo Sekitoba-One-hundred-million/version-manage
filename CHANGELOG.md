@@ -1,3 +1,6 @@
+## version 1.8
+fix version script
+
 ## version 1.7
 update wide simulation
 

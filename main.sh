@@ -1,14 +1,15 @@
 ## !/bin/bash
 
 . ./function.sh
+OLDIFS=$IFS
 
 init
 version_line=`cat CHANGELOG.md| grep -m1 '##'`
 version=${version_line: -3:3}
 
-OLDIFS=$IFS
 IFS=$'\n'
 
+# それぞれの実行とダウンロードのpickleを取得
 for line in `cat $repository_txt`; do
     IFS=$OLDIFS
     line_array=($line)
@@ -45,45 +46,19 @@ for line in `cat $repository_txt`; do
     IFS=$'\n'
 done
 
-IFS=$OLDIFS
-pickle_multi_delete
-pickle_search $sekitoba_use_data
+# pickle作成に必要なファイルの算出
+./pickle_search.sh
 
-load_pickle=''
+IFS=$'\n'
 
-while read pickle_data; do
-    data_array=($pickle_data)
-    python_file=${data_array[1]}
-    
-    if [[ ! $python_file =~ $sekitoba_use_data ]]; then
-        continue
-    fi
-    
-    load_pickle="$load_pickle `load_pickle_get $python_file`"
-done < $data_dir/$pickle_info
-
-load_pickle=($load_pickle)
-for pickle_data in "${load_pickle[@]}"; do
-    echo $pickle_data >> $pickle_txt
-done
-
-pickle_multi_delete
-pickle_search $sekitoba_data_collect
-
-for pickle in `cat $pickle_txt`; do
-    grep_result=`cat $data_dir/$pickle_info | grep $pickle`
-
-    if [ ! $? -eq 0 ]; then
-        echo "${pickle} None" >> $data_dir/$pickle_info
-    fi
-done
-
-while read data; do
+for data in `cat $data_dir/$pickle_info`; do
+    IFS=$OLDIFS
     data_array=($data)
     pickle=${data_array[0]}
+    
     if [ -f $sekitoba_data/$pickle ]; then
         cp $sekitoba_data/$pickle $sekitoba_data/$version/$pickle
     fi
-done < $data_dir/$pickle_info
+done
 
 finish

@@ -13,13 +13,11 @@ next_race_data.pickle download finish Gilgamesh
 race_data.pickle download finish Gilgamesh
 race_info_data.pickle download finish Gilgamesh
 horce_data_storage.pickle download finish Gilgamesh
-test_wide_odds.pickle download finish Gilgamesh
-test_baren_odds.pickle download finish Gilgamesh
-start rank:4
-start rank:1
-start rank:5
 start rank:2
+start rank:1
 start rank:3
+start rank:4
+start rank:5
 1-instance.pickle download finish Gilgamesh
 2-instance.pickle download finish Gilgamesh
 3-instance.pickle download finish Gilgamesh
@@ -27,8 +25,9 @@ start rank:3
 5-instance.pickle download finish Gilgamesh
 [LightGBM] [Warning] Unknown parameter: max_position
 [LightGBM] [Warning] Unknown parameter: max_position
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.028334 seconds.
-You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Warning] Auto-choosing row-wise multi-threading, the overhead of testing was 0.004538 seconds.
+You can set `force_row_wise=true` to remove the overhead.
+And if memory is not enough, you can set `force_col_wise=true`.
 [LightGBM] [Info] Total Bins 5015
 [LightGBM] [Info] Number of data points in the train set: 616388, number of used features: 20
 [LightGBM] [Warning] Unknown parameter: max_position
