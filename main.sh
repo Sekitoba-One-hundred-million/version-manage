@@ -86,4 +86,7 @@ while read data; do
     fi
 done < $data_dir/$pickle_info
 
+git tag v${version}
+git push origin v${version}
+
 finish
