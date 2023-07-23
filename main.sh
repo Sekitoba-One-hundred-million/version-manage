@@ -5,7 +5,7 @@ OLDIFS=$IFS
 
 init
 version_line=`cat CHANGELOG.md| grep -m1 '##'`
-version=${version_line: -3:3}
+version=v${version_line: -3:3}
 
 IFS=$'\n'
 
@@ -61,7 +61,6 @@ for data in `cat $data_dir/$pickle_info`; do
     fi
 done
 
-git tag v${version}
-git push origin v${version}
-
 finish
+
+echo "${version} finish"
