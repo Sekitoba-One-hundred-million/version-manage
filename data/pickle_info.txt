@@ -59,6 +59,7 @@ up3_true_skill_data.pickle sekitoba_use_data/up3_true_skill_create.py
 up_average.pickle None
 up_kind_ave_data.pickle sekitoba_use_data/up_kind_ave.py
 up_pace_regressin.pickle sekitoba_use_data/up_pace_analyze.py
+update_race_id_list.pickle None
 waku_three_rate_data.pickle sekitoba_use_data/waku_three_rate.py
 wide_odds_data.pickle sekitoba_data_collect/wide_odds_collect.py
 wrap_data.pickle sekitoba_data_collect/wrap_data_collect.py

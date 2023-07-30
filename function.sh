@@ -9,7 +9,7 @@ sekitoba_data_collect='sekitoba_data_collect'
 sekitoba_data="/Volumes/Gilgamesh/sekitoba-data"
 
 version_line=`cat CHANGELOG.md| grep -m1 '##'`
-version=${version_line: -3:3}
+version=v${version_line: -3:3}
 
 function init {
     while read line
@@ -26,8 +26,8 @@ function init {
         rm -rf $data_dir
     fi
 
-    if [ -d $sekitoba_data/$version ]; then
-        rm -rf $sekitoba_data/$version
+    if [ -d $sekitoba_data/${version} ]; then
+        rm -rf $sekitoba_data/${version}
     fi
 
     if [ -f $pickle_txt ]; then
@@ -35,7 +35,7 @@ function init {
     fi
 
     touch $pickle_txt
-    mkdir $sekitoba_data/$version
+    mkdir ${sekitoba_data}/${version}
     mkdir $data_dir
 }
 

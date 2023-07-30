@@ -4,8 +4,6 @@
 OLDIFS=$IFS
 
 init
-version_line=`cat CHANGELOG.md| grep -m1 '##'`
-version=v${version_line: -3:3}
 
 IFS=$'\n'
 
@@ -27,10 +25,11 @@ for line in `cat $repository_txt`; do
             command="${command} ${l}"
             let i++
         done
-        
+
+        echo start ${repository}
         git_clone $repository
         cd $repository
-        $command > ../$data_dir/$repository.txt
+        $command > ../$data_dir/${repository}.txt
         cd ..
 
         while read data; do            
@@ -38,7 +37,7 @@ for line in `cat $repository_txt`; do
                 data=($data)
                 echo ${data[0]} >> $pickle_txt
             fi
-        done < $data_dir/$repository.txt
+        done < $data_dir/${repository}.txt
     fi
     
     commit_hash=`git_hash_get $repository`

@@ -1,3 +1,6 @@
+## version 1.9
+fix up3 predict index
+
 ## version 1.8
 fix version script
 
