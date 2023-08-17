@@ -11,6 +11,7 @@ first_corner_rank.pickle sekitoba_use_data/first_corner_rank.py
 first_passing_true_skill_data.pickle sekitoba_use_data/first_passing_true_skill_create.py
 first_up3_halon.pickle sekitoba_data_collect/first_up3_collect.py
 foot_used.pickle sekitoba_use_data/foot_used.py
+horce_blood_type_data.pickle sekitoba_data_collect/horce_blood_collect.py
 horce_data_storage.pickle sekitoba_data_collect/main_data_collect.py
 horce_sex_data.pickle sekitoba_data_collect/sex_collect.py
 jockey_analyze_data.pickle sekitoba_use_data/jockey_data_analyze.py
@@ -27,12 +28,14 @@ next_race_data.pickle sekitoba_use_data/race_level.py
 odds_data.pickle sekitoba_data_collect/odds_collect.py
 omega_index_data.pickle sekitoba_data_collect/omega_index_get.py
 parent_id_data.pickle sekitoba_data_collect/parent_data_collect.py
+popular_kind_win_rate_data.pickle sekitoba_use_data/popular_kind_win_rate.py
 predict_first_passing_rank.pickle None
 predict_last_passing_rank.pickle None
 predict_pace_data.pickle None
 predict_train_score.pickle None
 predict_up3.pickle None
 race_ave_true_skill.pickle sekitoba_use_data/race_ave_true_skill.py
+race_cource_info.pickle sekitoba_use_data/race_cource_info.py
 race_course_data.pickle sekitoba_data_collect/race_course_data.py
 race_day.pickle sekitoba_data_collect/race_day_get.py
 race_info_data.pickle sekitoba_data_collect/race_info_collect.py
@@ -43,7 +46,9 @@ race_time_data.pickle sekitoba_data_collect/race_time_collect.py
 race_trainer_id_data.pickle sekitoba_data_collect/trainer_id_collect.py
 rank_model.pickle None
 rank_simu_data.pickle None
+recovery_score_data.pickle None
 slow_start_data.pickle None
+split_data.pickle None
 standard_time.pickle None
 time_index_data.pickle sekitoba_data_collect/time_index_get.py
 train_ave_data.pickle sekitoba_use_data/train_ave_data_create.py
@@ -59,7 +64,9 @@ up3_true_skill_data.pickle sekitoba_use_data/up3_true_skill_create.py
 up_average.pickle None
 up_kind_ave_data.pickle sekitoba_use_data/up_kind_ave.py
 up_pace_regressin.pickle sekitoba_use_data/up_pace_analyze.py
-update_race_id_list.pickle None
+users_data.pickle None
+users_rank_data.pickle None
+users_score_data.pickle None
 waku_three_rate_data.pickle sekitoba_use_data/waku_three_rate.py
 wide_odds_data.pickle sekitoba_data_collect/wide_odds_collect.py
 wrap_data.pickle sekitoba_data_collect/wrap_data_collect.py

@@ -1,9 +1,12 @@
 rank_model.pickle download finish Gilgamesh
 rank_simu_data.pickle download finish Gilgamesh
+popular_kind_win_rate_data.pickle download finish Gilgamesh
 wide_odds_data.pickle download finish Gilgamesh
 odds_data.pickle download finish Gilgamesh
+users_score_data.pickle download finish Gilgamesh
 
-ワイド 回収率100.31353535353537%
-ワイド 勝率133.06397306397307%
-賭けた回数74250回
-賭けたレース数1485回
+ワイド 回収率104.51082177403347%
+ワイド 勝率75.87822014051523%
+賭けた回数35253回
+賭けたレース数1281回
+2297.600000000001
