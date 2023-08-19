@@ -9,7 +9,7 @@ sekitoba_data_collect='sekitoba_data_collect'
 sekitoba_data="/Volumes/Gilgamesh/sekitoba-data"
 
 version_line=`cat CHANGELOG.md| grep -m1 '##'`
-version=v${version_line: -3:3}
+version=v${version_line: -4:4}
 
 function init {
     while read line
