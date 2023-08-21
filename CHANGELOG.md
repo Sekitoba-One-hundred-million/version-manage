@@ -1,3 +1,6 @@
+## version 1.11
+- sort race_score_name
+
 ## version 1.10
 - add recovery_analyze
 - add sekitoba_data_update

@@ -32,17 +32,216 @@ last_passing_true_skill_data.pickle download finish Gilgamesh
 predict_train_score.pickle download finish Gilgamesh
 predict_pace_data.pickle download finish Gilgamesh
 first_up3_halon.pickle download finish Gilgamesh
-start rank:5
-start rank:1
 start rank:4
+start rank:1
 start rank:3
+start rank:5
 start rank:2
+age
+all_horce_num
+ave_burden_weight_diff
+ave_first_passing_rank
+ave_past_ave_horce_body
+ave_past_max_horce_body
+ave_past_min_horce_body
+ave_race_horce_first_passing_true_skill
+ave_race_horce_true_skill
+ave_race_jockey_first_passing_true_skill
+ave_race_jockey_true_skill
+ave_race_trainer_first_passing_true_skill
+ave_race_trainer_true_skill
+ave_speed_index
+ave_up_rate
+average_speed
+baba
+before_continue_not_three_rank
+before_diff
+before_first_passing_rank
+before_id_weight
+before_last_passing_rank
+before_popular
+before_rank
+before_speed
+best_first_passing_rank
+best_second_passing_rank
+best_weight
+burden_weight
+corner_diff_rank_ave
+corner_diff_rank_ave_index
+diff_load_weight
+diff_pace_first_passing
+diff_pace_time
+dist_kind
+dist_kind_count
+escape_limb1_count
+escape_limb2_count
+escape_within_rank
+first_up3_halon_ave
+first_up3_halon_ave_stand
+first_up3_halon_min
+first_up3_halon_min_stand
+high_level_score
+horce_first_passing_true_skill
+horce_first_passing_true_skill_index
+horce_first_passing_true_skill_stand
+horce_last_passing_true_skill
+horce_last_passing_true_skill_index
+horce_num
+horce_sex
+horce_true_skill
+horce_true_skill_index
+horce_true_skill_stand
+jockey_first_passing_true_skill
+jockey_first_passing_true_skill_index
+jockey_first_passing_true_skill_stand
+jockey_judgment_baba
+jockey_judgment_baba_index
+jockey_judgment_baba_stand
+jockey_judgment_dist
+jockey_judgment_dist_index
+jockey_judgment_dist_stand
+jockey_judgment_flame_num
+jockey_judgment_flame_num_index
+jockey_judgment_flame_num_stand
+jockey_judgment_kind
+jockey_judgment_kind_index
+jockey_judgment_kind_stand
+jockey_judgment_limb
+jockey_judgment_limb_index
+jockey_judgment_limb_stand
+jockey_judgment_place
+jockey_judgment_place_index
+jockey_judgment_place_stand
+jockey_judgment_popular
+jockey_judgment_popular_index
+jockey_judgment_popular_stand
+jockey_judgment_rate_baba_0
+jockey_judgment_rate_baba_1
+jockey_judgment_rate_baba_2
+jockey_judgment_rate_dist_0
+jockey_judgment_rate_dist_1
+jockey_judgment_rate_dist_2
+jockey_judgment_rate_flame_num_0
+jockey_judgment_rate_flame_num_1
+jockey_judgment_rate_flame_num_2
+jockey_judgment_rate_kind_0
+jockey_judgment_rate_kind_1
+jockey_judgment_rate_kind_2
+jockey_judgment_rate_limb_0
+jockey_judgment_rate_limb_1
+jockey_judgment_rate_limb_2
+jockey_judgment_rate_place_0
+jockey_judgment_rate_place_1
+jockey_judgment_rate_place_2
+jockey_judgment_rate_popular_0
+jockey_judgment_rate_popular_1
+jockey_judgment_rate_popular_2
+jockey_last_passing_true_skill
+jockey_last_passing_true_skill_index
+jockey_rank
+jockey_true_skill
+jockey_true_skill_index
+jockey_true_skill_stand
+jockey_year_rank
+level_score
+limb
+match_rank
+max_past_ave_horce_body
+max_past_max_horce_body
+max_past_min_horce_body
+max_race_horce_first_passing_true_skill
+max_race_horce_true_skill
+max_race_jockey_first_passing_true_skill
+max_race_jockey_true_skill
+max_race_trainer_first_passing_true_skill
+max_race_trainer_true_skill
+max_speed_index
+max_up_rate
+min_corner
+min_past_ave_horce_body
+min_past_max_horce_body
+min_past_min_horce_body
+min_race_horce_first_passing_true_skill
+min_race_horce_true_skill
+min_race_jockey_first_passing_true_skill
+min_race_jockey_true_skill
+min_race_trainer_first_passing_true_skill
+min_race_trainer_true_skill
+min_speed_index
+min_up_rate
+money
+my_limb_count
+odds
+omega
+omega_index
+one_popular_limb
+one_popular_odds
+one_rate
+pace_up
+passing_regression
+past_ave_horce_body
+past_ave_horce_body_index
+past_ave_horce_body_stand
+past_max_horce_body
+past_max_horce_body_stand
+past_min_horce_body
+past_min_horce_body_index
+past_min_horce_body_stand
+past_std_horce_body
+place
+popular
+popular_rank
+predict_pace
+predict_train_score
+predict_train_score_index
+predict_train_score_stand
+speed_index
+speed_index_index
+speed_index_stand
+std_past_ave_horce_body
+std_past_max_horce_body
+std_past_min_horce_body
+std_race_ave_horce_body
+std_race_horce_first_passing_true_skill
+std_race_horce_true_skill
+std_race_jockey_first_passing_true_skill
+std_race_jockey_true_skill
+std_race_trainer_first_passing_true_skill
+std_race_trainer_true_skill
+std_speed_index
+std_up_rate
+three_average
+three_difference
+three_rate
+trainer_first_passing_true_skill
+trainer_first_passing_true_skill_index
+trainer_first_passing_true_skill_stand
+trainer_judgment_baba
+trainer_judgment_dist
+trainer_judgment_flame_num
+trainer_judgment_kind
+trainer_judgment_limb
+trainer_judgment_place
+trainer_judgment_popular
+trainer_rank
+trainer_true_skill
+trainer_true_skill_index
+trainer_true_skill_stand
+two_popular_limb
+two_popular_odds
+two_rate
+up3_standard_value
+up_rate
+up_rate_index
+up_rate_stand
+weather
+weight
 1-instance.pickle download finish Gilgamesh
 2-instance.pickle download finish Gilgamesh
 3-instance.pickle download finish Gilgamesh
 4-instance.pickle download finish Gilgamesh
 5-instance.pickle download finish Gilgamesh
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.318401 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.357536 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 36194
 [LightGBM] [Info] Number of data points in the train set: 610176, number of used features: 199
@@ -72,7 +271,7 @@ Training until validation scores don't improve for 30 rounds
 [220]	training's l2: 16.8479	valid_1's l2: 16.9846
 [230]	training's l2: 16.7817	valid_1's l2: 16.966
 [240]	training's l2: 16.7174	valid_1's l2: 16.9495
-[250]	training's l2: 16.6552	valid_1's l2: 16.9354
+[250]	training's l2: 16.6552	valid_1's l2: 16.9355
 [260]	training's l2: 16.5936	valid_1's l2: 16.9207
 [270]	training's l2: 16.5337	valid_1's l2: 16.9082
 [280]	training's l2: 16.4748	valid_1's l2: 16.8948
@@ -86,20 +285,20 @@ Training until validation scores don't improve for 30 rounds
 [360]	training's l2: 16.0349	valid_1's l2: 16.8176
 [370]	training's l2: 15.9828	valid_1's l2: 16.8105
 [380]	training's l2: 15.9316	valid_1's l2: 16.803
-[390]	training's l2: 15.8818	valid_1's l2: 16.7964
+[390]	training's l2: 15.8818	valid_1's l2: 16.7963
 [400]	training's l2: 15.8323	valid_1's l2: 16.7907
 [410]	training's l2: 15.783	valid_1's l2: 16.7848
 [420]	training's l2: 15.7335	valid_1's l2: 16.7791
 [430]	training's l2: 15.6858	valid_1's l2: 16.7739
 [440]	training's l2: 15.6371	valid_1's l2: 16.7689
-[450]	training's l2: 15.5897	valid_1's l2: 16.7628
+[450]	training's l2: 15.5897	valid_1's l2: 16.7627
 [460]	training's l2: 15.5439	valid_1's l2: 16.7586
 [470]	training's l2: 15.4973	valid_1's l2: 16.7541
 [480]	training's l2: 15.451	valid_1's l2: 16.7506
 [490]	training's l2: 15.4051	valid_1's l2: 16.746
 [500]	training's l2: 15.3589	valid_1's l2: 16.742
-[510]	training's l2: 15.3136	valid_1's l2: 16.7387
-[520]	training's l2: 15.2697	valid_1's l2: 16.7354
+[510]	training's l2: 15.3136	valid_1's l2: 16.7386
+[520]	training's l2: 15.2697	valid_1's l2: 16.7353
 [530]	training's l2: 15.2256	valid_1's l2: 16.7321
 [540]	training's l2: 15.1824	valid_1's l2: 16.729
 [550]	training's l2: 15.1395	valid_1's l2: 16.7255
@@ -108,7 +307,7 @@ Training until validation scores don't improve for 30 rounds
 [580]	training's l2: 15.0112	valid_1's l2: 16.7178
 [590]	training's l2: 14.9704	valid_1's l2: 16.7166
 [600]	training's l2: 14.9288	valid_1's l2: 16.7159
-[610]	training's l2: 14.8886	valid_1's l2: 16.7139
+[610]	training's l2: 14.8886	valid_1's l2: 16.714
 [620]	training's l2: 14.8478	valid_1's l2: 16.7108
 [630]	training's l2: 14.808	valid_1's l2: 16.7095
 [640]	training's l2: 14.768	valid_1's l2: 16.7081
@@ -124,7 +323,7 @@ Training until validation scores don't improve for 30 rounds
 [740]	training's l2: 14.3891	valid_1's l2: 16.6939
 [750]	training's l2: 14.3532	valid_1's l2: 16.6933
 [760]	training's l2: 14.3163	valid_1's l2: 16.6919
-[770]	training's l2: 14.2798	valid_1's l2: 16.6909
+[770]	training's l2: 14.2798	valid_1's l2: 16.6908
 [780]	training's l2: 14.2447	valid_1's l2: 16.6892
 [790]	training's l2: 14.2099	valid_1's l2: 16.6891
 [800]	training's l2: 14.1745	valid_1's l2: 16.6877
@@ -135,9 +334,9 @@ Training until validation scores don't improve for 30 rounds
 [850]	training's l2: 14.0031	valid_1's l2: 16.6815
 [860]	training's l2: 13.9671	valid_1's l2: 16.6797
 [870]	training's l2: 13.9322	valid_1's l2: 16.6787
-[880]	training's l2: 13.899	valid_1's l2: 16.6794
+[880]	training's l2: 13.899	valid_1's l2: 16.6793
 [890]	training's l2: 13.8672	valid_1's l2: 16.6795
 Early stopping, best iteration is:
 [868]	training's l2: 13.9391	valid_1's l2: 16.6785
 score1: 3.806990841796414
-score2: 3.37617039734014
+score2: 3.376172499583591

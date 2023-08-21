@@ -13,11 +13,11 @@ next_race_data.pickle download finish Gilgamesh
 race_data.pickle download finish Gilgamesh
 race_info_data.pickle download finish Gilgamesh
 horce_data_storage.pickle download finish Gilgamesh
-start rank:1
+start rank:5
 start rank:4
 start rank:3
-start rank:5
 start rank:2
+start rank:1
 1-instance.pickle download finish Gilgamesh
 2-instance.pickle download finish Gilgamesh
 3-instance.pickle download finish Gilgamesh
@@ -25,7 +25,7 @@ start rank:2
 5-instance.pickle download finish Gilgamesh
 [LightGBM] [Warning] Unknown parameter: max_position
 [LightGBM] [Warning] Unknown parameter: max_position
-[LightGBM] [Warning] Auto-choosing row-wise multi-threading, the overhead of testing was 0.004447 seconds.
+[LightGBM] [Warning] Auto-choosing row-wise multi-threading, the overhead of testing was 0.004365 seconds.
 You can set `force_row_wise=true` to remove the overhead.
 And if memory is not enough, you can set `force_col_wise=true`.
 [LightGBM] [Info] Total Bins 5019
@@ -47,8 +47,8 @@ stand_train_time_rate: 31
 stand_wrap_rate: 28
 stand_train_time_slice: 27
 stand_wrap_slope: 22
-wrap_rate: 20
 stand_wrap_std: 20
+wrap_rate: 20
 stand_train_time_slope: 18
 stand_wrap_diff: 15
 stand_wrap_slice: 14
@@ -56,8 +56,8 @@ wrap_slice: 13
 wrap_slope: 12
 wrap_std: 10
 first_wrap: 8
-wrap_diff: 5
 stand_first_wrap: 5
+wrap_diff: 5
 odds_data.pickle download finish Gilgamesh
 
 単勝 回収率84.17733798991073%
