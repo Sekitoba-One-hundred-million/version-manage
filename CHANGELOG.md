@@ -1,3 +1,7 @@
+## version 1.12
+- update wide_simulation
+- model write in pickle_info
+
 ## version 1.11
 - sort race_score_name
 

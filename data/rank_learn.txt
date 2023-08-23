@@ -38,11 +38,11 @@ up3_true_skill_data.pickle download finish Gilgamesh
 predict_train_score.pickle download finish Gilgamesh
 predict_up3.pickle download finish Gilgamesh
 popular_kind_win_rate_data.pickle download finish Gilgamesh
+start rank:4
+start rank:2
+start rank:5
 start rank:3
 start rank:1
-start rank:4
-start rank:5
-start rank:2
 1-instance.pickle download finish Gilgamesh
 2-instance.pickle download finish Gilgamesh
 3-instance.pickle download finish Gilgamesh
@@ -50,7 +50,7 @@ start rank:2
 5-instance.pickle download finish Gilgamesh
 [LightGBM] [Warning] Unknown parameter: max_position
 [LightGBM] [Warning] Unknown parameter: max_position
-[LightGBM] [Warning] Auto-choosing row-wise multi-threading, the overhead of testing was 0.031529 seconds.
+[LightGBM] [Warning] Auto-choosing row-wise multi-threading, the overhead of testing was 0.030484 seconds.
 You can set `force_row_wise=true` to remove the overhead.
 And if memory is not enough, you can set `force_col_wise=true`.
 [LightGBM] [Info] Total Bins 9998

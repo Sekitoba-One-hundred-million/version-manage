@@ -48,8 +48,11 @@ done
 # pickle作成に必要なファイルの算出
 ./pickle_search.sh
 
-IFS=$'\n'
+for model in `cat ${model_txt}`; do
+    echo ${model} None >> ${data_dir}/${pickle_info}
+done
 
+IFS=$'\n'
 for data in `cat $data_dir/$pickle_info`; do
     IFS=$OLDIFS
     data_array=($data)

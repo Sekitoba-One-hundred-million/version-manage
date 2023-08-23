@@ -3,6 +3,7 @@
 data_dir='data'
 pickle_txt='pickle.txt'
 repository_txt='repository.txt'
+model_txt='model.txt'
 pickle_info='pickle_info.txt'
 sekitoba_use_data='sekitoba_use_data'
 sekitoba_data_collect='sekitoba_data_collect'
