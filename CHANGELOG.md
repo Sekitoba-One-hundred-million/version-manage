@@ -1,3 +1,6 @@
+## version 1.13
+- fix train_data collect
+
 ## version 1.12
 - update wide_simulation
 - model write in pickle_info
