@@ -37,6 +37,7 @@ predict_up3.pickle None
 race_ave_true_skill.pickle sekitoba_use_data/race_ave_true_skill.py
 race_cource_info.pickle sekitoba_use_data/race_cource_info.py
 race_course_data.pickle sekitoba_data_collect/race_course_data.py
+race_data.pickle sekitoba_data_collect/delete_race_id.py
 race_day.pickle sekitoba_data_collect/race_day_get.py
 race_info_data.pickle sekitoba_data_collect/race_info_collect.py
 race_jockey_id_data.pickle sekitoba_data_collect/jockey_id_collect.py
@@ -59,6 +60,7 @@ trainer_full_data.pickle sekitoba_data_collect/trainer_full_data_collect.py
 trainer_judgment_data.pickle sekitoba_use_data/trainer_judgment.py
 trainer_judgment_rate_data.pickle sekitoba_use_data/trainer_judgment_rate.py
 trainer_judgment_up3_data.pickle sekitoba_use_data/trainer_judgment_up3.py
+true_skill_data.pickle sekitoba_use_data/true_skill_create.py
 up3_ave_data.pickle sekitoba_use_data/up3_ave.py
 up3_true_skill_data.pickle sekitoba_use_data/up3_true_skill_create.py
 up_average.pickle None

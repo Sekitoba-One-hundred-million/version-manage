@@ -1,3 +1,6 @@
+## version 1.14
+- fix pickle search
+
 ## version 1.13
 - fix train_data collect
 

@@ -3,7 +3,7 @@
 . ./function.sh
 OLDIFS=$IFS
 
-rm data/pickle_info.txt
+rm ./data/pickle_info.txt
 pickle_search $sekitoba_use_data
 pickle_search $sekitoba_data_collect
 pickle_multi_delete

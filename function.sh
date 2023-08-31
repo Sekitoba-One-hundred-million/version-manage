@@ -85,25 +85,29 @@ function pickle_search {
 
     for pickle in `sort ${pickle_txt} | uniq`; do
         find_check=0
-        grep -q ${pickle} ${data_dir}/${pickle_info}
+        pickle_info_grep=`grep ${pickle} ${data_dir}/${pickle_info}`
 
         if [ $? -eq 0 ]; then
-            continue
+            check_pickle=`echo ${pickle_info_grep} | awk -F ' ' '{ print $1 }'`
+
+            if [ ${pickle} == ${check_pickle} ]; then
+                continue
+            fi
         fi
 
-        echo ${pickle}
         for python_file in `ls $1/*.py`; do
-            grep_result=`cat ${python_file} | grep ${pickle} | grep pickle_upload`
-            
+            grep_result=`cat ${python_file} | grep ${pickle} | grep pickle_upload| grep -v \#`
+
             if [ $? -eq 0 ]; then
                 grep_result=`echo ${grep_result} | sed 's/\"/ /g'`
                 array=(${grep_result})
-
+                find_check=0
                 # grepで見つけたのが完全一致かを確認
                 for str_data in "${array[@]}"; do
                     if [ ${pickle} == ${str_data} ]; then
                         find_check=1
                         echo ${pickle} ${python_file} >> ${data_dir}/${pickle_info}
+                        break
                     fi
                 done
 

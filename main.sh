@@ -32,7 +32,7 @@ for line in `cat $repository_txt`; do
         $command > ../$data_dir/${repository}.txt
         cd ..
 
-        while read data; do            
+        while read data; do
             if [[ $data =~ "download" ]]; then
                 data=($data)
                 echo ${data[0]} >> $pickle_txt
