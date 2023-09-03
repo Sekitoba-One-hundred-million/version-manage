@@ -1,3 +1,6 @@
+## version 1.15
+- delete omega
+
 ## version 1.14
 - fix pickle search
 
