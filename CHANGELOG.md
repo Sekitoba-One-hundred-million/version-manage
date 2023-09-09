@@ -1,3 +1,6 @@
+## version 1.17
+- delete min_corner
+
 ## version 1.16
 - chore: fix continue
 
