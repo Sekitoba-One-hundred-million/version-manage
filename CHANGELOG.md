@@ -1,3 +1,6 @@
+## version 1.18
+- fix score name
+
 ## version 1.17
 - delete min_corner
 

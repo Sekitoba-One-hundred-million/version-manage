@@ -32,10 +32,10 @@ predict_train_score.pickle download finish Gilgamesh
 predict_pace_data.pickle download finish Gilgamesh
 first_up3_halon.pickle download finish Gilgamesh
 start rank:2
-start rank:4
 start rank:5
-start rank:1
 start rank:3
+start rank:4
+start rank:1
 age
 all_horce_num
 ave_burden_weight_diff
@@ -197,7 +197,6 @@ speed_index_stand
 std_past_ave_horce_body
 std_past_max_horce_body
 std_past_min_horce_body
-std_race_ave_horce_body
 std_race_horce_first_passing_true_skill
 std_race_horce_true_skill
 std_race_jockey_first_passing_true_skill
@@ -237,10 +236,10 @@ weight
 3-instance.pickle download finish Gilgamesh
 4-instance.pickle download finish Gilgamesh
 5-instance.pickle download finish Gilgamesh
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.316004 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.427755 seconds.
 You can set `force_col_wise=true` to remove the overhead.
-[LightGBM] [Info] Total Bins 36071
-[LightGBM] [Info] Number of data points in the train set: 610176, number of used features: 196
+[LightGBM] [Info] Total Bins 35816
+[LightGBM] [Info] Number of data points in the train set: 610176, number of used features: 195
 [LightGBM] [Info] Start training from score 7.356756
 Training until validation scores don't improve for 30 rounds
 [10]	training's l2: 25.5357	valid_1's l2: 24.7734
