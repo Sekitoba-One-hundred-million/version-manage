@@ -1,3 +1,6 @@
+## version 1.20
+- fix score name
+
 ## version 1.19
 - fix score name
 

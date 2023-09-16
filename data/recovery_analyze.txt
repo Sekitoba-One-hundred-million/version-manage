@@ -13,8 +13,8 @@ Requirement already satisfied: trueskill in /Users/kansei/.pyenv/versions/3.10.1
 Requirement already satisfied: bs4 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary==1.0.0) (0.0.1)
 Requirement already satisfied: jpholiday in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary==1.0.0) (0.1.8)
 Requirement already satisfied: jmespath<2.0.0,>=0.7.1 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from boto3->SekitobaLibrary==1.0.0) (1.0.1)
-Requirement already satisfied: s3transfer<0.7.0,>=0.6.0 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from boto3->SekitobaLibrary==1.0.0) (0.6.0)
 Requirement already satisfied: botocore<1.30.0,>=1.29.42 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from boto3->SekitobaLibrary==1.0.0) (1.29.42)
+Requirement already satisfied: s3transfer<0.7.0,>=0.6.0 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from boto3->SekitobaLibrary==1.0.0) (0.6.0)
 Requirement already satisfied: urllib3<1.27,>=1.25.4 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from botocore<1.30.0,>=1.29.42->boto3->SekitobaLibrary==1.0.0) (1.26.13)
 Requirement already satisfied: python-dateutil<3.0.0,>=2.1 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from botocore<1.30.0,>=1.29.42->boto3->SekitobaLibrary==1.0.0) (2.8.2)
 Requirement already satisfied: six>=1.5 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from python-dateutil<3.0.0,>=2.1->botocore<1.30.0,>=1.29.42->boto3->SekitobaLibrary==1.0.0) (1.16.0)
@@ -23,26 +23,26 @@ Requirement already satisfied: soupsieve>1.2 in /Users/kansei/.pyenv/versions/3.
 Requirement already satisfied: scipy in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from lightgbm->SekitobaLibrary==1.0.0) (1.9.3)
 Requirement already satisfied: wheel in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from lightgbm->SekitobaLibrary==1.0.0) (0.38.4)
 Requirement already satisfied: scikit-learn!=0.22.0 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from lightgbm->SekitobaLibrary==1.0.0) (1.2.0)
-Requirement already satisfied: threadpoolctl>=2.0.0 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from scikit-learn!=0.22.0->lightgbm->SekitobaLibrary==1.0.0) (3.1.0)
 Requirement already satisfied: joblib>=1.1.1 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from scikit-learn!=0.22.0->lightgbm->SekitobaLibrary==1.0.0) (1.2.0)
-Requirement already satisfied: kiwisolver>=1.0.1 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary==1.0.0) (1.4.4)
-Requirement already satisfied: cycler>=0.10 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary==1.0.0) (0.11.0)
-Requirement already satisfied: pillow>=6.2.0 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary==1.0.0) (9.3.0)
-Requirement already satisfied: pyparsing>=2.2.1 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary==1.0.0) (3.0.9)
+Requirement already satisfied: threadpoolctl>=2.0.0 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from scikit-learn!=0.22.0->lightgbm->SekitobaLibrary==1.0.0) (3.1.0)
 Requirement already satisfied: fonttools>=4.22.0 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary==1.0.0) (4.38.0)
-Requirement already satisfied: contourpy>=1.0.1 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary==1.0.0) (1.0.6)
 Requirement already satisfied: packaging>=20.0 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary==1.0.0) (22.0)
+Requirement already satisfied: contourpy>=1.0.1 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary==1.0.0) (1.0.6)
+Requirement already satisfied: pillow>=6.2.0 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary==1.0.0) (9.3.0)
+Requirement already satisfied: cycler>=0.10 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary==1.0.0) (0.11.0)
+Requirement already satisfied: kiwisolver>=1.0.1 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary==1.0.0) (1.4.4)
+Requirement already satisfied: pyparsing>=2.2.1 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary==1.0.0) (3.0.9)
 Requirement already satisfied: pytz>=2020.1 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from pandas->SekitobaLibrary==1.0.0) (2022.7)
 Requirement already satisfied: idna<4,>=2.5 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from requests->SekitobaLibrary==1.0.0) (3.4)
-Requirement already satisfied: charset-normalizer<3,>=2 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from requests->SekitobaLibrary==1.0.0) (2.1.1)
 Requirement already satisfied: certifi>=2017.4.17 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from requests->SekitobaLibrary==1.0.0) (2022.12.7)
+Requirement already satisfied: charset-normalizer<3,>=2 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from requests->SekitobaLibrary==1.0.0) (2.1.1)
 Requirement already satisfied: docutils>=0.3 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from statistics->SekitobaLibrary==1.0.0) (0.19)
 Requirement already satisfied: typing-extensions in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary==1.0.0) (4.4.0)
 Building wheels for collected packages: SekitobaLibrary
   Building wheel for SekitobaLibrary (setup.py): started
   Building wheel for SekitobaLibrary (setup.py): finished with status 'done'
-  Created wheel for SekitobaLibrary: filename=SekitobaLibrary-1.0.0-py3-none-any.whl size=34778 sha256=29bc5d79d5d6112831d0771f0bd50fc9e8e67d5e2b0df9857c65ecd855c29903
-  Stored in directory: /private/var/folders/6b/917t7ccx36b_z032bzp683d00000gn/T/pip-ephem-wheel-cache-wult9epi/wheels/71/9a/50/823500ae07d433e6ccf580aeec8bd6a2037a902702c7c5091f
+  Created wheel for SekitobaLibrary: filename=SekitobaLibrary-1.0.0-py3-none-any.whl size=34778 sha256=a867f8e56a3c01cf5c5dc6043a0516dd344de75176046a9e45c8b01c3904aa83
+  Stored in directory: /private/var/folders/6b/917t7ccx36b_z032bzp683d00000gn/T/pip-ephem-wheel-cache-69me4hdh/wheels/71/9a/50/823500ae07d433e6ccf580aeec8bd6a2037a902702c7c5091f
 Successfully built SekitobaLibrary
 Installing collected packages: SekitobaLibrary
   Attempting uninstall: SekitobaLibrary
@@ -83,11 +83,11 @@ race_jockey_id_data.pickle download finish Gilgamesh
 true_skill_data.pickle download finish Gilgamesh
 race_cource_info.pickle download finish Gilgamesh
 up3_true_skill_data.pickle download finish Gilgamesh
-start rank:3
-start rank:1
-start rank:2
-start rank:5
 start rank:4
+start rank:2
+start rank:3
+start rank:5
+start rank:1
 finish rank 1
 finish rank 2
 finish rank 3

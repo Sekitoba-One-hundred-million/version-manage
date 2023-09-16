@@ -39,17 +39,17 @@ predict_pace_data.pickle download finish Gilgamesh
 first_up3_halon.pickle download finish Gilgamesh
 up3_true_skill_data.pickle download finish Gilgamesh
 up3_ave_data.pickle download finish Gilgamesh
-start rank:3
 start rank:5
-start rank:2
 start rank:1
+start rank:2
+start rank:3
 start rank:4
 1-instance.pickle download finish Gilgamesh
 2-instance.pickle download finish Gilgamesh
 3-instance.pickle download finish Gilgamesh
 4-instance.pickle download finish Gilgamesh
 5-instance.pickle download finish Gilgamesh
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.304761 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.408205 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 36014
 [LightGBM] [Info] Number of data points in the train set: 610176, number of used features: 193

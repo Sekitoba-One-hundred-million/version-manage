@@ -37,9 +37,9 @@ up3_true_skill_data.pickle download finish Gilgamesh
 predict_train_score.pickle download finish Gilgamesh
 predict_up3.pickle download finish Gilgamesh
 popular_kind_win_rate_data.pickle download finish Gilgamesh
-start rank:2
 start rank:1
 start rank:3
+start rank:2
 start rank:4
 start rank:5
 1-instance.pickle download finish Gilgamesh
@@ -49,28 +49,28 @@ start rank:5
 5-instance.pickle download finish Gilgamesh
 [LightGBM] [Warning] Unknown parameter: max_position
 [LightGBM] [Warning] Unknown parameter: max_position
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.112813 seconds.
-You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Warning] Auto-choosing row-wise multi-threading, the overhead of testing was 0.028852 seconds.
+You can set `force_row_wise=true` to remove the overhead.
+And if memory is not enough, you can set `force_col_wise=true`.
 [LightGBM] [Info] Total Bins 9879
 [LightGBM] [Info] Number of data points in the train set: 610457, number of used features: 77
 [LightGBM] [Warning] Unknown parameter: max_position
 Training until validation scores don't improve for 30 rounds
-[10]	training's ndcg@1: 0.500643	training's ndcg@2: 0.534916	training's ndcg@3: 0.554332	valid_1's ndcg@1: 0.452491	valid_1's ndcg@2: 0.496233	valid_1's ndcg@3: 0.524084
-[20]	training's ndcg@1: 0.526093	training's ndcg@2: 0.551572	training's ndcg@3: 0.56771	valid_1's ndcg@1: 0.453005	valid_1's ndcg@2: 0.497785	valid_1's ndcg@3: 0.526578
-[30]	training's ndcg@1: 0.547565	training's ndcg@2: 0.567049	training's ndcg@3: 0.579623	valid_1's ndcg@1: 0.453294	valid_1's ndcg@2: 0.49904	valid_1's ndcg@3: 0.527658
-[40]	training's ndcg@1: 0.56576	training's ndcg@2: 0.580458	training's ndcg@3: 0.589908	valid_1's ndcg@1: 0.458658	valid_1's ndcg@2: 0.503176	valid_1's ndcg@3: 0.529217
-[50]	training's ndcg@1: 0.581843	training's ndcg@2: 0.592953	training's ndcg@3: 0.599699	valid_1's ndcg@1: 0.459749	valid_1's ndcg@2: 0.504138	valid_1's ndcg@3: 0.529217
-[60]	training's ndcg@1: 0.597865	training's ndcg@2: 0.605406	training's ndcg@3: 0.609207	valid_1's ndcg@1: 0.459346	valid_1's ndcg@2: 0.503958	valid_1's ndcg@3: 0.528889
-[70]	training's ndcg@1: 0.611503	training's ndcg@2: 0.615722	training's ndcg@3: 0.617729	valid_1's ndcg@1: 0.458614	valid_1's ndcg@2: 0.504198	valid_1's ndcg@3: 0.528098
+[10]	training's ndcg@1: 0.500145	training's ndcg@2: 0.533595	training's ndcg@3: 0.552454	valid_1's ndcg@1: 0.451045	valid_1's ndcg@2: 0.496441	valid_1's ndcg@3: 0.522913
+[20]	training's ndcg@1: 0.526349	training's ndcg@2: 0.550963	training's ndcg@3: 0.566616	valid_1's ndcg@1: 0.45388	valid_1's ndcg@2: 0.498765	valid_1's ndcg@3: 0.524635
+[30]	training's ndcg@1: 0.546802	training's ndcg@2: 0.565926	training's ndcg@3: 0.578374	valid_1's ndcg@1: 0.458372	valid_1's ndcg@2: 0.499116	valid_1's ndcg@3: 0.526869
+[40]	training's ndcg@1: 0.565292	training's ndcg@2: 0.57944	training's ndcg@3: 0.588906	valid_1's ndcg@1: 0.459116	valid_1's ndcg@2: 0.500047	valid_1's ndcg@3: 0.527888
+[50]	training's ndcg@1: 0.582342	training's ndcg@2: 0.592755	training's ndcg@3: 0.599173	valid_1's ndcg@1: 0.457085	valid_1's ndcg@2: 0.499034	valid_1's ndcg@3: 0.525696
+[60]	training's ndcg@1: 0.597462	training's ndcg@2: 0.603765	training's ndcg@3: 0.608359	valid_1's ndcg@1: 0.457201	valid_1's ndcg@2: 0.498601	valid_1's ndcg@3: 0.525894
 Early stopping, best iteration is:
-[44]	training's ndcg@1: 0.572278	training's ndcg@2: 0.585282	training's ndcg@3: 0.593712	valid_1's ndcg@1: 0.461141	valid_1's ndcg@2: 0.504204	valid_1's ndcg@3: 0.530541
+[36]	training's ndcg@1: 0.558491	training's ndcg@2: 0.574425	training's ndcg@3: 0.584712	valid_1's ndcg@1: 0.460352	valid_1's ndcg@2: 0.500803	valid_1's ndcg@3: 0.528024
 odds_data.pickle download finish Gilgamesh
 
 選択数:1
-単勝 回収率84.9672011661806%
-複勝 回収率87.18476676384824%
-単勝 勝率31.286443148688047%
-複勝 勝率62.390670553935855%
+単勝 回収率84.85240524781328%
+複勝 回収率86.67638483964997%
+単勝 勝率31.213556851311953%
+複勝 勝率62.2631195335277%
 賭けたレース数5488回
 賭けた金額5488
-mdcd:16.075
+mdcd:16.1018
