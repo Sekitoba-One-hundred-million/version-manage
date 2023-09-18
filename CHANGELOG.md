@@ -1,3 +1,7 @@
+## version 1.22
+- fix score name
+- fix score diff and weight
+
 ## version 1.21
 - fix horce_body score name
 

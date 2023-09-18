@@ -37,11 +37,11 @@ up3_true_skill_data.pickle download finish Gilgamesh
 predict_train_score.pickle download finish Gilgamesh
 predict_up3.pickle download finish Gilgamesh
 popular_kind_win_rate_data.pickle download finish Gilgamesh
-start rank:1
-start rank:3
 start rank:2
+start rank:3
 start rank:4
 start rank:5
+start rank:1
 1-instance.pickle download finish Gilgamesh
 2-instance.pickle download finish Gilgamesh
 3-instance.pickle download finish Gilgamesh
@@ -49,30 +49,31 @@ start rank:5
 5-instance.pickle download finish Gilgamesh
 [LightGBM] [Warning] Unknown parameter: max_position
 [LightGBM] [Warning] Unknown parameter: max_position
-[LightGBM] [Warning] Auto-choosing row-wise multi-threading, the overhead of testing was 0.031177 seconds.
+[LightGBM] [Warning] Auto-choosing row-wise multi-threading, the overhead of testing was 0.030690 seconds.
 You can set `force_row_wise=true` to remove the overhead.
 And if memory is not enough, you can set `force_col_wise=true`.
 [LightGBM] [Info] Total Bins 9879
 [LightGBM] [Info] Number of data points in the train set: 610457, number of used features: 77
 [LightGBM] [Warning] Unknown parameter: max_position
 Training until validation scores don't improve for 30 rounds
-[10]	training's ndcg@1: 0.501662	training's ndcg@2: 0.534576	training's ndcg@3: 0.553868	valid_1's ndcg@1: 0.452637	valid_1's ndcg@2: 0.494164	valid_1's ndcg@3: 0.521507
-[20]	training's ndcg@1: 0.526701	training's ndcg@2: 0.552862	training's ndcg@3: 0.567443	valid_1's ndcg@1: 0.456937	valid_1's ndcg@2: 0.496583	valid_1's ndcg@3: 0.524326
-[30]	training's ndcg@1: 0.547186	training's ndcg@2: 0.567823	training's ndcg@3: 0.579294	valid_1's ndcg@1: 0.458539	valid_1's ndcg@2: 0.498995	valid_1's ndcg@3: 0.525918
-[40]	training's ndcg@1: 0.5649	training's ndcg@2: 0.580882	training's ndcg@3: 0.589718	valid_1's ndcg@1: 0.456896	valid_1's ndcg@2: 0.500065	valid_1's ndcg@3: 0.527253
-[50]	training's ndcg@1: 0.581927	training's ndcg@2: 0.593366	training's ndcg@3: 0.599681	valid_1's ndcg@1: 0.455893	valid_1's ndcg@2: 0.500729	valid_1's ndcg@3: 0.527317
-[60]	training's ndcg@1: 0.59738	training's ndcg@2: 0.604914	training's ndcg@3: 0.609178	valid_1's ndcg@1: 0.459556	valid_1's ndcg@2: 0.502047	valid_1's ndcg@3: 0.527848
-[70]	training's ndcg@1: 0.611325	training's ndcg@2: 0.61595	training's ndcg@3: 0.61768	valid_1's ndcg@1: 0.458831	valid_1's ndcg@2: 0.501703	valid_1's ndcg@3: 0.528753
-[80]	training's ndcg@1: 0.623414	training's ndcg@2: 0.62636	training's ndcg@3: 0.625906	valid_1's ndcg@1: 0.456799	valid_1's ndcg@2: 0.501287	valid_1's ndcg@3: 0.528988
+[10]	training's ndcg@1: 0.499791	training's ndcg@2: 0.533718	training's ndcg@3: 0.553522	valid_1's ndcg@1: 0.44997	valid_1's ndcg@2: 0.494662	valid_1's ndcg@3: 0.521073
+[20]	training's ndcg@1: 0.527008	training's ndcg@2: 0.551909	training's ndcg@3: 0.567601	valid_1's ndcg@1: 0.453285	valid_1's ndcg@2: 0.498999	valid_1's ndcg@3: 0.526101
+[30]	training's ndcg@1: 0.547755	training's ndcg@2: 0.566191	training's ndcg@3: 0.579059	valid_1's ndcg@1: 0.455614	valid_1's ndcg@2: 0.498858	valid_1's ndcg@3: 0.526513
+[40]	training's ndcg@1: 0.565591	training's ndcg@2: 0.580752	training's ndcg@3: 0.590053	valid_1's ndcg@1: 0.456395	valid_1's ndcg@2: 0.499554	valid_1's ndcg@3: 0.527417
+[50]	training's ndcg@1: 0.582902	training's ndcg@2: 0.592951	training's ndcg@3: 0.6001	valid_1's ndcg@1: 0.457758	valid_1's ndcg@2: 0.500504	valid_1's ndcg@3: 0.526544
+[60]	training's ndcg@1: 0.598274	training's ndcg@2: 0.605086	training's ndcg@3: 0.60893	valid_1's ndcg@1: 0.458783	valid_1's ndcg@2: 0.50095	valid_1's ndcg@3: 0.526297
+[70]	training's ndcg@1: 0.612202	training's ndcg@2: 0.616022	training's ndcg@3: 0.617837	valid_1's ndcg@1: 0.461107	valid_1's ndcg@2: 0.501222	valid_1's ndcg@3: 0.527949
+[80]	training's ndcg@1: 0.62401	training's ndcg@2: 0.62628	training's ndcg@3: 0.626038	valid_1's ndcg@1: 0.459487	valid_1's ndcg@2: 0.501164	valid_1's ndcg@3: 0.525861
+[90]	training's ndcg@1: 0.637288	training's ndcg@2: 0.636241	training's ndcg@3: 0.634291	valid_1's ndcg@1: 0.458983	valid_1's ndcg@2: 0.501223	valid_1's ndcg@3: 0.525613
 Early stopping, best iteration is:
-[59]	training's ndcg@1: 0.595581	training's ndcg@2: 0.603723	training's ndcg@3: 0.608257	valid_1's ndcg@1: 0.460871	valid_1's ndcg@2: 0.50211	valid_1's ndcg@3: 0.52817
+[69]	training's ndcg@1: 0.611194	training's ndcg@2: 0.614963	training's ndcg@3: 0.616932	valid_1's ndcg@1: 0.461593	valid_1's ndcg@2: 0.501192	valid_1's ndcg@3: 0.527938
 odds_data.pickle download finish Gilgamesh
 
 選択数:1
-単勝 回収率83.64431486880466%
-複勝 回収率86.82397959183653%
-単勝 勝率31.140670553935863%
-複勝 勝率62.55466472303207%
+単勝 回収率83.85932944606405%
+複勝 回収率86.98068513119509%
+単勝 勝率31.359329446064137%
+複勝 勝率62.46355685131195%
 賭けたレース数5488回
 賭けた金額5488
-mdcd:16.0196
+mdcd:16.0041
