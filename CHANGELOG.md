@@ -1,3 +1,7 @@
+## version 1.23
+- fix score name in recovery_analyze
+- fix best_weight
+
 ## version 1.22
 - fix score name
 - fix score diff and weight
