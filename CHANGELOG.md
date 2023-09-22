@@ -1,3 +1,6 @@
+## version 1.24
+- fix init before_score
+
 ## version 1.23
 - fix score name in recovery_analyze
 - fix best_weight
