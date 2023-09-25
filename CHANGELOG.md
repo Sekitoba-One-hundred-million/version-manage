@@ -1,3 +1,6 @@
+## version 1.25
+- fix init before_score
+
 ## version 1.24
 - fix init before_score
 

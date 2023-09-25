@@ -16,35 +16,35 @@ race_trainer_id_data.pickle download finish Gilgamesh
 true_skill_data.pickle download finish Gilgamesh
 first_passing_true_skill_data.pickle download finish Gilgamesh
 wrap_data.pickle download finish Gilgamesh
-start rank:2
-start rank:4
 start rank:1
-start rank:3
 start rank:5
+start rank:3
+start rank:4
+start rank:2
 1-instance.pickle download finish Gilgamesh
 2-instance.pickle download finish Gilgamesh
 3-instance.pickle download finish Gilgamesh
 4-instance.pickle download finish Gilgamesh
 5-instance.pickle download finish Gilgamesh
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.001599 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.002108 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 8385
 [LightGBM] [Info] Number of data points in the train set: 6345, number of used features: 44
 [LightGBM] [Info] Start training from score -0.545705
 Training until validation scores don't improve for 30 rounds
-[10]	training's l2: 3.35137	valid_1's l2: 3.16684
-[20]	training's l2: 2.67742	valid_1's l2: 2.5982
-[30]	training's l2: 2.36076	valid_1's l2: 2.36507
-[40]	training's l2: 2.18374	valid_1's l2: 2.25764
-[50]	training's l2: 2.06028	valid_1's l2: 2.19898
-[60]	training's l2: 1.96747	valid_1's l2: 2.16627
-[70]	training's l2: 1.89778	valid_1's l2: 2.1535
-[80]	training's l2: 1.83392	valid_1's l2: 2.14375
-[90]	training's l2: 1.77677	valid_1's l2: 2.13781
-[100]	training's l2: 1.72695	valid_1's l2: 2.13238
-[110]	training's l2: 1.6834	valid_1's l2: 2.13318
-[120]	training's l2: 1.6409	valid_1's l2: 2.13414
-[130]	training's l2: 1.60325	valid_1's l2: 2.13581
+[10]	training's l2: 3.35137	valid_1's l2: 3.16688
+[20]	training's l2: 2.67742	valid_1's l2: 2.59816
+[30]	training's l2: 2.36076	valid_1's l2: 2.36484
+[40]	training's l2: 2.18374	valid_1's l2: 2.25714
+[50]	training's l2: 2.06028	valid_1's l2: 2.19857
+[60]	training's l2: 1.96747	valid_1's l2: 2.16588
+[70]	training's l2: 1.89778	valid_1's l2: 2.15296
+[80]	training's l2: 1.83392	valid_1's l2: 2.14311
+[90]	training's l2: 1.77677	valid_1's l2: 2.13725
+[100]	training's l2: 1.72695	valid_1's l2: 2.1319
+[110]	training's l2: 1.6834	valid_1's l2: 2.13262
+[120]	training's l2: 1.6409	valid_1's l2: 2.13367
+[130]	training's l2: 1.60325	valid_1's l2: 2.13525
 Early stopping, best iteration is:
-[101]	training's l2: 1.72221	valid_1's l2: 2.13211
-score: 0.8581607648954637
+[101]	training's l2: 1.72221	valid_1's l2: 2.13164
+score: 0.8580655007841861
