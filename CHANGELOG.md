@@ -1,3 +1,10 @@
+## version 1.27
+- add predict rough race
+- all model update
+
+## version 1.26
+- fix version update
+
 ## version 1.25
 - fix init before_score
 

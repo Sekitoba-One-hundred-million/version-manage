@@ -5,6 +5,10 @@ up_kind_ave_data.pickle download finish Gilgamesh
 money_class_true_skill_data.pickle download finish Gilgamesh
 race_ave_true_skill.pickle download finish Gilgamesh
 race_money_data.pickle download finish Gilgamesh
+race_time_analyze_data.pickle download finish Gilgamesh
+up3_analyze_data.pickle download finish Gilgamesh
+first_up3_halon.pickle download finish Gilgamesh
+stride_ablity_analyze_data.pickle download finish Gilgamesh
 time_index_data.pickle download finish Gilgamesh
 train_time_data.pickle download finish Gilgamesh
 train_ave_data.pickle download finish Gilgamesh
@@ -37,11 +41,16 @@ up3_true_skill_data.pickle download finish Gilgamesh
 predict_train_score.pickle download finish Gilgamesh
 predict_up3.pickle download finish Gilgamesh
 popular_kind_win_rate_data.pickle download finish Gilgamesh
-start rank:4
+flame_evaluation_data.pickle download finish Gilgamesh
+predict_rough_race_data.pickle download finish Gilgamesh
+condition_devi_data.pickle download finish Gilgamesh
+predict_netkeiba_pace_data.pickle download finish Gilgamesh
+predict_netkeiba_deployment_data.pickle download finish Gilgamesh
 start rank:1
-start rank:2
-start rank:5
 start rank:3
+start rank:4
+start rank:5
+start rank:2
 1-instance.pickle download finish Gilgamesh
 2-instance.pickle download finish Gilgamesh
 3-instance.pickle download finish Gilgamesh
@@ -49,30 +58,32 @@ start rank:3
 5-instance.pickle download finish Gilgamesh
 [LightGBM] [Warning] Unknown parameter: max_position
 [LightGBM] [Warning] Unknown parameter: max_position
-[LightGBM] [Warning] Auto-choosing row-wise multi-threading, the overhead of testing was 0.028726 seconds.
-You can set `force_row_wise=true` to remove the overhead.
-And if memory is not enough, you can set `force_col_wise=true`.
-[LightGBM] [Info] Total Bins 9879
-[LightGBM] [Info] Number of data points in the train set: 610457, number of used features: 77
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.168023 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 18147
+[LightGBM] [Info] Number of data points in the train set: 564814, number of used features: 122
 [LightGBM] [Warning] Unknown parameter: max_position
 Training until validation scores don't improve for 30 rounds
-[10]	training's ndcg@1: 0.503779	training's ndcg@2: 0.536687	training's ndcg@3: 0.556053	valid_1's ndcg@1: 0.452641	valid_1's ndcg@2: 0.492462	valid_1's ndcg@3: 0.522115
-[20]	training's ndcg@1: 0.529179	training's ndcg@2: 0.553571	training's ndcg@3: 0.569402	valid_1's ndcg@1: 0.456857	valid_1's ndcg@2: 0.497818	valid_1's ndcg@3: 0.524833
-[30]	training's ndcg@1: 0.547679	training's ndcg@2: 0.567715	training's ndcg@3: 0.580578	valid_1's ndcg@1: 0.455556	valid_1's ndcg@2: 0.498698	valid_1's ndcg@3: 0.525199
-[40]	training's ndcg@1: 0.566711	training's ndcg@2: 0.581972	training's ndcg@3: 0.591607	valid_1's ndcg@1: 0.458162	valid_1's ndcg@2: 0.499808	valid_1's ndcg@3: 0.527574
-[50]	training's ndcg@1: 0.582392	training's ndcg@2: 0.594421	training's ndcg@3: 0.60124	valid_1's ndcg@1: 0.456137	valid_1's ndcg@2: 0.501589	valid_1's ndcg@3: 0.52874
-[60]	training's ndcg@1: 0.598187	training's ndcg@2: 0.606552	training's ndcg@3: 0.610488	valid_1's ndcg@1: 0.457094	valid_1's ndcg@2: 0.501742	valid_1's ndcg@3: 0.52916
-[70]	training's ndcg@1: 0.612097	training's ndcg@2: 0.617399	training's ndcg@3: 0.619542	valid_1's ndcg@1: 0.456504	valid_1's ndcg@2: 0.500929	valid_1's ndcg@3: 0.527358
-[80]	training's ndcg@1: 0.624641	training's ndcg@2: 0.628077	training's ndcg@3: 0.627574	valid_1's ndcg@1: 0.457031	valid_1's ndcg@2: 0.500332	valid_1's ndcg@3: 0.527812
+[10]	training's ndcg@1: 0.460116	training's ndcg@2: 0.493916	training's ndcg@3: 0.517206	valid_1's ndcg@1: 0.427261	valid_1's ndcg@2: 0.466215	valid_1's ndcg@3: 0.489911
+[20]	training's ndcg@1: 0.477515	training's ndcg@2: 0.507526	training's ndcg@3: 0.528582	valid_1's ndcg@1: 0.431296	valid_1's ndcg@2: 0.469673	valid_1's ndcg@3: 0.495872
+[30]	training's ndcg@1: 0.490643	training's ndcg@2: 0.518467	training's ndcg@3: 0.537452	valid_1's ndcg@1: 0.436869	valid_1's ndcg@2: 0.475165	valid_1's ndcg@3: 0.501994
+[40]	training's ndcg@1: 0.502397	training's ndcg@2: 0.527648	training's ndcg@3: 0.544823	valid_1's ndcg@1: 0.44214	valid_1's ndcg@2: 0.479161	valid_1's ndcg@3: 0.504202
+[50]	training's ndcg@1: 0.512106	training's ndcg@2: 0.535064	training's ndcg@3: 0.551195	valid_1's ndcg@1: 0.444146	valid_1's ndcg@2: 0.48151	valid_1's ndcg@3: 0.507603
+[60]	training's ndcg@1: 0.521488	training's ndcg@2: 0.541911	training's ndcg@3: 0.557325	valid_1's ndcg@1: 0.444695	valid_1's ndcg@2: 0.484531	valid_1's ndcg@3: 0.509239
+[70]	training's ndcg@1: 0.529532	training's ndcg@2: 0.548183	training's ndcg@3: 0.562971	valid_1's ndcg@1: 0.448076	valid_1's ndcg@2: 0.486418	valid_1's ndcg@3: 0.510562
+[80]	training's ndcg@1: 0.537663	training's ndcg@2: 0.554769	training's ndcg@3: 0.568298	valid_1's ndcg@1: 0.449197	valid_1's ndcg@2: 0.487023	valid_1's ndcg@3: 0.51175
+[90]	training's ndcg@1: 0.5452	training's ndcg@2: 0.560821	training's ndcg@3: 0.573212	valid_1's ndcg@1: 0.45109	valid_1's ndcg@2: 0.489498	valid_1's ndcg@3: 0.514194
+[100]	training's ndcg@1: 0.553227	training's ndcg@2: 0.566789	training's ndcg@3: 0.577795	valid_1's ndcg@1: 0.450656	valid_1's ndcg@2: 0.489187	valid_1's ndcg@3: 0.512513
 Early stopping, best iteration is:
-[58]	training's ndcg@1: 0.595311	training's ndcg@2: 0.604053	training's ndcg@3: 0.608642	valid_1's ndcg@1: 0.459066	valid_1's ndcg@2: 0.50194	valid_1's ndcg@3: 0.52977
+[73]	training's ndcg@1: 0.531896	training's ndcg@2: 0.549979	training's ndcg@3: 0.564394	valid_1's ndcg@1: 0.451394	valid_1's ndcg@2: 0.488259	valid_1's ndcg@3: 0.51209
 odds_data.pickle download finish Gilgamesh
+predict_rough_race_data.pickle download finish Local
 
 選択数:1
-単勝 回収率83.25453252755062%
-複勝 回収率85.31461073586904%
-単勝 勝率31.28332740846072%
-複勝 勝率61.55350159971561%
-賭けたレース数5626回
-賭けた金額5626
-mdcd:16.0977
+単勝 回収率87.94681778552751%
+複勝 回収率88.98866608543969%
+単勝 勝率31.865736704446384%
+複勝 勝率63.07759372275501%
+賭けたレース数2294回
+賭けた金額2294
+mdcd:16.6259
