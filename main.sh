@@ -1,4 +1,17 @@
 ## !/bin/bash
+state='test'
+
+while getopts s-: opt; do
+    optarg="${!OPTIND}"
+    [[ "$opt" = - ]] && opt="-${OPTARG}"
+    
+    case ${opt} in
+        s|-state)
+            state="${optarg}"
+            shift
+            ;;
+    esac
+done
 
 . ./function.sh
 OLDIFS=$IFS
@@ -62,6 +75,10 @@ for data in `cat $data_dir/$pickle_info`; do
         cp $sekitoba_data/$pickle $sekitoba_data/$version/$pickle
     fi
 done
+
+if [ "${state}" == "prod" ]; then
+    cp -r "${sekitoba_data}"/"${version}"  "${sekitoba_data}"/prod
+fi
 
 finish
 

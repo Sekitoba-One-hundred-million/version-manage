@@ -46,21 +46,22 @@ predict_netkeiba_pace_data.pickle download finish Gilgamesh
 predict_netkeiba_deployment_data.pickle download finish Gilgamesh
 condition_devi_data.pickle download finish Gilgamesh
 condition_devi_data.pickle download finish Gilgamesh
-condition_devi_data.pickle download finish Gilgamesh
-start rank:1
-start rank:2
 start rank:4
-condition_devi_data.pickle download finish Gilgamesh
+start rank:1
 condition_devi_data.pickle download finish Gilgamesh
 start rank:3
+condition_devi_data.pickle download finish Gilgamesh
 start rank:5
+condition_devi_data.pickle download finish Gilgamesh
+start rank:2
 1-instance.pickle download finish Gilgamesh
 2-instance.pickle download finish Gilgamesh
 3-instance.pickle download finish Gilgamesh
 4-instance.pickle download finish Gilgamesh
 5-instance.pickle download finish Gilgamesh
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.353641 seconds.
-You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Warning] Auto-choosing row-wise multi-threading, the overhead of testing was 0.095576 seconds.
+You can set `force_row_wise=true` to remove the overhead.
+And if memory is not enough, you can set `force_col_wise=true`.
 [LightGBM] [Info] Total Bins 47674
 [LightGBM] [Info] Number of data points in the train set: 564536, number of used features: 263
 [LightGBM] [Info] Start training from score 37.122498
@@ -193,4 +194,4 @@ Training until validation scores don't improve for 30 rounds
 [1260]	training's l2: 1.06623	valid_1's l2: 1.45842
 Early stopping, best iteration is:
 [1236]	training's l2: 1.06939	valid_1's l2: 1.45841
-score: 1.2330058557658363
+score: 1.2330058557658434

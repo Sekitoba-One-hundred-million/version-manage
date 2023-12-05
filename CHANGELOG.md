@@ -1,3 +1,6 @@
+## version 1.28
+add state option
+
 ## version 1.27
 - add predict rough race
 - all model update
