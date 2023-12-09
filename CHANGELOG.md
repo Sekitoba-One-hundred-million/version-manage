@@ -1,3 +1,6 @@
+## version 1.29
+update race_pace score name
+
 ## version 1.28
 add state option
 
