@@ -1,3 +1,7 @@
+## version 1.30
+fix score name
+fix before_diff
+
 ## version 1.29
 update race_pace score name
 
