@@ -45,142 +45,148 @@ up3_true_skill_data.pickle download finish Gilgamesh
 predict_netkeiba_pace_data.pickle download finish Gilgamesh
 predict_netkeiba_deployment_data.pickle download finish Gilgamesh
 condition_devi_data.pickle download finish Gilgamesh
+condition_devi_data.pickle download finish Gilgamesh
+condition_devi_data.pickle download finish Gilgamesh
 start rank:2
 condition_devi_data.pickle download finish Gilgamesh
-start rank:1
-condition_devi_data.pickle download finish Gilgamesh
 start rank:3
-condition_devi_data.pickle download finish Gilgamesh
 start rank:4
 condition_devi_data.pickle download finish Gilgamesh
 start rank:5
+start rank:1
 1-instance.pickle download finish Gilgamesh
 2-instance.pickle download finish Gilgamesh
 3-instance.pickle download finish Gilgamesh
 4-instance.pickle download finish Gilgamesh
 5-instance.pickle download finish Gilgamesh
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.351743 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.364397 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 47698
 [LightGBM] [Info] Number of data points in the train set: 564536, number of used features: 263
 [LightGBM] [Info] Start training from score 37.122498
 Training until validation scores don't improve for 30 rounds
-[10]	training's l2: 3.68762	valid_1's l2: 3.85507
-[20]	training's l2: 3.02282	valid_1's l2: 3.1558
-[30]	training's l2: 2.56507	valid_1's l2: 2.67566
-[40]	training's l2: 2.24443	valid_1's l2: 2.34228
-[50]	training's l2: 2.01983	valid_1's l2: 2.11328
-[60]	training's l2: 1.86075	valid_1's l2: 1.95101
-[70]	training's l2: 1.74718	valid_1's l2: 1.83743
-[80]	training's l2: 1.66271	valid_1's l2: 1.75524
-[90]	training's l2: 1.59966	valid_1's l2: 1.69577
-[100]	training's l2: 1.55137	valid_1's l2: 1.65209
-[110]	training's l2: 1.51435	valid_1's l2: 1.61912
-[120]	training's l2: 1.48545	valid_1's l2: 1.59412
-[130]	training's l2: 1.46245	valid_1's l2: 1.57548
-[140]	training's l2: 1.44311	valid_1's l2: 1.56
-[150]	training's l2: 1.42657	valid_1's l2: 1.54786
-[160]	training's l2: 1.41292	valid_1's l2: 1.53852
-[170]	training's l2: 1.39976	valid_1's l2: 1.53074
-[180]	training's l2: 1.3874	valid_1's l2: 1.52359
-[190]	training's l2: 1.37711	valid_1's l2: 1.51833
-[200]	training's l2: 1.36882	valid_1's l2: 1.51425
-[210]	training's l2: 1.36098	valid_1's l2: 1.51068
-[220]	training's l2: 1.35426	valid_1's l2: 1.5076
-[230]	training's l2: 1.34765	valid_1's l2: 1.50521
-[240]	training's l2: 1.34145	valid_1's l2: 1.50272
-[250]	training's l2: 1.33555	valid_1's l2: 1.50027
-[260]	training's l2: 1.32998	valid_1's l2: 1.49795
-[270]	training's l2: 1.32438	valid_1's l2: 1.49599
-[280]	training's l2: 1.31926	valid_1's l2: 1.4942
-[290]	training's l2: 1.3145	valid_1's l2: 1.49267
-[300]	training's l2: 1.3098	valid_1's l2: 1.49104
-[310]	training's l2: 1.30549	valid_1's l2: 1.48957
-[320]	training's l2: 1.30136	valid_1's l2: 1.4881
-[330]	training's l2: 1.29748	valid_1's l2: 1.48692
-[340]	training's l2: 1.29335	valid_1's l2: 1.48581
-[350]	training's l2: 1.28963	valid_1's l2: 1.48462
-[360]	training's l2: 1.28586	valid_1's l2: 1.48343
-[370]	training's l2: 1.28212	valid_1's l2: 1.48236
-[380]	training's l2: 1.27862	valid_1's l2: 1.48151
-[390]	training's l2: 1.27519	valid_1's l2: 1.48059
-[400]	training's l2: 1.27159	valid_1's l2: 1.47973
-[410]	training's l2: 1.26827	valid_1's l2: 1.47912
-[420]	training's l2: 1.26505	valid_1's l2: 1.47839
-[430]	training's l2: 1.26168	valid_1's l2: 1.47785
-[440]	training's l2: 1.25856	valid_1's l2: 1.4771
-[450]	training's l2: 1.25564	valid_1's l2: 1.4763
-[460]	training's l2: 1.25256	valid_1's l2: 1.47561
-[470]	training's l2: 1.24948	valid_1's l2: 1.47464
-[480]	training's l2: 1.24691	valid_1's l2: 1.47431
-[490]	training's l2: 1.24407	valid_1's l2: 1.47372
-[500]	training's l2: 1.24112	valid_1's l2: 1.47331
-[510]	training's l2: 1.23861	valid_1's l2: 1.47273
-[520]	training's l2: 1.23613	valid_1's l2: 1.47218
-[530]	training's l2: 1.2335	valid_1's l2: 1.47182
-[540]	training's l2: 1.23082	valid_1's l2: 1.47129
-[550]	training's l2: 1.22813	valid_1's l2: 1.47078
-[560]	training's l2: 1.22575	valid_1's l2: 1.47025
-[570]	training's l2: 1.22295	valid_1's l2: 1.4699
-[580]	training's l2: 1.22049	valid_1's l2: 1.46951
-[590]	training's l2: 1.21787	valid_1's l2: 1.46916
-[600]	training's l2: 1.21548	valid_1's l2: 1.46876
-[610]	training's l2: 1.21304	valid_1's l2: 1.46835
-[620]	training's l2: 1.21073	valid_1's l2: 1.46799
-[630]	training's l2: 1.2084	valid_1's l2: 1.46764
-[640]	training's l2: 1.20611	valid_1's l2: 1.46742
-[650]	training's l2: 1.2038	valid_1's l2: 1.46693
-[660]	training's l2: 1.2014	valid_1's l2: 1.46662
-[670]	training's l2: 1.19925	valid_1's l2: 1.4661
-[680]	training's l2: 1.19694	valid_1's l2: 1.46599
-[690]	training's l2: 1.19473	valid_1's l2: 1.46555
-[700]	training's l2: 1.19263	valid_1's l2: 1.46515
-[710]	training's l2: 1.19031	valid_1's l2: 1.46481
-[720]	training's l2: 1.18814	valid_1's l2: 1.46461
-[730]	training's l2: 1.18604	valid_1's l2: 1.46447
-[740]	training's l2: 1.1839	valid_1's l2: 1.46423
-[750]	training's l2: 1.18183	valid_1's l2: 1.46376
-[760]	training's l2: 1.17983	valid_1's l2: 1.46351
-[770]	training's l2: 1.17782	valid_1's l2: 1.46334
-[780]	training's l2: 1.17584	valid_1's l2: 1.4632
-[790]	training's l2: 1.1737	valid_1's l2: 1.4631
-[800]	training's l2: 1.17172	valid_1's l2: 1.46293
-[810]	training's l2: 1.16986	valid_1's l2: 1.46276
-[820]	training's l2: 1.16801	valid_1's l2: 1.46253
-[830]	training's l2: 1.16604	valid_1's l2: 1.4624
-[840]	training's l2: 1.16425	valid_1's l2: 1.46226
-[850]	training's l2: 1.1624	valid_1's l2: 1.46211
-[860]	training's l2: 1.16067	valid_1's l2: 1.46197
-[870]	training's l2: 1.15883	valid_1's l2: 1.462
-[880]	training's l2: 1.15681	valid_1's l2: 1.46182
-[890]	training's l2: 1.15507	valid_1's l2: 1.46161
-[900]	training's l2: 1.1533	valid_1's l2: 1.46145
-[910]	training's l2: 1.15141	valid_1's l2: 1.46127
-[920]	training's l2: 1.1497	valid_1's l2: 1.46115
-[930]	training's l2: 1.14797	valid_1's l2: 1.46098
-[940]	training's l2: 1.14629	valid_1's l2: 1.46097
-[950]	training's l2: 1.1445	valid_1's l2: 1.46091
-[960]	training's l2: 1.1428	valid_1's l2: 1.46091
-[970]	training's l2: 1.141	valid_1's l2: 1.46072
-[980]	training's l2: 1.13934	valid_1's l2: 1.46061
-[990]	training's l2: 1.13749	valid_1's l2: 1.46029
-[1000]	training's l2: 1.13578	valid_1's l2: 1.46014
-[1010]	training's l2: 1.13408	valid_1's l2: 1.46017
-[1020]	training's l2: 1.13246	valid_1's l2: 1.46008
-[1030]	training's l2: 1.13075	valid_1's l2: 1.46011
-[1040]	training's l2: 1.12907	valid_1's l2: 1.46003
-[1050]	training's l2: 1.12738	valid_1's l2: 1.45999
-[1060]	training's l2: 1.12578	valid_1's l2: 1.45983
-[1070]	training's l2: 1.12416	valid_1's l2: 1.45994
-[1080]	training's l2: 1.12257	valid_1's l2: 1.45987
-[1090]	training's l2: 1.12105	valid_1's l2: 1.45982
-[1100]	training's l2: 1.11953	valid_1's l2: 1.45991
-[1110]	training's l2: 1.11783	valid_1's l2: 1.45967
-[1120]	training's l2: 1.11629	valid_1's l2: 1.45956
-[1130]	training's l2: 1.11483	valid_1's l2: 1.45952
-[1140]	training's l2: 1.1133	valid_1's l2: 1.45952
-[1150]	training's l2: 1.11183	valid_1's l2: 1.45954
-[1160]	training's l2: 1.11044	valid_1's l2: 1.45955
+[10]	training's l2: 3.68763	valid_1's l2: 3.85515
+[20]	training's l2: 3.02327	valid_1's l2: 3.15625
+[30]	training's l2: 2.56495	valid_1's l2: 2.67567
+[40]	training's l2: 2.24444	valid_1's l2: 2.34287
+[50]	training's l2: 2.01951	valid_1's l2: 2.11259
+[60]	training's l2: 1.8611	valid_1's l2: 1.95085
+[70]	training's l2: 1.74584	valid_1's l2: 1.83657
+[80]	training's l2: 1.6621	valid_1's l2: 1.75514
+[90]	training's l2: 1.59979	valid_1's l2: 1.69627
+[100]	training's l2: 1.55199	valid_1's l2: 1.65204
+[110]	training's l2: 1.51479	valid_1's l2: 1.61909
+[120]	training's l2: 1.48563	valid_1's l2: 1.59413
+[130]	training's l2: 1.46251	valid_1's l2: 1.57539
+[140]	training's l2: 1.4428	valid_1's l2: 1.55991
+[150]	training's l2: 1.42645	valid_1's l2: 1.54738
+[160]	training's l2: 1.4125	valid_1's l2: 1.53824
+[170]	training's l2: 1.39935	valid_1's l2: 1.52979
+[180]	training's l2: 1.38718	valid_1's l2: 1.52262
+[190]	training's l2: 1.37689	valid_1's l2: 1.51689
+[200]	training's l2: 1.36809	valid_1's l2: 1.5128
+[210]	training's l2: 1.36083	valid_1's l2: 1.50945
+[220]	training's l2: 1.35405	valid_1's l2: 1.50643
+[230]	training's l2: 1.3478	valid_1's l2: 1.50386
+[240]	training's l2: 1.34162	valid_1's l2: 1.50152
+[250]	training's l2: 1.33541	valid_1's l2: 1.4991
+[260]	training's l2: 1.32971	valid_1's l2: 1.49707
+[270]	training's l2: 1.32449	valid_1's l2: 1.49538
+[280]	training's l2: 1.31963	valid_1's l2: 1.49359
+[290]	training's l2: 1.31431	valid_1's l2: 1.49203
+[300]	training's l2: 1.30948	valid_1's l2: 1.49041
+[310]	training's l2: 1.30492	valid_1's l2: 1.48871
+[320]	training's l2: 1.30076	valid_1's l2: 1.48735
+[330]	training's l2: 1.29634	valid_1's l2: 1.48625
+[340]	training's l2: 1.2925	valid_1's l2: 1.48494
+[350]	training's l2: 1.28824	valid_1's l2: 1.48385
+[360]	training's l2: 1.28436	valid_1's l2: 1.48313
+[370]	training's l2: 1.28068	valid_1's l2: 1.48231
+[380]	training's l2: 1.27742	valid_1's l2: 1.48128
+[390]	training's l2: 1.27401	valid_1's l2: 1.48035
+[400]	training's l2: 1.27053	valid_1's l2: 1.47963
+[410]	training's l2: 1.26725	valid_1's l2: 1.47883
+[420]	training's l2: 1.2641	valid_1's l2: 1.47817
+[430]	training's l2: 1.26092	valid_1's l2: 1.47766
+[440]	training's l2: 1.25763	valid_1's l2: 1.47728
+[450]	training's l2: 1.25466	valid_1's l2: 1.47629
+[460]	training's l2: 1.25192	valid_1's l2: 1.47574
+[470]	training's l2: 1.24896	valid_1's l2: 1.47495
+[480]	training's l2: 1.24627	valid_1's l2: 1.47455
+[490]	training's l2: 1.24326	valid_1's l2: 1.47376
+[500]	training's l2: 1.24055	valid_1's l2: 1.47335
+[510]	training's l2: 1.23788	valid_1's l2: 1.47273
+[520]	training's l2: 1.23513	valid_1's l2: 1.47248
+[530]	training's l2: 1.23227	valid_1's l2: 1.47189
+[540]	training's l2: 1.22954	valid_1's l2: 1.47171
+[550]	training's l2: 1.2268	valid_1's l2: 1.47157
+[560]	training's l2: 1.22412	valid_1's l2: 1.47105
+[570]	training's l2: 1.22154	valid_1's l2: 1.47059
+[580]	training's l2: 1.219	valid_1's l2: 1.47045
+[590]	training's l2: 1.21659	valid_1's l2: 1.47008
+[600]	training's l2: 1.2142	valid_1's l2: 1.46978
+[610]	training's l2: 1.21197	valid_1's l2: 1.46928
+[620]	training's l2: 1.20937	valid_1's l2: 1.46873
+[630]	training's l2: 1.207	valid_1's l2: 1.46831
+[640]	training's l2: 1.2048	valid_1's l2: 1.46807
+[650]	training's l2: 1.2024	valid_1's l2: 1.4675
+[660]	training's l2: 1.19998	valid_1's l2: 1.46724
+[670]	training's l2: 1.19777	valid_1's l2: 1.46691
+[680]	training's l2: 1.19549	valid_1's l2: 1.46661
+[690]	training's l2: 1.19341	valid_1's l2: 1.4665
+[700]	training's l2: 1.19126	valid_1's l2: 1.46633
+[710]	training's l2: 1.18906	valid_1's l2: 1.46609
+[720]	training's l2: 1.18702	valid_1's l2: 1.46578
+[730]	training's l2: 1.18488	valid_1's l2: 1.46551
+[740]	training's l2: 1.1826	valid_1's l2: 1.46528
+[750]	training's l2: 1.18066	valid_1's l2: 1.46503
+[760]	training's l2: 1.17864	valid_1's l2: 1.46485
+[770]	training's l2: 1.17669	valid_1's l2: 1.46449
+[780]	training's l2: 1.17462	valid_1's l2: 1.46441
+[790]	training's l2: 1.17261	valid_1's l2: 1.46432
+[800]	training's l2: 1.17071	valid_1's l2: 1.4641
+[810]	training's l2: 1.16882	valid_1's l2: 1.46402
+[820]	training's l2: 1.16688	valid_1's l2: 1.46371
+[830]	training's l2: 1.16498	valid_1's l2: 1.46352
+[840]	training's l2: 1.16309	valid_1's l2: 1.46352
+[850]	training's l2: 1.16129	valid_1's l2: 1.46313
+[860]	training's l2: 1.15956	valid_1's l2: 1.46295
+[870]	training's l2: 1.15776	valid_1's l2: 1.46282
+[880]	training's l2: 1.15596	valid_1's l2: 1.46282
+[890]	training's l2: 1.15416	valid_1's l2: 1.46273
+[900]	training's l2: 1.15214	valid_1's l2: 1.46255
+[910]	training's l2: 1.15032	valid_1's l2: 1.46228
+[920]	training's l2: 1.14863	valid_1's l2: 1.46202
+[930]	training's l2: 1.14699	valid_1's l2: 1.46204
+[940]	training's l2: 1.14523	valid_1's l2: 1.46174
+[950]	training's l2: 1.14346	valid_1's l2: 1.4616
+[960]	training's l2: 1.14178	valid_1's l2: 1.46138
+[970]	training's l2: 1.14009	valid_1's l2: 1.46124
+[980]	training's l2: 1.13833	valid_1's l2: 1.46113
+[990]	training's l2: 1.13665	valid_1's l2: 1.46112
+[1000]	training's l2: 1.13499	valid_1's l2: 1.46092
+[1010]	training's l2: 1.1333	valid_1's l2: 1.46081
+[1020]	training's l2: 1.13171	valid_1's l2: 1.46066
+[1030]	training's l2: 1.12999	valid_1's l2: 1.46061
+[1040]	training's l2: 1.12828	valid_1's l2: 1.46042
+[1050]	training's l2: 1.12661	valid_1's l2: 1.46024
+[1060]	training's l2: 1.12503	valid_1's l2: 1.46013
+[1070]	training's l2: 1.12349	valid_1's l2: 1.46007
+[1080]	training's l2: 1.12183	valid_1's l2: 1.46015
+[1090]	training's l2: 1.12025	valid_1's l2: 1.46
+[1100]	training's l2: 1.11871	valid_1's l2: 1.45984
+[1110]	training's l2: 1.1172	valid_1's l2: 1.45974
+[1120]	training's l2: 1.11558	valid_1's l2: 1.45962
+[1130]	training's l2: 1.11399	valid_1's l2: 1.45939
+[1140]	training's l2: 1.11249	valid_1's l2: 1.45928
+[1150]	training's l2: 1.11102	valid_1's l2: 1.45912
+[1160]	training's l2: 1.10958	valid_1's l2: 1.45899
+[1170]	training's l2: 1.10813	valid_1's l2: 1.45889
+[1180]	training's l2: 1.10663	valid_1's l2: 1.45891
+[1190]	training's l2: 1.10504	valid_1's l2: 1.4588
+[1200]	training's l2: 1.1036	valid_1's l2: 1.45874
+[1210]	training's l2: 1.1022	valid_1's l2: 1.45881
+[1220]	training's l2: 1.10079	valid_1's l2: 1.45882
 Early stopping, best iteration is:
-[1137]	training's l2: 1.11381	valid_1's l2: 1.45944
-score: 1.2496846163006108
+[1194]	training's l2: 1.10445	valid_1's l2: 1.45868
+score: 1.2493268959516508

@@ -1,3 +1,6 @@
+## version 1.31
+fix score in first_passing_rank
+
 ## version 1.30
 fix score name
 fix before_diff
