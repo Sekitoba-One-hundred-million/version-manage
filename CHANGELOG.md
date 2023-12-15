@@ -1,3 +1,6 @@
+## version 1.32
+fix score in last_passing_rank and up3
+
 ## version 1.31
 fix score in first_passing_rank
 
