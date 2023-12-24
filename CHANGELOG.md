@@ -1,4 +1,7 @@
-## version 1.33
+## version 1.35
+update score
+
+## version 1.34
 fic score name
 
 ## version 1.32
