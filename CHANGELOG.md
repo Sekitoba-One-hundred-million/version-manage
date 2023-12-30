@@ -1,3 +1,6 @@
+## version 1.36
+update average and stdev
+
 ## version 1.35
 update score
 

@@ -21,27 +21,36 @@ race_trainer_id_data.pickle download finish Gilgamesh
 true_skill_data.pickle download finish Gilgamesh
 first_passing_true_skill_data.pickle download finish Gilgamesh
 horce_sex_data.pickle download finish Gilgamesh
-start rank:4
+start rank:3
 start rank:1
 start rank:2
-start rank:3
 start rank:5
+start rank:4
+2019106488 31.847723741127776
+2020100400 28.62610405973023
+2017105117 32.38128269819306
+2019103158 21.637844782854057
+2020101640 32.91569879689837
+2020107117 27.167341475857057
+2019103309 24.23086924269178
+2018101497 32.879416484478874
+2020102315 27.952467928617722
 1-instance.pickle download finish Gilgamesh
 2-instance.pickle download finish Gilgamesh
 3-instance.pickle download finish Gilgamesh
 4-instance.pickle download finish Gilgamesh
 5-instance.pickle download finish Gilgamesh
 [LightGBM] [Info] Number of positive: 19485, number of negative: 20218
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.010285 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.009751 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 15676
 [LightGBM] [Info] Number of data points in the train set: 39703, number of used features: 80
 [LightGBM] [Info] [binary:BoostFromScore]: pavg=0.490769 -> initscore=-0.036928
 [LightGBM] [Info] Start training from score -0.036928
 Training until validation scores don't improve for 30 rounds
-[10]	training's binary_logloss: 0.681274	valid_1's binary_logloss: 0.679285
-[20]	training's binary_logloss: 0.672148	valid_1's binary_logloss: 0.669174
+[10]	training's binary_logloss: 0.681486	valid_1's binary_logloss: 0.67951
+[20]	training's binary_logloss: 0.672474	valid_1's binary_logloss: 0.669511
 Did not meet early stopping. Best iteration is:
-[25]	training's binary_logloss: 0.668327	valid_1's binary_logloss: 0.664899
-score: 63.93244873341375
-count: 829
+[20]	training's binary_logloss: 0.672474	valid_1's binary_logloss: 0.669511
+score: 65.28150134048258
+count: 746

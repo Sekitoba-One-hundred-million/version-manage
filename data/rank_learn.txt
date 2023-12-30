@@ -46,11 +46,11 @@ predict_rough_race_data.pickle download finish Gilgamesh
 condition_devi_data.pickle download finish Gilgamesh
 predict_netkeiba_pace_data.pickle download finish Gilgamesh
 predict_netkeiba_deployment_data.pickle download finish Gilgamesh
-start rank:5
+start rank:1
+start rank:4
 start rank:2
 start rank:3
-start rank:4
-start rank:1
+start rank:5
 1-instance.pickle download finish Gilgamesh
 2-instance.pickle download finish Gilgamesh
 3-instance.pickle download finish Gilgamesh
@@ -58,32 +58,37 @@ start rank:1
 5-instance.pickle download finish Gilgamesh
 [LightGBM] [Warning] Unknown parameter: max_position
 [LightGBM] [Warning] Unknown parameter: max_position
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.155512 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.152410 seconds.
 You can set `force_col_wise=true` to remove the overhead.
-[LightGBM] [Info] Total Bins 18238
+[LightGBM] [Info] Total Bins 18196
 [LightGBM] [Info] Number of data points in the train set: 564814, number of used features: 122
 [LightGBM] [Warning] Unknown parameter: max_position
 Training until validation scores don't improve for 30 rounds
-[10]	training's ndcg@1: 0.459414	training's ndcg@2: 0.493923	training's ndcg@3: 0.517254	valid_1's ndcg@1: 0.429775	valid_1's ndcg@2: 0.467443	valid_1's ndcg@3: 0.493918
-[20]	training's ndcg@1: 0.478217	training's ndcg@2: 0.508345	training's ndcg@3: 0.529513	valid_1's ndcg@1: 0.438314	valid_1's ndcg@2: 0.475428	valid_1's ndcg@3: 0.500438
-[30]	training's ndcg@1: 0.491215	training's ndcg@2: 0.519289	training's ndcg@3: 0.53862	valid_1's ndcg@1: 0.441432	valid_1's ndcg@2: 0.479142	valid_1's ndcg@3: 0.504983
-[40]	training's ndcg@1: 0.501962	training's ndcg@2: 0.527211	training's ndcg@3: 0.545765	valid_1's ndcg@1: 0.442523	valid_1's ndcg@2: 0.479854	valid_1's ndcg@3: 0.506942
-[50]	training's ndcg@1: 0.513069	training's ndcg@2: 0.535549	training's ndcg@3: 0.552357	valid_1's ndcg@1: 0.448315	valid_1's ndcg@2: 0.4852	valid_1's ndcg@3: 0.50872
-[60]	training's ndcg@1: 0.522573	training's ndcg@2: 0.542774	training's ndcg@3: 0.558488	valid_1's ndcg@1: 0.449352	valid_1's ndcg@2: 0.487721	valid_1's ndcg@3: 0.509726
-[70]	training's ndcg@1: 0.53132	training's ndcg@2: 0.549126	training's ndcg@3: 0.564193	valid_1's ndcg@1: 0.451451	valid_1's ndcg@2: 0.489128	valid_1's ndcg@3: 0.511692
-[80]	training's ndcg@1: 0.538892	training's ndcg@2: 0.555678	training's ndcg@3: 0.569295	valid_1's ndcg@1: 0.453669	valid_1's ndcg@2: 0.491684	valid_1's ndcg@3: 0.515353
-[90]	training's ndcg@1: 0.546529	training's ndcg@2: 0.561776	training's ndcg@3: 0.574045	valid_1's ndcg@1: 0.454382	valid_1's ndcg@2: 0.492658	valid_1's ndcg@3: 0.515571
-[100]	training's ndcg@1: 0.553382	training's ndcg@2: 0.567751	training's ndcg@3: 0.578845	valid_1's ndcg@1: 0.455878	valid_1's ndcg@2: 0.494226	valid_1's ndcg@3: 0.51787
+[10]	training's ndcg@1: 0.456025	training's ndcg@2: 0.492328	training's ndcg@3: 0.516221	valid_1's ndcg@1: 0.428856	valid_1's ndcg@2: 0.469975	valid_1's ndcg@3: 0.494298
+[20]	training's ndcg@1: 0.477319	training's ndcg@2: 0.50892	training's ndcg@3: 0.530824	valid_1's ndcg@1: 0.437121	valid_1's ndcg@2: 0.475556	valid_1's ndcg@3: 0.501649
+[30]	training's ndcg@1: 0.491215	training's ndcg@2: 0.520451	training's ndcg@3: 0.540863	valid_1's ndcg@1: 0.439474	valid_1's ndcg@2: 0.479607	valid_1's ndcg@3: 0.507232
+[40]	training's ndcg@1: 0.502012	training's ndcg@2: 0.529513	training's ndcg@3: 0.549053	valid_1's ndcg@1: 0.445984	valid_1's ndcg@2: 0.483287	valid_1's ndcg@3: 0.51077
+[50]	training's ndcg@1: 0.512522	training's ndcg@2: 0.53745	training's ndcg@3: 0.556086	valid_1's ndcg@1: 0.450442	valid_1's ndcg@2: 0.485718	valid_1's ndcg@3: 0.514306
+[60]	training's ndcg@1: 0.521688	training's ndcg@2: 0.544442	training's ndcg@3: 0.561892	valid_1's ndcg@1: 0.451694	valid_1's ndcg@2: 0.488571	valid_1's ndcg@3: 0.516663
+[70]	training's ndcg@1: 0.532212	training's ndcg@2: 0.551983	training's ndcg@3: 0.568123	valid_1's ndcg@1: 0.455674	valid_1's ndcg@2: 0.492633	valid_1's ndcg@3: 0.518345
+[80]	training's ndcg@1: 0.540051	training's ndcg@2: 0.558901	training's ndcg@3: 0.573318	valid_1's ndcg@1: 0.456172	valid_1's ndcg@2: 0.494251	valid_1's ndcg@3: 0.518154
+[90]	training's ndcg@1: 0.548534	training's ndcg@2: 0.565266	training's ndcg@3: 0.57848	valid_1's ndcg@1: 0.454953	valid_1's ndcg@2: 0.493558	valid_1's ndcg@3: 0.518447
+[100]	training's ndcg@1: 0.557325	training's ndcg@2: 0.571634	training's ndcg@3: 0.583623	valid_1's ndcg@1: 0.456028	valid_1's ndcg@2: 0.494785	valid_1's ndcg@3: 0.518373
+[110]	training's ndcg@1: 0.564653	training's ndcg@2: 0.577138	training's ndcg@3: 0.58866	valid_1's ndcg@1: 0.463069	valid_1's ndcg@2: 0.496741	valid_1's ndcg@3: 0.521176
+[120]	training's ndcg@1: 0.571461	training's ndcg@2: 0.582604	training's ndcg@3: 0.59309	valid_1's ndcg@1: 0.462837	valid_1's ndcg@2: 0.497346	valid_1's ndcg@3: 0.521041
+[130]	training's ndcg@1: 0.578411	training's ndcg@2: 0.588096	training's ndcg@3: 0.597472	valid_1's ndcg@1: 0.463537	valid_1's ndcg@2: 0.497854	valid_1's ndcg@3: 0.521657
+[140]	training's ndcg@1: 0.585286	training's ndcg@2: 0.593096	training's ndcg@3: 0.60163	valid_1's ndcg@1: 0.462594	valid_1's ndcg@2: 0.497332	valid_1's ndcg@3: 0.521799
+[150]	training's ndcg@1: 0.591379	training's ndcg@2: 0.598292	training's ndcg@3: 0.605985	valid_1's ndcg@1: 0.462233	valid_1's ndcg@2: 0.49714	valid_1's ndcg@3: 0.521418
 Early stopping, best iteration is:
-[78]	training's ndcg@1: 0.53776	training's ndcg@2: 0.554475	training's ndcg@3: 0.568393	valid_1's ndcg@1: 0.457377	valid_1's ndcg@2: 0.492165	valid_1's ndcg@3: 0.514895
+[125]	training's ndcg@1: 0.575429	training's ndcg@2: 0.585674	training's ndcg@3: 0.59534	valid_1's ndcg@1: 0.465257	valid_1's ndcg@2: 0.498498	valid_1's ndcg@3: 0.521425
 odds_data.pickle download finish Gilgamesh
 predict_rough_race_data.pickle download finish Local
 
 選択数:1
-単勝 回収率91.42545771578037%
-複勝 回収率88.70531822144679%
-単勝 勝率32.476024411508284%
-複勝 勝率62.72885789014821%
+単勝 回収率92.92066259808199%
+複勝 回収率91.46904969485541%
+単勝 勝率33.04272013949433%
+複勝 勝率64.38535309503052%
 賭けたレース数2294回
 賭けた金額2294
-mdcd:16.6168
+mdcd:16.0714
