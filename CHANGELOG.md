@@ -1,3 +1,6 @@
+## version 1.37
+update sekitoba-update
+
 ## version 1.36
 update average and stdev
 
