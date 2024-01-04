@@ -1,3 +1,6 @@
+## version 1.38
+fix pickle search in shell
+
 ## version 1.37
 update sekitoba-update
 

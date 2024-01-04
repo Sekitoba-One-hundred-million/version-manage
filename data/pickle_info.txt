@@ -3,11 +3,15 @@
 3-instance.pickle None
 4-instance.pickle None
 5-instance.pickle None
+Gilgamesh None
+Local None
 baba_index_data.pickle sekitoba_data_collect/baba_index_get.py
 condition_devi_data.pickle sekitoba_data_collect/condition_devi_get.py
 corner_horce_body.pickle sekitoba_use_data/corner_horse_body.py
 corner_rank_data.pickle sekitoba_data_collect/corner_rank_collect.py
 corner_true_skill_data.pickle sekitoba_use_data/corner_true_skill_create.py
+download None
+finish None
 first_corner_rank.pickle sekitoba_use_data/first_corner_rank.py
 first_passing_true_skill_data.pickle sekitoba_use_data/first_passing_true_skill_create.py
 first_up3_halon.pickle sekitoba_data_collect/first_up3_collect.py
@@ -31,8 +35,8 @@ parent_id_data.pickle sekitoba_data_collect/parent_data_collect.py
 popular_kind_win_rate_data.pickle sekitoba_use_data/popular_kind_win_rate.py
 predict_first_passing_rank.pickle None
 predict_last_passing_rank.pickle None
-predict_netkeiba_deployment_data.pickle None
-predict_netkeiba_pace_data.pickle None
+predict_netkeiba_deployment_data.pickle sekitoba_data_collect/predict_netkeiba_deployment.py
+predict_netkeiba_pace_data.pickle sekitoba_data_collect/predict_netkeiba_pace.py
 predict_pace_data.pickle None
 predict_rough_race_data.pickle None
 predict_train_score.pickle None
@@ -62,7 +66,6 @@ trainer_judgment_rate_data.pickle sekitoba_use_data/trainer_judgment_rate.py
 trainer_judgment_up3_data.pickle sekitoba_use_data/trainer_judgment_up3.py
 true_skill_data.pickle sekitoba_use_data/true_skill_create.py
 up3_analyze_data.pickle sekitoba_use_data/up3_analyze.py
-up3_ave_data.pickle None
 up3_true_skill_data.pickle sekitoba_use_data/up3_true_skill_create.py
 up_average.pickle None
 up_kind_ave_data.pickle sekitoba_use_data/up_kind_ave.py

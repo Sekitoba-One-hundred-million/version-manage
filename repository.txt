@@ -1,10 +1,10 @@
-rough_race ./main.sh -t 2 -s prod
-race_pace_simulation ./main.sh -t 2 -s prod
-train_score ./main.sh -t 2 -s prod
-first_passing_rank ./main.sh -t 2 -s prod
-last_passing_rank ./main.sh -t 2 -s prod
-up3 ./main.sh -t 2 -s prod
-rank_learn ./main.sh -t 2 -s prod
+rough_race ./main.sh -t 2
+race_pace_simulation ./main.sh -t 2
+train_score ./main.sh -t 2
+first_passing_rank ./main.sh -t 2
+last_passing_rank ./main.sh -t 2
+up3 ./main.sh -t 2
+rank_learn ./main.sh -t 2
 sekitoba_data_collect
 sekitoba_use_data
 sekitoba_library

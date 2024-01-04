@@ -14,7 +14,7 @@ cp ${pickle_txt} ${pickle_txt}.instance
 IFS=$'\n'
 for data in `cat ${data_dir}/${pickle_info}`; do
     IFS=$OLDIFS
-    data_array=($data)
+    data_array=(${data})
     pickle=${data_array[0]}
     file_name=${data_array[1]}
     
@@ -23,7 +23,7 @@ for data in `cat ${data_dir}/${pickle_info}`; do
     fi
 
     for grep_data in `cat ${file_name} | grep -e pickle_load -e data_get`; do
-        grep_sed_data=`echo ${grep_data} | sed 's/\"/ /g'`
+        grep_sed_data=`echo ${grep_data} | sed "s/\"/ /g" | sed "s/\'/ /g"`
         array=(${grep_sed_data})
 
         for str_data in "${array[@]}"; do
@@ -32,7 +32,6 @@ for data in `cat ${data_dir}/${pickle_info}`; do
 
                 # not found
                 if [ $? -eq 1 ]; then
-                    #echo ${str_data}
                     echo ${str_data} >> ${pickle_txt}.instance 
                 fi
             fi
