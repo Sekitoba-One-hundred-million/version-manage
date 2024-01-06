@@ -46,11 +46,11 @@ predict_rough_race_data.pickle download finish Gilgamesh
 condition_devi_data.pickle download finish Gilgamesh
 predict_netkeiba_pace_data.pickle download finish Gilgamesh
 predict_netkeiba_deployment_data.pickle download finish Gilgamesh
-start rank:4
-start rank:3
-start rank:5
 start rank:2
+start rank:3
+start rank:4
 start rank:1
+start rank:5
 1-instance.pickle download finish Gilgamesh
 2-instance.pickle download finish Gilgamesh
 3-instance.pickle download finish Gilgamesh
@@ -58,7 +58,7 @@ start rank:1
 5-instance.pickle download finish Gilgamesh
 [LightGBM] [Warning] Unknown parameter: max_position
 [LightGBM] [Warning] Unknown parameter: max_position
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.157382 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.159404 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 18113
 [LightGBM] [Info] Number of data points in the train set: 564814, number of used features: 122
@@ -89,8 +89,8 @@ odds_data.pickle download finish Gilgamesh
 predict_rough_race_data.pickle download finish Local
 
 選択数:1
-単勝 回収率88.1658841940532%
-複勝 回収率88.2190923317676%
+単勝 回収率88.16588419405322%
+複勝 回収率88.21909233176768%
 単勝 勝率32.05007824726135%
 複勝 勝率62.84820031298904%
 賭けたレース数3195回

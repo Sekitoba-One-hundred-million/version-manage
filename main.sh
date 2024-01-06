@@ -47,7 +47,7 @@ for line in `cat "${repository_txt}"`; do
 
         while read data; do
             if [[ "${data}" =~ 'download' ]]; then
-                data=("${data}")
+                data=(${data})
                 echo "${data[0]}" >> "${pickle_txt}"
             fi
         done < "${data_dir}/${repository}.txt"

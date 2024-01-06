@@ -3,15 +3,11 @@
 3-instance.pickle None
 4-instance.pickle None
 5-instance.pickle None
-Gilgamesh None
-Local None
 baba_index_data.pickle sekitoba_data_collect/baba_index_get.py
 condition_devi_data.pickle sekitoba_data_collect/condition_devi_get.py
 corner_horce_body.pickle sekitoba_use_data/corner_horse_body.py
 corner_rank_data.pickle sekitoba_data_collect/corner_rank_collect.py
 corner_true_skill_data.pickle sekitoba_use_data/corner_true_skill_create.py
-download None
-finish None
 first_corner_rank.pickle sekitoba_use_data/first_corner_rank.py
 first_passing_true_skill_data.pickle sekitoba_use_data/first_passing_true_skill_create.py
 first_up3_halon.pickle sekitoba_data_collect/first_up3_collect.py

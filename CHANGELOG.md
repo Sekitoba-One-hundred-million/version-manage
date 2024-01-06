@@ -1,3 +1,6 @@
+## version 1.39
+fix pickle shell
+
 ## version 1.38
 fix pickle search in shell
 
