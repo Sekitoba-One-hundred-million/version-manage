@@ -21,36 +21,27 @@ race_trainer_id_data.pickle download finish Gilgamesh
 true_skill_data.pickle download finish Gilgamesh
 first_passing_true_skill_data.pickle download finish Gilgamesh
 horce_sex_data.pickle download finish Gilgamesh
-start rank:4
-start rank:3
 start rank:1
+start rank:4
 start rank:5
+start rank:3
 start rank:2
-2019106488 31.862492105637944
-2020100400 28.343608254121744
-2017105117 32.56430596711278
-2019103158 21.61764833400538
-2020101640 32.80365136149641
-2020107117 26.896506696183398
-2019103309 24.207176801362003
-2018101497 32.88241769542874
-2020102315 28.009218571992513
 1-instance.pickle download finish Gilgamesh
 2-instance.pickle download finish Gilgamesh
 3-instance.pickle download finish Gilgamesh
 4-instance.pickle download finish Gilgamesh
 5-instance.pickle download finish Gilgamesh
-[LightGBM] [Info] Number of positive: 19485, number of negative: 20218
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.010250 seconds.
+[LightGBM] [Info] Number of positive: 19549, number of negative: 20257
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.014167 seconds.
 You can set `force_col_wise=true` to remove the overhead.
-[LightGBM] [Info] Total Bins 15676
-[LightGBM] [Info] Number of data points in the train set: 39703, number of used features: 80
-[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.490769 -> initscore=-0.036928
-[LightGBM] [Info] Start training from score -0.036928
+[LightGBM] [Info] Total Bins 15670
+[LightGBM] [Info] Number of data points in the train set: 39806, number of used features: 80
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.491107 -> initscore=-0.035576
+[LightGBM] [Info] Start training from score -0.035576
 Training until validation scores don't improve for 30 rounds
-[10]	training's binary_logloss: 0.682017	valid_1's binary_logloss: 0.680142
-[20]	training's binary_logloss: 0.673327	valid_1's binary_logloss: 0.670492
+[10]	training's binary_logloss: 0.681985	valid_1's binary_logloss: 0.680127
+[20]	training's binary_logloss: 0.673264	valid_1's binary_logloss: 0.670457
 Did not meet early stopping. Best iteration is:
-[20]	training's binary_logloss: 0.673327	valid_1's binary_logloss: 0.670492
-score: 66.35249764373233
-count: 1061
+[20]	training's binary_logloss: 0.673264	valid_1's binary_logloss: 0.670457
+score: 65.98130841121495
+count: 1070

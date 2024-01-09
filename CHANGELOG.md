@@ -1,3 +1,6 @@
+## version 1.40
+fix race_check
+
 ## version 1.39
 fix pickle shell
 

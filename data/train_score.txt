@@ -15,11 +15,12 @@ next_race_data.pickle download finish Gilgamesh
 race_data.pickle download finish Gilgamesh
 race_info_data.pickle download finish Gilgamesh
 horce_data_storage.pickle download finish Gilgamesh
-start rank:4
+race_day.pickle download finish Gilgamesh
+start rank:5
 start rank:2
 start rank:1
+start rank:4
 start rank:3
-start rank:5
 1-instance.pickle download finish Gilgamesh
 2-instance.pickle download finish Gilgamesh
 3-instance.pickle download finish Gilgamesh
@@ -27,26 +28,23 @@ start rank:5
 5-instance.pickle download finish Gilgamesh
 [LightGBM] [Warning] Unknown parameter: max_position
 [LightGBM] [Warning] Unknown parameter: max_position
-[LightGBM] [Warning] Auto-choosing row-wise multi-threading, the overhead of testing was 0.004702 seconds.
-You can set `force_row_wise=true` to remove the overhead.
-And if memory is not enough, you can set `force_col_wise=true`.
-[LightGBM] [Info] Total Bins 5020
-[LightGBM] [Info] Number of data points in the train set: 570344, number of used features: 20
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.031783 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 5021
+[LightGBM] [Info] Number of data points in the train set: 570343, number of used features: 20
 [LightGBM] [Warning] Unknown parameter: max_position
 Training until validation scores don't improve for 30 rounds
-[10]	training's ndcg@1: 0.237294	training's ndcg@2: 0.266537	training's ndcg@3: 0.290778	valid_1's ndcg@1: 0.224223	valid_1's ndcg@2: 0.257874	valid_1's ndcg@3: 0.287439
-[20]	training's ndcg@1: 0.249852	training's ndcg@2: 0.275709	training's ndcg@3: 0.298751	valid_1's ndcg@1: 0.226232	valid_1's ndcg@2: 0.261468	valid_1's ndcg@3: 0.290832
-[30]	training's ndcg@1: 0.25773	training's ndcg@2: 0.282101	training's ndcg@3: 0.305093	valid_1's ndcg@1: 0.227495	valid_1's ndcg@2: 0.264044	valid_1's ndcg@3: 0.291628
-[40]	training's ndcg@1: 0.266005	training's ndcg@2: 0.287535	training's ndcg@3: 0.31019	valid_1's ndcg@1: 0.233586	valid_1's ndcg@2: 0.267008	valid_1's ndcg@3: 0.295996
-[50]	training's ndcg@1: 0.274162	training's ndcg@2: 0.294736	training's ndcg@3: 0.31563	valid_1's ndcg@1: 0.233519	valid_1's ndcg@2: 0.268648	valid_1's ndcg@3: 0.294748
-[60]	training's ndcg@1: 0.28189	training's ndcg@2: 0.300676	training's ndcg@3: 0.320748	valid_1's ndcg@1: 0.233095	valid_1's ndcg@2: 0.268366	valid_1's ndcg@3: 0.293477
-[70]	training's ndcg@1: 0.289274	training's ndcg@2: 0.307282	training's ndcg@3: 0.325945	valid_1's ndcg@1: 0.231412	valid_1's ndcg@2: 0.268163	valid_1's ndcg@3: 0.294514
+[10]	training's ndcg@1: 0.236138	training's ndcg@2: 0.264971	training's ndcg@3: 0.29017	valid_1's ndcg@1: 0.230596	valid_1's ndcg@2: 0.263196	valid_1's ndcg@3: 0.292135
+[20]	training's ndcg@1: 0.248389	training's ndcg@2: 0.2744	training's ndcg@3: 0.297871	valid_1's ndcg@1: 0.233407	valid_1's ndcg@2: 0.262533	valid_1's ndcg@3: 0.291333
+[30]	training's ndcg@1: 0.257258	training's ndcg@2: 0.281195	training's ndcg@3: 0.304039	valid_1's ndcg@1: 0.233829	valid_1's ndcg@2: 0.264579	valid_1's ndcg@3: 0.292564
+[40]	training's ndcg@1: 0.264114	training's ndcg@2: 0.287138	training's ndcg@3: 0.308955	valid_1's ndcg@1: 0.232445	valid_1's ndcg@2: 0.263829	valid_1's ndcg@3: 0.291263
+[50]	training's ndcg@1: 0.272359	training's ndcg@2: 0.293934	training's ndcg@3: 0.314446	valid_1's ndcg@1: 0.233276	valid_1's ndcg@2: 0.264967	valid_1's ndcg@3: 0.29191
 Early stopping, best iteration is:
-[40]	training's ndcg@1: 0.266005	training's ndcg@2: 0.287535	training's ndcg@3: 0.31019	valid_1's ndcg@1: 0.233586	valid_1's ndcg@2: 0.267008	valid_1's ndcg@3: 0.295996
+[25]	training's ndcg@1: 0.251431	training's ndcg@2: 0.277851	training's ndcg@3: 0.300508	valid_1's ndcg@1: 0.2335	valid_1's ndcg@2: 0.265315	valid_1's ndcg@3: 0.293574
 odds_data.pickle download finish Gilgamesh
 
-単勝 回収率84.05413718855743%
-複勝 回収率84.9277145493694%
-単勝 勝率13.749615502922177%
-複勝 勝率34.32789910796678%
+単勝 回収率87.19470932020918%
+複勝 回収率86.77022454629335%
+単勝 勝率12.734543217471547%
+複勝 勝率33.95878191325746%
 賭けた回数3251回
