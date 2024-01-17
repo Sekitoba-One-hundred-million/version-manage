@@ -21,18 +21,18 @@ race_trainer_id_data.pickle download finish Gilgamesh
 true_skill_data.pickle download finish Gilgamesh
 first_passing_true_skill_data.pickle download finish Gilgamesh
 horce_sex_data.pickle download finish Gilgamesh
-start rank:1
-start rank:4
 start rank:5
-start rank:3
+start rank:1
 start rank:2
+start rank:4
+start rank:3
 1-instance.pickle download finish Gilgamesh
 2-instance.pickle download finish Gilgamesh
 3-instance.pickle download finish Gilgamesh
 4-instance.pickle download finish Gilgamesh
 5-instance.pickle download finish Gilgamesh
 [LightGBM] [Info] Number of positive: 19549, number of negative: 20257
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.014167 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.009091 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 15670
 [LightGBM] [Info] Number of data points in the train set: 39806, number of used features: 80
@@ -43,5 +43,5 @@ Training until validation scores don't improve for 30 rounds
 [20]	training's binary_logloss: 0.673264	valid_1's binary_logloss: 0.670457
 Did not meet early stopping. Best iteration is:
 [20]	training's binary_logloss: 0.673264	valid_1's binary_logloss: 0.670457
-score: 65.98130841121495
-count: 1070
+score: 66.27056672760511
+count: 1094
