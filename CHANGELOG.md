@@ -1,3 +1,6 @@
+## version 1.42
+update rank model
+
 ## version 1.41
 fix first_up3
 
