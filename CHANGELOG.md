@@ -1,3 +1,6 @@
+## version 1.43
+remove condition_devi
+
 ## version 1.42
 update rank model
 

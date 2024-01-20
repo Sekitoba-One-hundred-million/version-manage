@@ -43,14 +43,13 @@ predict_up3.pickle download finish Gilgamesh
 popular_kind_win_rate_data.pickle download finish Gilgamesh
 flame_evaluation_data.pickle download finish Gilgamesh
 predict_rough_race_data.pickle download finish Gilgamesh
-condition_devi_data.pickle download finish Gilgamesh
 predict_netkeiba_pace_data.pickle download finish Gilgamesh
 predict_netkeiba_deployment_data.pickle download finish Gilgamesh
 start rank:2
 start rank:1
-start rank:4
 start rank:5
 start rank:3
+start rank:4
 1-instance.pickle download finish Gilgamesh
 2-instance.pickle download finish Gilgamesh
 3-instance.pickle download finish Gilgamesh
@@ -58,37 +57,37 @@ start rank:3
 5-instance.pickle download finish Gilgamesh
 [LightGBM] [Warning] Unknown parameter: max_position
 [LightGBM] [Warning] Unknown parameter: max_position
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.218926 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.213550 seconds.
 You can set `force_col_wise=true` to remove the overhead.
-[LightGBM] [Info] Total Bins 18074
-[LightGBM] [Info] Number of data points in the train set: 564813, number of used features: 122
+[LightGBM] [Info] Total Bins 17493
+[LightGBM] [Info] Number of data points in the train set: 564813, number of used features: 118
 [LightGBM] [Warning] Unknown parameter: max_position
 Training until validation scores don't improve for 30 rounds
-[10]	training's ndcg@1: 0.44694	training's ndcg@2: 0.485141	training's ndcg@3: 0.510021	valid_1's ndcg@1: 0.425834	valid_1's ndcg@2: 0.465808	valid_1's ndcg@3: 0.491467
-[20]	training's ndcg@1: 0.468102	training's ndcg@2: 0.502244	training's ndcg@3: 0.523876	valid_1's ndcg@1: 0.43525	valid_1's ndcg@2: 0.475813	valid_1's ndcg@3: 0.499678
-[30]	training's ndcg@1: 0.480495	training's ndcg@2: 0.513052	training's ndcg@3: 0.533703	valid_1's ndcg@1: 0.445015	valid_1's ndcg@2: 0.481688	valid_1's ndcg@3: 0.507091
-[40]	training's ndcg@1: 0.492423	training's ndcg@2: 0.522294	training's ndcg@3: 0.541717	valid_1's ndcg@1: 0.443814	valid_1's ndcg@2: 0.482733	valid_1's ndcg@3: 0.510194
-[50]	training's ndcg@1: 0.502315	training's ndcg@2: 0.529563	training's ndcg@3: 0.548361	valid_1's ndcg@1: 0.447781	valid_1's ndcg@2: 0.485518	valid_1's ndcg@3: 0.511784
-[60]	training's ndcg@1: 0.511303	training's ndcg@2: 0.53624	training's ndcg@3: 0.553794	valid_1's ndcg@1: 0.45201	valid_1's ndcg@2: 0.488583	valid_1's ndcg@3: 0.51473
-[70]	training's ndcg@1: 0.520601	training's ndcg@2: 0.543146	training's ndcg@3: 0.559379	valid_1's ndcg@1: 0.455743	valid_1's ndcg@2: 0.49217	valid_1's ndcg@3: 0.517086
-[80]	training's ndcg@1: 0.529192	training's ndcg@2: 0.549004	training's ndcg@3: 0.56467	valid_1's ndcg@1: 0.451211	valid_1's ndcg@2: 0.489997	valid_1's ndcg@3: 0.515468
-[90]	training's ndcg@1: 0.536852	training's ndcg@2: 0.555034	training's ndcg@3: 0.569442	valid_1's ndcg@1: 0.456358	valid_1's ndcg@2: 0.491876	valid_1's ndcg@3: 0.517926
-[100]	training's ndcg@1: 0.544575	training's ndcg@2: 0.561153	training's ndcg@3: 0.574553	valid_1's ndcg@1: 0.457656	valid_1's ndcg@2: 0.491986	valid_1's ndcg@3: 0.5184
-[110]	training's ndcg@1: 0.551474	training's ndcg@2: 0.56649	training's ndcg@3: 0.578996	valid_1's ndcg@1: 0.457772	valid_1's ndcg@2: 0.492641	valid_1's ndcg@3: 0.518479
-[120]	training's ndcg@1: 0.558372	training's ndcg@2: 0.572058	training's ndcg@3: 0.58355	valid_1's ndcg@1: 0.461216	valid_1's ndcg@2: 0.49378	valid_1's ndcg@3: 0.520725
-[130]	training's ndcg@1: 0.56381	training's ndcg@2: 0.577163	training's ndcg@3: 0.587368	valid_1's ndcg@1: 0.46114	valid_1's ndcg@2: 0.492738	valid_1's ndcg@3: 0.520224
-[140]	training's ndcg@1: 0.569052	training's ndcg@2: 0.581568	training's ndcg@3: 0.590916	valid_1's ndcg@1: 0.459949	valid_1's ndcg@2: 0.493938	valid_1's ndcg@3: 0.521545
-[150]	training's ndcg@1: 0.575114	training's ndcg@2: 0.586199	training's ndcg@3: 0.594446	valid_1's ndcg@1: 0.460902	valid_1's ndcg@2: 0.493446	valid_1's ndcg@3: 0.521154
+[10]	training's ndcg@1: 0.448685	training's ndcg@2: 0.487072	training's ndcg@3: 0.51095	valid_1's ndcg@1: 0.430297	valid_1's ndcg@2: 0.46785	valid_1's ndcg@3: 0.493729
+[20]	training's ndcg@1: 0.469482	training's ndcg@2: 0.503147	training's ndcg@3: 0.524769	valid_1's ndcg@1: 0.438236	valid_1's ndcg@2: 0.476821	valid_1's ndcg@3: 0.502303
+[30]	training's ndcg@1: 0.48264	training's ndcg@2: 0.513768	training's ndcg@3: 0.534749	valid_1's ndcg@1: 0.447256	valid_1's ndcg@2: 0.482489	valid_1's ndcg@3: 0.509428
+[40]	training's ndcg@1: 0.493463	training's ndcg@2: 0.522745	training's ndcg@3: 0.542157	valid_1's ndcg@1: 0.443917	valid_1's ndcg@2: 0.483028	valid_1's ndcg@3: 0.510166
+[50]	training's ndcg@1: 0.503771	training's ndcg@2: 0.530859	training's ndcg@3: 0.549281	valid_1's ndcg@1: 0.450678	valid_1's ndcg@2: 0.486556	valid_1's ndcg@3: 0.514833
+[60]	training's ndcg@1: 0.513986	training's ndcg@2: 0.538773	training's ndcg@3: 0.555861	valid_1's ndcg@1: 0.453371	valid_1's ndcg@2: 0.487629	valid_1's ndcg@3: 0.51578
+[70]	training's ndcg@1: 0.522915	training's ndcg@2: 0.54586	training's ndcg@3: 0.561626	valid_1's ndcg@1: 0.452598	valid_1's ndcg@2: 0.489254	valid_1's ndcg@3: 0.516814
+[80]	training's ndcg@1: 0.531293	training's ndcg@2: 0.551784	training's ndcg@3: 0.56696	valid_1's ndcg@1: 0.453971	valid_1's ndcg@2: 0.490571	valid_1's ndcg@3: 0.517747
+[90]	training's ndcg@1: 0.537937	training's ndcg@2: 0.55742	training's ndcg@3: 0.571469	valid_1's ndcg@1: 0.454235	valid_1's ndcg@2: 0.490947	valid_1's ndcg@3: 0.517591
+[100]	training's ndcg@1: 0.545035	training's ndcg@2: 0.563239	training's ndcg@3: 0.576101	valid_1's ndcg@1: 0.456579	valid_1's ndcg@2: 0.492405	valid_1's ndcg@3: 0.518585
+[110]	training's ndcg@1: 0.55246	training's ndcg@2: 0.568717	training's ndcg@3: 0.580829	valid_1's ndcg@1: 0.457831	valid_1's ndcg@2: 0.493137	valid_1's ndcg@3: 0.520302
+[120]	training's ndcg@1: 0.558978	training's ndcg@2: 0.573986	training's ndcg@3: 0.585184	valid_1's ndcg@1: 0.456846	valid_1's ndcg@2: 0.494127	valid_1's ndcg@3: 0.520472
+[130]	training's ndcg@1: 0.565411	training's ndcg@2: 0.578876	training's ndcg@3: 0.588982	valid_1's ndcg@1: 0.459273	valid_1's ndcg@2: 0.493907	valid_1's ndcg@3: 0.521673
+[140]	training's ndcg@1: 0.571098	training's ndcg@2: 0.583573	training's ndcg@3: 0.592847	valid_1's ndcg@1: 0.459597	valid_1's ndcg@2: 0.49319	valid_1's ndcg@3: 0.520428
+[150]	training's ndcg@1: 0.576137	training's ndcg@2: 0.587669	training's ndcg@3: 0.596095	valid_1's ndcg@1: 0.45852	valid_1's ndcg@2: 0.492609	valid_1's ndcg@3: 0.520167
 Early stopping, best iteration is:
-[127]	training's ndcg@1: 0.562289	training's ndcg@2: 0.575467	training's ndcg@3: 0.586083	valid_1's ndcg@1: 0.463171	valid_1's ndcg@2: 0.49349	valid_1's ndcg@3: 0.521027
+[125]	training's ndcg@1: 0.562413	training's ndcg@2: 0.576098	training's ndcg@3: 0.587091	valid_1's ndcg@1: 0.459618	valid_1's ndcg@2: 0.49523	valid_1's ndcg@3: 0.521384
 odds_data.pickle download finish Gilgamesh
 predict_rough_race_data.pickle download finish Local
 
 選択数:1
-単勝 回収率87.93712574850308%
-複勝 回収率88.00299401197529%
-単勝 勝率32.33532934131736%
-複勝 勝率62.814371257485035%
+単勝 回収率87.58383233532953%
+複勝 回収率87.77844311377166%
+単勝 勝率32.035928143712574%
+複勝 勝率62.514970059880234%
 賭けたレース数3340回
 賭けた金額3340
-mdcd:16.2223
+mdcd:16.2615
