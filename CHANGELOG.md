@@ -1,3 +1,6 @@
+## version 1.44
+fix jockey rank
+
 ## version 1.43
 remove condition_devi
 
