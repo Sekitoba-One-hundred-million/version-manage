@@ -1,5 +1,6 @@
 ## !/bin/bash
 state='test'
+core=3
 
 while getopts s-: opt; do
     optarg="${!OPTIND}"
@@ -8,6 +9,10 @@ while getopts s-: opt; do
     case ${opt} in
         s|-state)
             state="${optarg}"
+            shift
+            ;;
+        c|-core)
+            core="${optarg}"
             shift
             ;;
     esac
@@ -39,6 +44,7 @@ for line in `cat "${repository_txt}"`; do
             let i++
         done
 
+        command+=" --core ${core}"
         echo "start ${repository}"
         git_clone "${repository}"
         cd "${repository}"
@@ -61,8 +67,8 @@ done
 # pickle作成に必要なファイルの算出
 ./pickle_search.sh
 
-for model in `cat "${model_txt}"`; do
-    echo "${model} None" >> "${data_dir}/${pickle_info}"
+for prod_data in `cat "${prod_data_txt}"`; do
+    echo "${prod_data} None" >> "${data_dir}/${pickle_info}"
 done
 
 IFS=$'\n'
