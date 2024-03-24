@@ -1,43 +1,36 @@
-standard_time.pickle download finish Gilgamesh
-up_average.pickle download finish Gilgamesh
-up_pace_regressin.pickle download finish Gilgamesh
-up_kind_ave_data.pickle download finish Gilgamesh
-money_class_true_skill_data.pickle download finish Gilgamesh
-race_ave_true_skill.pickle download finish Gilgamesh
-race_money_data.pickle download finish Gilgamesh
-race_time_analyze_data.pickle download finish Gilgamesh
-up3_analyze_data.pickle download finish Gilgamesh
 train_time_data.pickle download finish Gilgamesh
 train_ave_data.pickle download finish Gilgamesh
 train_ave_key_data.pickle download finish Gilgamesh
-race_rank_data.pickle download finish Gilgamesh
+race_money_data.pickle download finish Gilgamesh
 next_race_data.pickle download finish Gilgamesh
-race_data.pickle download finish Gilgamesh
-race_info_data.pickle download finish Gilgamesh
-horce_data_storage.pickle download finish Gilgamesh
-race_day.pickle download finish Gilgamesh
 start rank:2
+start rank:4
 start rank:1
+start rank:5
+start rank:3
 1-instance.pickle download finish Gilgamesh
 2-instance.pickle download finish Gilgamesh
+3-instance.pickle download finish Gilgamesh
+4-instance.pickle download finish Gilgamesh
+5-instance.pickle download finish Gilgamesh
 [LightGBM] [Warning] Unknown parameter: max_position
 [LightGBM] [Warning] Unknown parameter: max_position
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.036757 seconds.
-You can set `force_col_wise=true` to remove the overhead.
-[LightGBM] [Info] Total Bins 5005
+[LightGBM] [Warning] Auto-choosing row-wise multi-threading, the overhead of testing was 0.005247 seconds.
+You can set `force_row_wise=true` to remove the overhead.
+And if memory is not enough, you can set `force_col_wise=true`.
+[LightGBM] [Info] Total Bins 5017
 [LightGBM] [Info] Number of data points in the train set: 570293, number of used features: 20
 [LightGBM] [Warning] Unknown parameter: max_position
 Training until validation scores don't improve for 30 rounds
-[10]	training's ndcg@1: 0.242338	training's ndcg@2: 0.271514	training's ndcg@3: 0.294631	valid_1's ndcg@1: 0.232713	valid_1's ndcg@2: 0.266184	valid_1's ndcg@3: 0.2935
-[20]	training's ndcg@1: 0.253085	training's ndcg@2: 0.279666	training's ndcg@3: 0.301263	valid_1's ndcg@1: 0.23014	valid_1's ndcg@2: 0.267359	valid_1's ndcg@3: 0.292701
-[30]	training's ndcg@1: 0.264093	training's ndcg@2: 0.286647	training's ndcg@3: 0.307859	valid_1's ndcg@1: 0.233317	valid_1's ndcg@2: 0.263774	valid_1's ndcg@3: 0.291145
-[40]	training's ndcg@1: 0.271781	training's ndcg@2: 0.293246	training's ndcg@3: 0.31231	valid_1's ndcg@1: 0.232397	valid_1's ndcg@2: 0.266919	valid_1's ndcg@3: 0.29418
+[10]	training's ndcg@1: 0.242471	training's ndcg@2: 0.269772	training's ndcg@3: 0.293213	valid_1's ndcg@1: 0.229049	valid_1's ndcg@2: 0.265723	valid_1's ndcg@3: 0.292282
+[20]	training's ndcg@1: 0.254844	training's ndcg@2: 0.27906	training's ndcg@3: 0.302059	valid_1's ndcg@1: 0.230178	valid_1's ndcg@2: 0.260657	valid_1's ndcg@3: 0.290158
+[30]	training's ndcg@1: 0.262556	training's ndcg@2: 0.284237	training's ndcg@3: 0.306798	valid_1's ndcg@1: 0.229793	valid_1's ndcg@2: 0.263923	valid_1's ndcg@3: 0.290339
 Early stopping, best iteration is:
-[13]	training's ndcg@1: 0.246704	training's ndcg@2: 0.274248	training's ndcg@3: 0.297224	valid_1's ndcg@1: 0.234617	valid_1's ndcg@2: 0.266783	valid_1's ndcg@3: 0.295234
+[9]	training's ndcg@1: 0.241311	training's ndcg@2: 0.269456	training's ndcg@3: 0.292496	valid_1's ndcg@1: 0.232077	valid_1's ndcg@2: 0.266078	valid_1's ndcg@3: 0.292265
 odds_data.pickle download finish Gilgamesh
 
-単勝 回収率86.35405105438407%
-複勝 回収率83.90122086570473%
-単勝 勝率12.430632630410656%
-複勝 勝率32.93562708102108%
-賭けた回数3604回
+単勝 回収率92.50257731958776%
+複勝 回収率82.6134020618554%
+単勝 勝率12.551546391752577%
+複勝 勝率32.21649484536083%
+賭けた回数3880回

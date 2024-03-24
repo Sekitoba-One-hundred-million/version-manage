@@ -1,6 +1,6 @@
 ## !/bin/bash
 state='test'
-core=3
+core=6
 
 while getopts s-: opt; do
     optarg="${!OPTIND}"
