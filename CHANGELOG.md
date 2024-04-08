@@ -1,3 +1,6 @@
+## version 1.47
+delete odds in learn data
+
 ## version 1.46
 psql update
 
