@@ -12,6 +12,7 @@ predict_last_passing_rank.pickle None
 predict_pace_data.pickle None
 predict_train_score.pickle None
 predict_up3.pickle None
+race_cource_info.pickle sekitoba_use_data/race_cource_info.py
 race_day.pickle sekitoba_data_collect/race_day_get.py
 race_money_data.pickle sekitoba_data_collect/race_money.py
 race_rank_data.pickle sekitoba_use_data/race_rank.py

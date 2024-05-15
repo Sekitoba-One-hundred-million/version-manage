@@ -1,3 +1,9 @@
+## version 1.49
+update pace learn
+
+## version 1.48
+add odds in learn data
+
 ## version 1.47
 delete odds in learn data
 
