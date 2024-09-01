@@ -7,49 +7,46 @@ predict_pace_data.pickle download finish Gilgamesh
 predict_last_passing_rank.pickle download finish Gilgamesh
 start rank:4
 start rank:5
-start rank:3
-start rank:1
 start rank:2
+start rank:1
+start rank:3
 1-instance.pickle download finish Gilgamesh
 2-instance.pickle download finish Gilgamesh
 3-instance.pickle download finish Gilgamesh
 4-instance.pickle download finish Gilgamesh
 5-instance.pickle download finish Gilgamesh
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.547937 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.536062 seconds.
 You can set `force_col_wise=true` to remove the overhead.
-[LightGBM] [Info] Total Bins 44021
-[LightGBM] [Info] Number of data points in the train set: 638354, number of used features: 246
+[LightGBM] [Info] Total Bins 50045
+[LightGBM] [Info] Number of data points in the train set: 638354, number of used features: 275
 [LightGBM] [Info] Start training from score 37.103949
 Training until validation scores don't improve for 30 rounds
-[10]	training's l2: 2.86881	valid_1's l2: 3.06931
-[20]	training's l2: 2.02644	valid_1's l2: 2.20487
-[30]	training's l2: 1.62788	valid_1's l2: 1.80324
-[40]	training's l2: 1.43217	valid_1's l2: 1.61253
-[50]	training's l2: 1.33166	valid_1's l2: 1.52142
-[60]	training's l2: 1.27465	valid_1's l2: 1.47598
-[70]	training's l2: 1.23947	valid_1's l2: 1.45279
-[80]	training's l2: 1.21455	valid_1's l2: 1.44025
-[90]	training's l2: 1.19388	valid_1's l2: 1.43323
-[100]	training's l2: 1.17614	valid_1's l2: 1.42885
-[110]	training's l2: 1.16153	valid_1's l2: 1.42585
-[120]	training's l2: 1.14679	valid_1's l2: 1.4239
-[130]	training's l2: 1.13499	valid_1's l2: 1.42186
-[140]	training's l2: 1.12357	valid_1's l2: 1.42058
-[150]	training's l2: 1.11226	valid_1's l2: 1.41933
-[160]	training's l2: 1.10209	valid_1's l2: 1.41802
-[170]	training's l2: 1.09224	valid_1's l2: 1.41725
-[180]	training's l2: 1.0822	valid_1's l2: 1.41623
-[190]	training's l2: 1.07325	valid_1's l2: 1.41518
-[200]	training's l2: 1.0648	valid_1's l2: 1.41468
-[210]	training's l2: 1.05665	valid_1's l2: 1.41434
-[220]	training's l2: 1.04821	valid_1's l2: 1.41414
-[230]	training's l2: 1.03973	valid_1's l2: 1.41408
-[240]	training's l2: 1.03221	valid_1's l2: 1.41401
-[250]	training's l2: 1.02484	valid_1's l2: 1.41367
-[260]	training's l2: 1.01764	valid_1's l2: 1.41361
-[270]	training's l2: 1.01051	valid_1's l2: 1.41361
-[280]	training's l2: 1.00322	valid_1's l2: 1.41358
-[290]	training's l2: 0.996298	valid_1's l2: 1.41392
+[10]	training's l2: 2.86192	valid_1's l2: 3.14908
+[20]	training's l2: 2.01722	valid_1's l2: 2.26822
+[30]	training's l2: 1.6178	valid_1's l2: 1.85568
+[40]	training's l2: 1.42239	valid_1's l2: 1.65846
+[50]	training's l2: 1.32192	valid_1's l2: 1.56245
+[60]	training's l2: 1.26553	valid_1's l2: 1.51422
+[70]	training's l2: 1.23033	valid_1's l2: 1.48808
+[80]	training's l2: 1.20547	valid_1's l2: 1.47309
+[90]	training's l2: 1.18561	valid_1's l2: 1.46395
+[100]	training's l2: 1.16904	valid_1's l2: 1.45726
+[110]	training's l2: 1.15419	valid_1's l2: 1.45312
+[120]	training's l2: 1.14084	valid_1's l2: 1.45041
+[130]	training's l2: 1.1298	valid_1's l2: 1.44788
+[140]	training's l2: 1.11836	valid_1's l2: 1.44622
+[150]	training's l2: 1.1075	valid_1's l2: 1.44496
+[160]	training's l2: 1.09727	valid_1's l2: 1.44322
+[170]	training's l2: 1.08719	valid_1's l2: 1.4419
+[180]	training's l2: 1.07755	valid_1's l2: 1.44115
+[190]	training's l2: 1.06785	valid_1's l2: 1.44051
+[200]	training's l2: 1.05909	valid_1's l2: 1.44013
+[210]	training's l2: 1.05012	valid_1's l2: 1.44002
+[220]	training's l2: 1.04201	valid_1's l2: 1.4396
+[230]	training's l2: 1.0343	valid_1's l2: 1.43927
+[240]	training's l2: 1.02609	valid_1's l2: 1.43923
+[250]	training's l2: 1.01767	valid_1's l2: 1.43951
+[260]	training's l2: 1.0098	valid_1's l2: 1.43937
 Early stopping, best iteration is:
-[262]	training's l2: 1.01613	valid_1's l2: 1.41345
-score: 1.2014345032064577
+[235]	training's l2: 1.03032	valid_1's l2: 1.43912
+score: 1.2834290649020854

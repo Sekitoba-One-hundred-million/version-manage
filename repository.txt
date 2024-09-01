@@ -1,5 +1,4 @@
 race_pace_simulation ./main.sh -t 2
-train_score ./main.sh -t 2
 first_passing_rank ./main.sh -t 2
 last_passing_rank ./main.sh -t 2
 up3 ./main.sh -t 2

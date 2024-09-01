@@ -4,7 +4,6 @@
 4-instance.pickle None
 5-instance.pickle None
 foot_used.pickle sekitoba_use_data/foot_used.py
-horce_data_storage.pickle sekitoba_data_collect/main_data_collect.py
 next_race_data.pickle sekitoba_use_data/race_level.py
 odds_data.pickle sekitoba_data_collect/odds_collect.py
 predict_first_passing_rank.pickle None
@@ -13,12 +12,7 @@ predict_pace_data.pickle None
 predict_train_score.pickle None
 predict_up3.pickle None
 race_cource_info.pickle sekitoba_use_data/race_cource_info.py
-race_day.pickle sekitoba_data_collect/race_day_get.py
 race_money_data.pickle sekitoba_data_collect/race_money.py
-race_rank_data.pickle sekitoba_use_data/race_rank.py
-train_ave_data.pickle sekitoba_use_data/train_ave_data_create.py
-train_ave_key_data.pickle sekitoba_use_data/train_ave_data_create.py
-train_time_data.pickle sekitoba_data_collect/train_data_collect.py
 wrap_data.pickle sekitoba_data_collect/wrap_data_collect.py
 pace_model.pickle None
 train_model.pickle None

@@ -1,5 +1,4 @@
 race_pace_simulation 
-train_score 
 first_passing_rank 
 last_passing_rank 
 up3 
