@@ -1,3 +1,6 @@
+## version 1.53
+fix ranke_learn value
+
 ## version 1.52
 update standardtime
 
