@@ -1,3 +1,6 @@
+## version 1.54
+update first passing
+
 ## version 1.53
 fix ranke_learn value
 

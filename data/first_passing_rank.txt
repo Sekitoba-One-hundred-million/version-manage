@@ -2,17 +2,17 @@ wrap_data.pickle download finish Gilgamesh
 race_money_data.pickle download finish Gilgamesh
 next_race_data.pickle download finish Gilgamesh
 predict_pace_data.pickle download finish Gilgamesh
-start rank:4
-start rank:2
-start rank:5
-start rank:3
 start rank:1
+start rank:2
+start rank:3
+start rank:5
+start rank:4
 1-instance.pickle download finish Gilgamesh
 2-instance.pickle download finish Gilgamesh
 3-instance.pickle download finish Gilgamesh
 4-instance.pickle download finish Gilgamesh
 5-instance.pickle download finish Gilgamesh
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.501497 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.519083 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 47854
 [LightGBM] [Info] Number of data points in the train set: 632073, number of used features: 257
@@ -131,53 +131,88 @@ Training until validation scores don't improve for 30 rounds
 [1110]	training's l2: 10.9849	valid_1's l2: 10.964
 [1120]	training's l2: 10.9785	valid_1's l2: 10.9638
 [1130]	training's l2: 10.9717	valid_1's l2: 10.9634
-[1140]	training's l2: 10.965	valid_1's l2: 10.9631
-[1150]	training's l2: 10.9582	valid_1's l2: 10.9632
-[1160]	training's l2: 10.9515	valid_1's l2: 10.9628
-[1170]	training's l2: 10.9447	valid_1's l2: 10.9622
-[1180]	training's l2: 10.9383	valid_1's l2: 10.9621
-[1190]	training's l2: 10.9312	valid_1's l2: 10.9616
-[1200]	training's l2: 10.9242	valid_1's l2: 10.9613
-[1210]	training's l2: 10.9175	valid_1's l2: 10.9607
-[1220]	training's l2: 10.9108	valid_1's l2: 10.9607
-[1230]	training's l2: 10.9041	valid_1's l2: 10.9602
-[1240]	training's l2: 10.8978	valid_1's l2: 10.9601
-[1250]	training's l2: 10.8905	valid_1's l2: 10.9595
-[1260]	training's l2: 10.8843	valid_1's l2: 10.9593
-[1270]	training's l2: 10.877	valid_1's l2: 10.9587
-[1280]	training's l2: 10.8704	valid_1's l2: 10.9585
-[1290]	training's l2: 10.8642	valid_1's l2: 10.9584
-[1300]	training's l2: 10.8572	valid_1's l2: 10.9579
-[1310]	training's l2: 10.8505	valid_1's l2: 10.9575
-[1320]	training's l2: 10.8443	valid_1's l2: 10.9574
-[1330]	training's l2: 10.8374	valid_1's l2: 10.9568
-[1340]	training's l2: 10.831	valid_1's l2: 10.9562
-[1350]	training's l2: 10.8246	valid_1's l2: 10.9561
-[1360]	training's l2: 10.8182	valid_1's l2: 10.9556
-[1370]	training's l2: 10.8114	valid_1's l2: 10.9555
-[1380]	training's l2: 10.8043	valid_1's l2: 10.9546
-[1390]	training's l2: 10.7981	valid_1's l2: 10.9544
-[1400]	training's l2: 10.7925	valid_1's l2: 10.9543
-[1410]	training's l2: 10.7861	valid_1's l2: 10.9541
-[1420]	training's l2: 10.7791	valid_1's l2: 10.9534
-[1430]	training's l2: 10.7721	valid_1's l2: 10.953
-[1440]	training's l2: 10.7661	valid_1's l2: 10.9526
-[1450]	training's l2: 10.76	valid_1's l2: 10.9528
-[1460]	training's l2: 10.7534	valid_1's l2: 10.9524
-[1470]	training's l2: 10.7476	valid_1's l2: 10.952
-[1480]	training's l2: 10.7413	valid_1's l2: 10.9517
-[1490]	training's l2: 10.7342	valid_1's l2: 10.9511
-[1500]	training's l2: 10.7283	valid_1's l2: 10.9506
-[1510]	training's l2: 10.7224	valid_1's l2: 10.9501
-[1520]	training's l2: 10.7162	valid_1's l2: 10.9494
-[1530]	training's l2: 10.7099	valid_1's l2: 10.9494
-[1540]	training's l2: 10.7027	valid_1's l2: 10.949
-[1550]	training's l2: 10.6964	valid_1's l2: 10.9486
-[1560]	training's l2: 10.6905	valid_1's l2: 10.9482
-[1570]	training's l2: 10.6842	valid_1's l2: 10.9478
-[1580]	training's l2: 10.6779	valid_1's l2: 10.9475
-[1590]	training's l2: 10.6714	valid_1's l2: 10.9476
-[1600]	training's l2: 10.6655	valid_1's l2: 10.9479
+[1140]	training's l2: 10.9652	valid_1's l2: 10.9632
+[1150]	training's l2: 10.9581	valid_1's l2: 10.9631
+[1160]	training's l2: 10.9511	valid_1's l2: 10.9627
+[1170]	training's l2: 10.9444	valid_1's l2: 10.9618
+[1180]	training's l2: 10.9377	valid_1's l2: 10.9613
+[1190]	training's l2: 10.9301	valid_1's l2: 10.9608
+[1200]	training's l2: 10.9231	valid_1's l2: 10.9599
+[1210]	training's l2: 10.9163	valid_1's l2: 10.9598
+[1220]	training's l2: 10.9097	valid_1's l2: 10.9596
+[1230]	training's l2: 10.9033	valid_1's l2: 10.9595
+[1240]	training's l2: 10.8962	valid_1's l2: 10.959
+[1250]	training's l2: 10.8896	valid_1's l2: 10.9584
+[1260]	training's l2: 10.8834	valid_1's l2: 10.958
+[1270]	training's l2: 10.8769	valid_1's l2: 10.9581
+[1280]	training's l2: 10.8698	valid_1's l2: 10.9575
+[1290]	training's l2: 10.8627	valid_1's l2: 10.9575
+[1300]	training's l2: 10.856	valid_1's l2: 10.9574
+[1310]	training's l2: 10.8496	valid_1's l2: 10.9573
+[1320]	training's l2: 10.8434	valid_1's l2: 10.9571
+[1330]	training's l2: 10.8373	valid_1's l2: 10.9571
+[1340]	training's l2: 10.8303	valid_1's l2: 10.9564
+[1350]	training's l2: 10.8245	valid_1's l2: 10.9562
+[1360]	training's l2: 10.8186	valid_1's l2: 10.9558
+[1370]	training's l2: 10.8118	valid_1's l2: 10.9556
+[1380]	training's l2: 10.8051	valid_1's l2: 10.9551
+[1390]	training's l2: 10.7989	valid_1's l2: 10.9548
+[1400]	training's l2: 10.792	valid_1's l2: 10.9542
+[1410]	training's l2: 10.7858	valid_1's l2: 10.9539
+[1420]	training's l2: 10.7797	valid_1's l2: 10.9541
+[1430]	training's l2: 10.7737	valid_1's l2: 10.9535
+[1440]	training's l2: 10.7672	valid_1's l2: 10.9535
+[1450]	training's l2: 10.7609	valid_1's l2: 10.9533
+[1460]	training's l2: 10.7553	valid_1's l2: 10.9527
+[1470]	training's l2: 10.7483	valid_1's l2: 10.9523
+[1480]	training's l2: 10.7419	valid_1's l2: 10.9522
+[1490]	training's l2: 10.7355	valid_1's l2: 10.9519
+[1500]	training's l2: 10.729	valid_1's l2: 10.9515
+[1510]	training's l2: 10.7221	valid_1's l2: 10.9507
+[1520]	training's l2: 10.716	valid_1's l2: 10.9503
+[1530]	training's l2: 10.7104	valid_1's l2: 10.9503
+[1540]	training's l2: 10.7039	valid_1's l2: 10.9496
+[1550]	training's l2: 10.6981	valid_1's l2: 10.9496
+[1560]	training's l2: 10.6918	valid_1's l2: 10.9489
+[1570]	training's l2: 10.6858	valid_1's l2: 10.9486
+[1580]	training's l2: 10.6795	valid_1's l2: 10.9486
+[1590]	training's l2: 10.6732	valid_1's l2: 10.9484
+[1600]	training's l2: 10.6663	valid_1's l2: 10.9478
+[1610]	training's l2: 10.66	valid_1's l2: 10.9474
+[1620]	training's l2: 10.6539	valid_1's l2: 10.9472
+[1630]	training's l2: 10.6478	valid_1's l2: 10.9471
+[1640]	training's l2: 10.6417	valid_1's l2: 10.9471
+[1650]	training's l2: 10.6357	valid_1's l2: 10.9468
+[1660]	training's l2: 10.6299	valid_1's l2: 10.9465
+[1670]	training's l2: 10.6232	valid_1's l2: 10.9462
+[1680]	training's l2: 10.6172	valid_1's l2: 10.9461
+[1690]	training's l2: 10.6114	valid_1's l2: 10.9456
+[1700]	training's l2: 10.605	valid_1's l2: 10.9453
+[1710]	training's l2: 10.5992	valid_1's l2: 10.9452
+[1720]	training's l2: 10.5931	valid_1's l2: 10.9452
+[1730]	training's l2: 10.5875	valid_1's l2: 10.9449
+[1740]	training's l2: 10.5812	valid_1's l2: 10.9446
+[1750]	training's l2: 10.5749	valid_1's l2: 10.9441
+[1760]	training's l2: 10.5688	valid_1's l2: 10.9438
+[1770]	training's l2: 10.5627	valid_1's l2: 10.9435
+[1780]	training's l2: 10.5571	valid_1's l2: 10.9434
+[1790]	training's l2: 10.5507	valid_1's l2: 10.9431
+[1800]	training's l2: 10.5448	valid_1's l2: 10.9428
+[1810]	training's l2: 10.5391	valid_1's l2: 10.9426
+[1820]	training's l2: 10.5334	valid_1's l2: 10.9425
+[1830]	training's l2: 10.5279	valid_1's l2: 10.9426
+[1840]	training's l2: 10.5223	valid_1's l2: 10.9424
+[1850]	training's l2: 10.516	valid_1's l2: 10.9423
+[1860]	training's l2: 10.5099	valid_1's l2: 10.9422
+[1870]	training's l2: 10.5039	valid_1's l2: 10.9423
+[1880]	training's l2: 10.4979	valid_1's l2: 10.9422
+[1890]	training's l2: 10.4918	valid_1's l2: 10.9423
+[1900]	training's l2: 10.4859	valid_1's l2: 10.9416
+[1910]	training's l2: 10.4796	valid_1's l2: 10.9413
+[1920]	training's l2: 10.4736	valid_1's l2: 10.941
+[1930]	training's l2: 10.4677	valid_1's l2: 10.9409
+[1940]	training's l2: 10.462	valid_1's l2: 10.9409
+[1950]	training's l2: 10.4562	valid_1's l2: 10.9408
 Early stopping, best iteration is:
-[1575]	training's l2: 10.6808	valid_1's l2: 10.9474
-score: 3.3423360839046508
+[1921]	training's l2: 10.4731	valid_1's l2: 10.9408
+score: 3.340435384271618
