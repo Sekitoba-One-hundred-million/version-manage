@@ -70,7 +70,7 @@ function git_hash_get {
 
 function git_clone {
     git_url="git@github.com:Sekitoba-One-hundred-million/$1.git"
-    git clone -q "${git_url}"
+    git clone -q --recursive "${git_url}"
 }
 
 function pickle_search {

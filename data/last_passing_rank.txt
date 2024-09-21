@@ -1,135 +1,133 @@
+Looking in indexes: https://pypi.org/simple, http://100.95.241.19
+Requirement already satisfied: SekitobaLibrary in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (1.1.10)
+Requirement already satisfied: lightgbm in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary) (3.3.3)
+Requirement already satisfied: boto3 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary) (1.26.42)
+Requirement already satisfied: jpholiday in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary) (0.1.8)
+Requirement already satisfied: torch in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary) (1.13.1)
+Requirement already satisfied: numpy in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary) (1.24.1)
+Requirement already satisfied: requests in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary) (2.28.1)
+Requirement already satisfied: tqdm in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary) (4.64.1)
+Requirement already satisfied: pandas in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary) (1.5.2)
+Requirement already satisfied: mpi4py in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary) (3.1.4)
+Requirement already satisfied: trueskill in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary) (0.4.5)
+Requirement already satisfied: bs4 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary) (0.0.1)
+Requirement already satisfied: statistics in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary) (1.0.3.5)
+Requirement already satisfied: matplotlib in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary) (3.6.2)
+Requirement already satisfied: s3transfer<0.7.0,>=0.6.0 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from boto3->SekitobaLibrary) (0.6.0)
+Requirement already satisfied: jmespath<2.0.0,>=0.7.1 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from boto3->SekitobaLibrary) (1.0.1)
+Requirement already satisfied: botocore<1.30.0,>=1.29.42 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from boto3->SekitobaLibrary) (1.29.42)
+Requirement already satisfied: urllib3<1.27,>=1.25.4 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from botocore<1.30.0,>=1.29.42->boto3->SekitobaLibrary) (1.26.13)
+Requirement already satisfied: python-dateutil<3.0.0,>=2.1 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from botocore<1.30.0,>=1.29.42->boto3->SekitobaLibrary) (2.8.2)
+Requirement already satisfied: six>=1.5 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from python-dateutil<3.0.0,>=2.1->botocore<1.30.0,>=1.29.42->boto3->SekitobaLibrary) (1.16.0)
+Requirement already satisfied: beautifulsoup4 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from bs4->SekitobaLibrary) (4.11.1)
+Requirement already satisfied: soupsieve>1.2 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from beautifulsoup4->bs4->SekitobaLibrary) (2.3.2.post1)
+Requirement already satisfied: scikit-learn!=0.22.0 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from lightgbm->SekitobaLibrary) (1.2.0)
+Requirement already satisfied: wheel in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from lightgbm->SekitobaLibrary) (0.38.4)
+Requirement already satisfied: scipy in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from lightgbm->SekitobaLibrary) (1.9.3)
+Requirement already satisfied: threadpoolctl>=2.0.0 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from scikit-learn!=0.22.0->lightgbm->SekitobaLibrary) (3.1.0)
+Requirement already satisfied: joblib>=1.1.1 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from scikit-learn!=0.22.0->lightgbm->SekitobaLibrary) (1.2.0)
+Requirement already satisfied: kiwisolver>=1.0.1 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary) (1.4.4)
+Requirement already satisfied: cycler>=0.10 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary) (0.11.0)
+Requirement already satisfied: contourpy>=1.0.1 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary) (1.0.6)
+Requirement already satisfied: pyparsing>=2.2.1 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary) (3.0.9)
+Requirement already satisfied: packaging>=20.0 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary) (22.0)
+Requirement already satisfied: pillow>=6.2.0 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary) (9.3.0)
+Requirement already satisfied: fonttools>=4.22.0 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary) (4.38.0)
+Requirement already satisfied: pytz>=2020.1 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from pandas->SekitobaLibrary) (2022.7)
+Requirement already satisfied: certifi>=2017.4.17 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from requests->SekitobaLibrary) (2022.12.7)
+Requirement already satisfied: idna<4,>=2.5 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from requests->SekitobaLibrary) (3.4)
+Requirement already satisfied: charset-normalizer<3,>=2 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from requests->SekitobaLibrary) (2.1.1)
+Requirement already satisfied: docutils>=0.3 in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from statistics->SekitobaLibrary) (0.19)
+Requirement already satisfied: typing-extensions in /Users/kansei/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (4.4.0)
 wrap_data.pickle download finish Gilgamesh
 race_money_data.pickle download finish Gilgamesh
 next_race_data.pickle download finish Gilgamesh
 predict_first_passing_rank.pickle download finish Gilgamesh
 predict_pace_data.pickle download finish Gilgamesh
-start rank:4
-start rank:3
-start rank:2
 start rank:5
+start rank:4
+start rank:2
 start rank:1
+start rank:3
 1-instance.pickle download finish Gilgamesh
 2-instance.pickle download finish Gilgamesh
 3-instance.pickle download finish Gilgamesh
 4-instance.pickle download finish Gilgamesh
 5-instance.pickle download finish Gilgamesh
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.486085 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.433076 seconds.
 You can set `force_col_wise=true` to remove the overhead.
-[LightGBM] [Info] Total Bins 39374
+[LightGBM] [Info] Total Bins 39371
 [LightGBM] [Info] Number of data points in the train set: 632073, number of used features: 223
 [LightGBM] [Info] Start training from score -0.071946
 Training until validation scores don't improve for 30 rounds
-[10]	training's l2: 4.80312	valid_1's l2: 4.4979
-[20]	training's l2: 4.669	valid_1's l2: 4.39371
-[30]	training's l2: 4.564	valid_1's l2: 4.3153
-[40]	training's l2: 4.48051	valid_1's l2: 4.25392
-[50]	training's l2: 4.41316	valid_1's l2: 4.2058
-[60]	training's l2: 4.35869	valid_1's l2: 4.16875
-[70]	training's l2: 4.31405	valid_1's l2: 4.13985
-[80]	training's l2: 4.27572	valid_1's l2: 4.1159
-[90]	training's l2: 4.24308	valid_1's l2: 4.09688
-[100]	training's l2: 4.21438	valid_1's l2: 4.08114
-[110]	training's l2: 4.18912	valid_1's l2: 4.06849
-[120]	training's l2: 4.1667	valid_1's l2: 4.05825
-[130]	training's l2: 4.14661	valid_1's l2: 4.04978
-[140]	training's l2: 4.12849	valid_1's l2: 4.04279
-[150]	training's l2: 4.11171	valid_1's l2: 4.03655
-[160]	training's l2: 4.09614	valid_1's l2: 4.03124
-[170]	training's l2: 4.08178	valid_1's l2: 4.02669
-[180]	training's l2: 4.068	valid_1's l2: 4.02237
-[190]	training's l2: 4.05466	valid_1's l2: 4.01862
-[200]	training's l2: 4.04193	valid_1's l2: 4.01572
-[210]	training's l2: 4.02993	valid_1's l2: 4.01307
-[220]	training's l2: 4.01846	valid_1's l2: 4.01101
-[230]	training's l2: 4.00728	valid_1's l2: 4.00919
-[240]	training's l2: 3.99642	valid_1's l2: 4.00703
-[250]	training's l2: 3.98564	valid_1's l2: 4.00516
-[260]	training's l2: 3.97533	valid_1's l2: 4.00356
-[270]	training's l2: 3.96534	valid_1's l2: 4.00182
-[280]	training's l2: 3.95556	valid_1's l2: 4.00055
-[290]	training's l2: 3.94608	valid_1's l2: 3.99919
-[300]	training's l2: 3.93707	valid_1's l2: 3.99798
-[310]	training's l2: 3.92812	valid_1's l2: 3.99692
-[320]	training's l2: 3.9194	valid_1's l2: 3.99609
-[330]	training's l2: 3.91063	valid_1's l2: 3.99527
-[340]	training's l2: 3.90226	valid_1's l2: 3.99444
-[350]	training's l2: 3.89381	valid_1's l2: 3.99366
-[360]	training's l2: 3.88537	valid_1's l2: 3.99291
-[370]	training's l2: 3.87728	valid_1's l2: 3.99208
-[380]	training's l2: 3.86903	valid_1's l2: 3.99129
-[390]	training's l2: 3.86092	valid_1's l2: 3.99025
-[400]	training's l2: 3.85297	valid_1's l2: 3.98991
-[410]	training's l2: 3.84487	valid_1's l2: 3.98915
-[420]	training's l2: 3.83721	valid_1's l2: 3.98843
-[430]	training's l2: 3.82956	valid_1's l2: 3.98824
-[440]	training's l2: 3.82195	valid_1's l2: 3.98786
-[450]	training's l2: 3.81453	valid_1's l2: 3.9873
-[460]	training's l2: 3.80722	valid_1's l2: 3.9875
-[470]	training's l2: 3.79996	valid_1's l2: 3.98717
-[480]	training's l2: 3.79282	valid_1's l2: 3.98673
-[490]	training's l2: 3.78562	valid_1's l2: 3.98647
-[500]	training's l2: 3.77834	valid_1's l2: 3.98601
-[510]	training's l2: 3.77125	valid_1's l2: 3.98561
-[520]	training's l2: 3.76407	valid_1's l2: 3.98553
-[530]	training's l2: 3.7572	valid_1's l2: 3.98508
-[540]	training's l2: 3.75013	valid_1's l2: 3.98478
-[550]	training's l2: 3.74352	valid_1's l2: 3.9843
-[560]	training's l2: 3.73692	valid_1's l2: 3.98401
-[570]	training's l2: 3.73019	valid_1's l2: 3.9835
-[580]	training's l2: 3.72342	valid_1's l2: 3.98362
-[590]	training's l2: 3.71661	valid_1's l2: 3.98324
-[600]	training's l2: 3.70988	valid_1's l2: 3.98305
-[610]	training's l2: 3.70333	valid_1's l2: 3.98288
-[620]	training's l2: 3.69665	valid_1's l2: 3.98266
-[630]	training's l2: 3.69008	valid_1's l2: 3.98231
-[640]	training's l2: 3.68345	valid_1's l2: 3.98179
-[650]	training's l2: 3.67694	valid_1's l2: 3.98194
-[660]	training's l2: 3.6704	valid_1's l2: 3.98153
-[670]	training's l2: 3.66432	valid_1's l2: 3.98147
-[680]	training's l2: 3.65811	valid_1's l2: 3.98131
-[690]	training's l2: 3.65203	valid_1's l2: 3.98123
-[700]	training's l2: 3.64565	valid_1's l2: 3.98119
-[710]	training's l2: 3.63971	valid_1's l2: 3.98125
-[720]	training's l2: 3.63348	valid_1's l2: 3.98109
-[730]	training's l2: 3.62724	valid_1's l2: 3.9808
-[740]	training's l2: 3.62139	valid_1's l2: 3.98073
-[750]	training's l2: 3.61557	valid_1's l2: 3.98063
-[760]	training's l2: 3.60959	valid_1's l2: 3.9803
-[770]	training's l2: 3.60355	valid_1's l2: 3.98007
-[780]	training's l2: 3.59766	valid_1's l2: 3.97979
-[790]	training's l2: 3.59199	valid_1's l2: 3.97961
-[800]	training's l2: 3.58621	valid_1's l2: 3.97958
-[810]	training's l2: 3.58073	valid_1's l2: 3.97953
-[820]	training's l2: 3.57475	valid_1's l2: 3.97935
-[830]	training's l2: 3.56917	valid_1's l2: 3.97939
-[840]	training's l2: 3.56377	valid_1's l2: 3.97939
-[850]	training's l2: 3.55824	valid_1's l2: 3.97907
-[860]	training's l2: 3.55286	valid_1's l2: 3.97918
-[870]	training's l2: 3.54733	valid_1's l2: 3.97914
-[880]	training's l2: 3.54226	valid_1's l2: 3.9788
-[890]	training's l2: 3.53669	valid_1's l2: 3.97869
-[900]	training's l2: 3.53149	valid_1's l2: 3.97845
-[910]	training's l2: 3.52634	valid_1's l2: 3.97819
-[920]	training's l2: 3.521	valid_1's l2: 3.97802
-[930]	training's l2: 3.51536	valid_1's l2: 3.97805
-[940]	training's l2: 3.50988	valid_1's l2: 3.97797
-[950]	training's l2: 3.50463	valid_1's l2: 3.97802
-[960]	training's l2: 3.49929	valid_1's l2: 3.97792
-[970]	training's l2: 3.49412	valid_1's l2: 3.97779
-[980]	training's l2: 3.489	valid_1's l2: 3.97765
-[990]	training's l2: 3.48375	valid_1's l2: 3.97735
-[1000]	training's l2: 3.47853	valid_1's l2: 3.97738
-[1010]	training's l2: 3.4735	valid_1's l2: 3.97728
-[1020]	training's l2: 3.46848	valid_1's l2: 3.97713
-[1030]	training's l2: 3.46359	valid_1's l2: 3.97704
-[1040]	training's l2: 3.45857	valid_1's l2: 3.97697
-[1050]	training's l2: 3.45357	valid_1's l2: 3.97702
-[1060]	training's l2: 3.44869	valid_1's l2: 3.97695
-[1070]	training's l2: 3.44395	valid_1's l2: 3.97668
-[1080]	training's l2: 3.43886	valid_1's l2: 3.97644
-[1090]	training's l2: 3.43389	valid_1's l2: 3.97636
-[1100]	training's l2: 3.42897	valid_1's l2: 3.97647
-[1110]	training's l2: 3.42439	valid_1's l2: 3.97647
+[10]	training's l2: 4.7997	valid_1's l2: 4.49748
+[20]	training's l2: 4.66349	valid_1's l2: 4.39325
+[30]	training's l2: 4.55566	valid_1's l2: 4.31404
+[40]	training's l2: 4.47018	valid_1's l2: 4.25272
+[50]	training's l2: 4.40186	valid_1's l2: 4.20601
+[60]	training's l2: 4.34677	valid_1's l2: 4.16967
+[70]	training's l2: 4.30216	valid_1's l2: 4.14037
+[80]	training's l2: 4.26334	valid_1's l2: 4.11696
+[90]	training's l2: 4.22919	valid_1's l2: 4.09777
+[100]	training's l2: 4.19997	valid_1's l2: 4.08197
+[110]	training's l2: 4.17456	valid_1's l2: 4.06932
+[120]	training's l2: 4.15213	valid_1's l2: 4.05894
+[130]	training's l2: 4.13175	valid_1's l2: 4.04966
+[140]	training's l2: 4.11307	valid_1's l2: 4.0423
+[150]	training's l2: 4.09597	valid_1's l2: 4.03614
+[160]	training's l2: 4.08057	valid_1's l2: 4.03086
+[170]	training's l2: 4.066	valid_1's l2: 4.026
+[180]	training's l2: 4.05219	valid_1's l2: 4.02226
+[190]	training's l2: 4.03892	valid_1's l2: 4.01886
+[200]	training's l2: 4.02617	valid_1's l2: 4.01583
+[210]	training's l2: 4.01418	valid_1's l2: 4.01343
+[220]	training's l2: 4.00249	valid_1's l2: 4.01131
+[230]	training's l2: 3.99122	valid_1's l2: 4.00938
+[240]	training's l2: 3.98055	valid_1's l2: 4.00726
+[250]	training's l2: 3.96965	valid_1's l2: 4.00528
+[260]	training's l2: 3.95935	valid_1's l2: 4.00379
+[270]	training's l2: 3.94927	valid_1's l2: 4.00266
+[280]	training's l2: 3.93915	valid_1's l2: 4.00106
+[290]	training's l2: 3.92972	valid_1's l2: 4.00019
+[300]	training's l2: 3.92034	valid_1's l2: 3.99881
+[310]	training's l2: 3.91146	valid_1's l2: 3.99763
+[320]	training's l2: 3.90249	valid_1's l2: 3.99667
+[330]	training's l2: 3.89355	valid_1's l2: 3.99586
+[340]	training's l2: 3.88495	valid_1's l2: 3.99513
+[350]	training's l2: 3.87633	valid_1's l2: 3.99463
+[360]	training's l2: 3.86804	valid_1's l2: 3.99401
+[370]	training's l2: 3.85973	valid_1's l2: 3.99349
+[380]	training's l2: 3.85139	valid_1's l2: 3.99295
+[390]	training's l2: 3.8434	valid_1's l2: 3.99249
+[400]	training's l2: 3.83528	valid_1's l2: 3.99206
+[410]	training's l2: 3.82738	valid_1's l2: 3.9915
+[420]	training's l2: 3.81943	valid_1's l2: 3.99096
+[430]	training's l2: 3.81165	valid_1's l2: 3.99071
+[440]	training's l2: 3.8039	valid_1's l2: 3.99017
+[450]	training's l2: 3.79595	valid_1's l2: 3.98978
+[460]	training's l2: 3.78834	valid_1's l2: 3.98943
+[470]	training's l2: 3.78106	valid_1's l2: 3.98922
+[480]	training's l2: 3.77377	valid_1's l2: 3.98905
+[490]	training's l2: 3.76649	valid_1's l2: 3.98863
+[500]	training's l2: 3.75925	valid_1's l2: 3.98821
+[510]	training's l2: 3.75206	valid_1's l2: 3.98793
+[520]	training's l2: 3.74488	valid_1's l2: 3.98754
+[530]	training's l2: 3.7378	valid_1's l2: 3.98716
+[540]	training's l2: 3.73051	valid_1's l2: 3.98707
+[550]	training's l2: 3.72365	valid_1's l2: 3.98672
+[560]	training's l2: 3.71648	valid_1's l2: 3.98633
+[570]	training's l2: 3.7095	valid_1's l2: 3.98588
+[580]	training's l2: 3.70285	valid_1's l2: 3.98544
+[590]	training's l2: 3.6962	valid_1's l2: 3.98506
+[600]	training's l2: 3.68937	valid_1's l2: 3.98482
+[610]	training's l2: 3.68251	valid_1's l2: 3.98461
+[620]	training's l2: 3.67588	valid_1's l2: 3.98431
+[630]	training's l2: 3.66934	valid_1's l2: 3.98408
+[640]	training's l2: 3.6629	valid_1's l2: 3.98374
+[650]	training's l2: 3.65632	valid_1's l2: 3.98357
+[660]	training's l2: 3.64987	valid_1's l2: 3.98333
+[670]	training's l2: 3.6436	valid_1's l2: 3.98329
+[680]	training's l2: 3.63748	valid_1's l2: 3.98324
 Early stopping, best iteration is:
-[1089]	training's l2: 3.43445	valid_1's l2: 3.9763
-score: 3.3401447950239898
+[656]	training's l2: 3.65248	valid_1's l2: 3.98321
+score: 3.3387270201212815

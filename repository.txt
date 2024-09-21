@@ -1,8 +1,8 @@
-race_pace_simulation ./main.sh -t 2
-first_passing_rank ./main.sh -t 2
-last_passing_rank ./main.sh -t 2
-up3 ./main.sh -t 2
-rank_learn ./main.sh -t 2
+race_pace_simulation ./module/learn_start.sh -t 2
+first_passing_rank ./module/learn_start.sh -t 2
+last_passing_rank ./module/learn_start.sh -t 2
+up3 ./module/learn_start.sh -t 2
+rank_learn ./module/learn_start.sh -t 2
 sekitoba_data_collect
 sekitoba_use_data
 sekitoba_library
