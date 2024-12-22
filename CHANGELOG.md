@@ -1,3 +1,6 @@
+## version 1.59
+fix build OS
+
 ## version 1.58
 update all model
 

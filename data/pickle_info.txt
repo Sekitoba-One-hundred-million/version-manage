@@ -3,9 +3,14 @@
 3-instance.pickle None
 4-instance.pickle None
 5-instance.pickle None
+first_passing_rank_learn_data.pickle None
+first_passing_rank_simu_data.pickle None
 foot_used.pickle sekitoba_use_data/foot_used.py
+last_passing_rank_learn_data.pickle None
+last_passing_rank_simu_data.pickle None
 next_race_data.pickle sekitoba_use_data/race_level.py
 odds_data.pickle sekitoba_data_collect/odds_collect.py
+pace_learn_data.pickle None
 predict_first_passing_rank.pickle None
 predict_last_passing_rank.pickle None
 predict_pace_data.pickle None
@@ -15,6 +20,8 @@ race_cource_info.pickle sekitoba_use_data/race_cource_info.py
 race_info_data.pickle sekitoba_data_collect/race_info_collect.py
 race_money_data.pickle sekitoba_data_collect/race_money.py
 race_pace_analyze_data.pickle sekitoba_use_data/race_pace_analyze.py
+up3_learn_data.pickle None
+up3_simu_data.pickle None
 wrap_data.pickle sekitoba_data_collect/wrap_data_collect.py
 pace_model.pickle None
 train_model.pickle None
