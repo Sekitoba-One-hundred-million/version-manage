@@ -1,3 +1,6 @@
+## version 1.60
+remove escape_within_rank
+
 ## version 1.59
 fix build OS
 
