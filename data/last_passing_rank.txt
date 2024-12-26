@@ -44,11 +44,11 @@ race_money_data.pickle download finish Gilgamesh
 next_race_data.pickle download finish Gilgamesh
 predict_first_passing_rank.pickle download finish Gilgamesh
 predict_pace_data.pickle download finish Gilgamesh
-start rank:1
-start rank:3
-start rank:4
 start rank:2
 start rank:5
+start rank:4
+start rank:1
+start rank:3
 1-instance.pickle download finish Gilgamesh
 2-instance.pickle download finish Gilgamesh
 3-instance.pickle download finish Gilgamesh
@@ -56,7 +56,7 @@ start rank:5
 5-instance.pickle download finish Gilgamesh
 last_passing_rank_learn_data.pickle download finish Gilgamesh
 last_passing_rank_simu_data.pickle download finish Gilgamesh
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.576184 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.615833 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 39391
 [LightGBM] [Info] Number of data points in the train set: 632073, number of used features: 224

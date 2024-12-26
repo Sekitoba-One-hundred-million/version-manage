@@ -1,3 +1,6 @@
+## version 1.61
+update race_pace_simulation
+
 ## version 1.60
 remove escape_within_rank
 

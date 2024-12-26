@@ -46,11 +46,11 @@ foot_used.pickle download finish Gilgamesh
 predict_first_passing_rank.pickle download finish Gilgamesh
 predict_last_passing_rank.pickle download finish Gilgamesh
 predict_up3.pickle download finish Gilgamesh
-start rank:2
-start rank:1
-start rank:3
-start rank:5
 start rank:4
+start rank:2
+start rank:3
+start rank:1
+start rank:5
 1-instance.pickle download finish Gilgamesh
 2-instance.pickle download finish Gilgamesh
 3-instance.pickle download finish Gilgamesh
@@ -59,18 +59,18 @@ start rank:4
 odds_data.pickle download finish Gilgamesh
 
 選択数:1
-単勝 回収率72.41085406157593%
-複勝 回収率70.6783788484953%
+単勝 回収率72.41085406157598%
+複勝 回収率70.67837884849524%
 単勝 勝率7.688293616281093%
 複勝 勝率22.803965907114282%
 賭けたレース数5749回
 賭けた金額5749
 金額:-234915.0
-最低金額:-239235.0
+最低金額:-236325.0
 mdcd:35.1666
 rank_learn_data.pickle download finish Gilgamesh
 rank_simu_data.pickle download finish Gilgamesh
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.599851 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.585447 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 32246
 [LightGBM] [Info] Number of data points in the train set: 638354, number of used features: 191
@@ -170,7 +170,7 @@ Training until validation scores don't improve for 30 rounds
 [93]	training's ndcg@1: 0.714098	training's ndcg@2: 0.722031	training's ndcg@3: 0.732926	valid_1's ndcg@1: 0.616985	valid_1's ndcg@2: 0.652859	valid_1's ndcg@3: 0.679689
 Early stopping, best iteration is:
 [63]	training's ndcg@1: 0.691048	training's ndcg@2: 0.705126	training's ndcg@3: 0.720024	valid_1's ndcg@1: 0.61837	valid_1's ndcg@2: 0.652735	valid_1's ndcg@3: 0.679165
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.407791 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.414513 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 32246
 [LightGBM] [Info] Number of data points in the train set: 638354, number of used features: 191
@@ -318,7 +318,7 @@ Training until validation scores don't improve for 30 rounds
 [141]	training's ndcg@1: 0.730759	training's ndcg@2: 0.735238	training's ndcg@3: 0.74313	valid_1's ndcg@1: 0.619736	valid_1's ndcg@2: 0.656926	valid_1's ndcg@3: 0.682248
 Early stopping, best iteration is:
 [111]	training's ndcg@1: 0.714814	training's ndcg@2: 0.722792	training's ndcg@3: 0.733643	valid_1's ndcg@1: 0.621518	valid_1's ndcg@2: 0.655682	valid_1's ndcg@3: 0.681249
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.430218 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.410576 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 32246
 [LightGBM] [Info] Number of data points in the train set: 638354, number of used features: 191
@@ -473,7 +473,7 @@ Training until validation scores don't improve for 30 rounds
 [148]	training's ndcg@1: 0.711372	training's ndcg@2: 0.720429	training's ndcg@3: 0.732043	valid_1's ndcg@1: 0.619509	valid_1's ndcg@2: 0.656911	valid_1's ndcg@3: 0.6821
 Early stopping, best iteration is:
 [118]	training's ndcg@1: 0.698164	training's ndcg@2: 0.710721	training's ndcg@3: 0.724647	valid_1's ndcg@1: 0.621035	valid_1's ndcg@2: 0.657306	valid_1's ndcg@3: 0.68196
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.406861 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.417123 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 32246
 [LightGBM] [Info] Number of data points in the train set: 638354, number of used features: 191
@@ -627,7 +627,7 @@ Training until validation scores don't improve for 30 rounds
 [147]	training's ndcg@1: 0.732704	training's ndcg@2: 0.736425	training's ndcg@3: 0.744242	valid_1's ndcg@1: 0.618104	valid_1's ndcg@2: 0.655722	valid_1's ndcg@3: 0.682389
 Early stopping, best iteration is:
 [117]	training's ndcg@1: 0.718883	training's ndcg@2: 0.725492	training's ndcg@3: 0.735635	valid_1's ndcg@1: 0.619959	valid_1's ndcg@2: 0.655417	valid_1's ndcg@3: 0.681725
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.425655 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.418932 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 32246
 [LightGBM] [Info] Number of data points in the train set: 638354, number of used features: 191
@@ -805,7 +805,7 @@ Training until validation scores don't improve for 30 rounds
 [171]	training's ndcg@1: 0.718978	training's ndcg@2: 0.726193	training's ndcg@3: 0.736621	valid_1's ndcg@1: 0.619626	valid_1's ndcg@2: 0.657	valid_1's ndcg@3: 0.682579
 Early stopping, best iteration is:
 [141]	training's ndcg@1: 0.70734	training's ndcg@2: 0.717009	training's ndcg@3: 0.729523	valid_1's ndcg@1: 0.621408	valid_1's ndcg@2: 0.657747	valid_1's ndcg@3: 0.682304
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.412848 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.436466 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 32246
 [LightGBM] [Info] Number of data points in the train set: 638354, number of used features: 191
@@ -941,7 +941,7 @@ Training until validation scores don't improve for 30 rounds
 [129]	training's ndcg@1: 0.705753	training's ndcg@2: 0.716355	training's ndcg@3: 0.729003	valid_1's ndcg@1: 0.619165	valid_1's ndcg@2: 0.656031	valid_1's ndcg@3: 0.681037
 Early stopping, best iteration is:
 [99]	training's ndcg@1: 0.692322	training's ndcg@2: 0.705796	training's ndcg@3: 0.720651	valid_1's ndcg@1: 0.620283	valid_1's ndcg@2: 0.6552	valid_1's ndcg@3: 0.680176
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.418258 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.407264 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 32246
 [LightGBM] [Info] Number of data points in the train set: 638354, number of used features: 191
@@ -1132,7 +1132,7 @@ Training until validation scores don't improve for 30 rounds
 [184]	training's ndcg@1: 0.748506	training's ndcg@2: 0.749426	training's ndcg@3: 0.754367	valid_1's ndcg@1: 0.617595	valid_1's ndcg@2: 0.656065	valid_1's ndcg@3: 0.6815
 Early stopping, best iteration is:
 [154]	training's ndcg@1: 0.736247	training's ndcg@2: 0.739469	training's ndcg@3: 0.74637	valid_1's ndcg@1: 0.620573	valid_1's ndcg@2: 0.656758	valid_1's ndcg@3: 0.681776
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.417139 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.417058 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 32246
 [LightGBM] [Info] Number of data points in the train set: 638354, number of used features: 191
@@ -1296,7 +1296,7 @@ Training until validation scores don't improve for 30 rounds
 [157]	training's ndcg@1: 0.76137	training's ndcg@2: 0.758541	training's ndcg@3: 0.760487	valid_1's ndcg@1: 0.617529	valid_1's ndcg@2: 0.658666	valid_1's ndcg@3: 0.682707
 Early stopping, best iteration is:
 [127]	training's ndcg@1: 0.744361	training's ndcg@2: 0.745304	training's ndcg@3: 0.750282	valid_1's ndcg@1: 0.617804	valid_1's ndcg@2: 0.65785	valid_1's ndcg@3: 0.683043
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.436720 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.428253 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 32246
 [LightGBM] [Info] Number of data points in the train set: 638354, number of used features: 191
@@ -1488,7 +1488,7 @@ Training until validation scores don't improve for 30 rounds
 [185]	training's ndcg@1: 0.761929	training's ndcg@2: 0.759063	training's ndcg@3: 0.761685	valid_1's ndcg@1: 0.620755	valid_1's ndcg@2: 0.657858	valid_1's ndcg@3: 0.682544
 Early stopping, best iteration is:
 [155]	training's ndcg@1: 0.747984	training's ndcg@2: 0.748012	training's ndcg@3: 0.752937	valid_1's ndcg@1: 0.622242	valid_1's ndcg@2: 0.657392	valid_1's ndcg@3: 0.681999
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.419483 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.412106 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 32246
 [LightGBM] [Info] Number of data points in the train set: 638354, number of used features: 191
@@ -1614,12 +1614,12 @@ Early stopping, best iteration is:
 odds_data.pickle download finish Gilgamesh
 
 選択数:1
-単勝 回収率85.80796660288757%
-複勝 回収率88.16315881022776%
+単勝 回収率85.8079666028873%
+複勝 回収率88.1631588102279%
 単勝 勝率32.54479039833014%
 複勝 勝率63.59366846408071%
 賭けたレース数5749回
 賭けた金額5749
 金額:-119385.0
-最低金額:-120630.0
+最低金額:-122490.0
 mdcd:15.9042

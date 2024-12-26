@@ -42,11 +42,11 @@ Requirement already satisfied: soupsieve>1.2 in /Users/kansei/.pyenv/versions/3.
 wrap_data.pickle download finish Gilgamesh
 race_cource_info.pickle download finish Gilgamesh
 race_pace_analyze_data.pickle download finish Gilgamesh
-start rank:5
 start rank:1
-start rank:4
-start rank:2
 start rank:3
+start rank:2
+start rank:5
+start rank:4
 
 
 
@@ -77,7 +77,7 @@ start rank:3
 4-instance.pickle download finish Gilgamesh
 5-instance.pickle download finish Gilgamesh
 pace_learn_data.pickle download finish Gilgamesh
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.211173 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.216113 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -282,7 +282,7 @@ Training until validation scores don't improve for 30 rounds
 [197]	training's l2: 1.33032	valid_1's l2: 2.0335
 Did not meet early stopping. Best iteration is:
 [197]	training's l2: 1.33032	valid_1's l2: 2.0335
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.185377 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.169192 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -475,7 +475,7 @@ Training until validation scores don't improve for 30 rounds
 [185]	training's l2: 1.3343	valid_1's l2: 2.03275
 Early stopping, best iteration is:
 [155]	training's l2: 1.41357	valid_1's l2: 2.03139
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.175708 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.172333 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -655,7 +655,7 @@ Training until validation scores don't improve for 30 rounds
 [172]	training's l2: 1.35827	valid_1's l2: 2.03031
 Did not meet early stopping. Best iteration is:
 [172]	training's l2: 1.35827	valid_1's l2: 2.03031
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.166155 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.176429 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -830,7 +830,7 @@ Training until validation scores don't improve for 30 rounds
 [167]	training's l2: 1.62212	valid_1's l2: 2.02317
 Did not meet early stopping. Best iteration is:
 [167]	training's l2: 1.62212	valid_1's l2: 2.02317
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.176040 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.184018 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -949,7 +949,7 @@ Training until validation scores don't improve for 30 rounds
 [111]	training's l2: 1.37116	valid_1's l2: 2.03597
 Early stopping, best iteration is:
 [81]	training's l2: 1.50201	valid_1's l2: 2.03053
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.171258 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.178639 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -1149,7 +1149,7 @@ Did not meet early stopping. Best iteration is:
 [190]	training's l2: 1.53174	valid_1's l2: 2.02886
 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.173474 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.177488 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -1294,7 +1294,7 @@ Training until validation scores don't improve for 30 rounds
 [136]	training's l2: 1.55349	valid_1's l2: 2.03923
 Early stopping, best iteration is:
 [106]	training's l2: 1.6356	valid_1's l2: 2.03711
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.179407 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.184612 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -1478,7 +1478,7 @@ Training until validation scores don't improve for 30 rounds
 [176]	training's l2: 1.25804	valid_1's l2: 2.03078
 Did not meet early stopping. Best iteration is:
 [176]	training's l2: 1.25804	valid_1's l2: 2.03078
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.167313 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.179981 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -1626,7 +1626,7 @@ Training until validation scores don't improve for 30 rounds
 [140]	training's l2: 1.43439	valid_1's l2: 2.04503
 Did not meet early stopping. Best iteration is:
 [140]	training's l2: 1.43439	valid_1's l2: 2.04503
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.173528 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.179631 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -1786,7 +1786,7 @@ Training until validation scores don't improve for 30 rounds
 [152]	training's l2: 1.42129	valid_1's l2: 2.03522
 Early stopping, best iteration is:
 [122]	training's l2: 1.51112	valid_1's l2: 2.03312
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.183494 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.185136 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -1972,7 +1972,7 @@ Training until validation scores don't improve for 30 rounds
 [178]	training's l2: 0.000204213	valid_1's l2: 0.00026554
 Did not meet early stopping. Best iteration is:
 [178]	training's l2: 0.000204213	valid_1's l2: 0.00026554
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.168263 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.171190 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -2132,7 +2132,7 @@ Training until validation scores don't improve for 30 rounds
 [152]	training's l2: 0.000191301	valid_1's l2: 0.00026546
 Did not meet early stopping. Best iteration is:
 [152]	training's l2: 0.000191301	valid_1's l2: 0.00026546
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.171232 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.173580 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -2306,7 +2306,7 @@ Training until validation scores don't improve for 30 rounds
 [166]	training's l2: 0.000195676	valid_1's l2: 0.000265698
 Early stopping, best iteration is:
 [136]	training's l2: 0.000206095	valid_1's l2: 0.000265216
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.178789 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.173828 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -2498,7 +2498,7 @@ Training until validation scores don't improve for 30 rounds
 [184]	training's l2: 0.00019884	valid_1's l2: 0.000266285
 Did not meet early stopping. Best iteration is:
 [184]	training's l2: 0.00019884	valid_1's l2: 0.000266285
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.174066 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.170190 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -2683,7 +2683,7 @@ Training until validation scores don't improve for 30 rounds
 [177]	training's l2: 0.000200772	valid_1's l2: 0.000265764
 Did not meet early stopping. Best iteration is:
 [177]	training's l2: 0.000200772	valid_1's l2: 0.000265764
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.174404 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.178404 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -2877,7 +2877,7 @@ Training until validation scores don't improve for 30 rounds
 [186]	training's l2: 0.000203889	valid_1's l2: 0.000265631
 Did not meet early stopping. Best iteration is:
 [186]	training's l2: 0.000203889	valid_1's l2: 0.000265631
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.173350 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.175766 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -3069,7 +3069,7 @@ Training until validation scores don't improve for 30 rounds
 [184]	training's l2: 0.000205244	valid_1's l2: 0.000266134
 Did not meet early stopping. Best iteration is:
 [184]	training's l2: 0.000205244	valid_1's l2: 0.000266134
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.180773 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.177524 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -3202,7 +3202,7 @@ Training until validation scores don't improve for 30 rounds
 [125]	training's l2: 0.000187223	valid_1's l2: 0.000266549
 Early stopping, best iteration is:
 [95]	training's l2: 0.000202766	valid_1's l2: 0.000266105
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.178660 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.183022 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -3327,7 +3327,7 @@ Training until validation scores don't improve for 30 rounds
 [117]	training's l2: 0.000210042	valid_1's l2: 0.000265406
 Did not meet early stopping. Best iteration is:
 [117]	training's l2: 0.000210042	valid_1's l2: 0.000265406
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.174013 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.183351 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -3477,7 +3477,7 @@ Training until validation scores don't improve for 30 rounds
 [142]	training's l2: 0.000196779	valid_1's l2: 0.000265178
 Early stopping, best iteration is:
 [112]	training's l2: 0.000209505	valid_1's l2: 0.000265097
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.176096 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.178947 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -3673,7 +3673,7 @@ Training until validation scores don't improve for 30 rounds
 [188]	training's l2: 0.000556798	valid_1's l2: 0.000707345
 Did not meet early stopping. Best iteration is:
 [188]	training's l2: 0.000556798	valid_1's l2: 0.000707345
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.177602 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.180520 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -3862,7 +3862,7 @@ Training until validation scores don't improve for 30 rounds
 [181]	training's l2: 0.000479645	valid_1's l2: 0.000710462
 Early stopping, best iteration is:
 [151]	training's l2: 0.000513578	valid_1's l2: 0.000710076
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.173615 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.176149 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -4020,7 +4020,7 @@ Training until validation scores don't improve for 30 rounds
 [150]	training's l2: 0.00057373	valid_1's l2: 0.000706865
 Early stopping, best iteration is:
 [120]	training's l2: 0.000609532	valid_1's l2: 0.00070665
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.174193 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.172693 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -4219,7 +4219,7 @@ Training until validation scores don't improve for 30 rounds
 [191]	training's l2: 0.000521283	valid_1's l2: 0.000710953
 Early stopping, best iteration is:
 [161]	training's l2: 0.000552935	valid_1's l2: 0.000710142
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.187190 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.172696 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -4422,7 +4422,7 @@ Training until validation scores don't improve for 30 rounds
 [195]	training's l2: 0.000577315	valid_1's l2: 0.000708527
 Did not meet early stopping. Best iteration is:
 [195]	training's l2: 0.000577315	valid_1's l2: 0.000708527
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.173347 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.175372 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -4617,7 +4617,7 @@ Training until validation scores don't improve for 30 rounds
 [187]	training's l2: 0.000502684	valid_1's l2: 0.000710495
 Did not meet early stopping. Best iteration is:
 [187]	training's l2: 0.000502684	valid_1's l2: 0.000710495
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.174018 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.182208 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -4721,7 +4721,7 @@ Training until validation scores don't improve for 30 rounds
 [96]	training's l2: 0.000582569	valid_1's l2: 0.000714264
 Did not meet early stopping. Best iteration is:
 [96]	training's l2: 0.000582569	valid_1's l2: 0.000714264
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.178939 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.180262 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -4920,7 +4920,7 @@ Training until validation scores don't improve for 30 rounds
 [191]	training's l2: 0.000583479	valid_1's l2: 0.00070586
 Did not meet early stopping. Best iteration is:
 [191]	training's l2: 0.000583479	valid_1's l2: 0.00070586
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.174363 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.175500 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -5078,7 +5078,7 @@ Training until validation scores don't improve for 30 rounds
 [150]	training's l2: 0.000470258	valid_1's l2: 0.000712367
 Did not meet early stopping. Best iteration is:
 [150]	training's l2: 0.000470258	valid_1's l2: 0.000712367
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.189184 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.180997 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -5232,7 +5232,7 @@ Training until validation scores don't improve for 30 rounds
 [146]	training's l2: 0.000527264	valid_1's l2: 0.000713292
 Early stopping, best iteration is:
 [116]	training's l2: 0.000564887	valid_1's l2: 0.000712756
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.174670 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.172005 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -5435,7 +5435,7 @@ Training until validation scores don't improve for 30 rounds
 [195]	training's l2: 0.00156561	valid_1's l2: 0.00192244
 Did not meet early stopping. Best iteration is:
 [195]	training's l2: 0.00156561	valid_1's l2: 0.00192244
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.171955 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.185419 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -5609,7 +5609,7 @@ Training until validation scores don't improve for 30 rounds
 [166]	training's l2: 0.00128244	valid_1's l2: 0.00193449
 Did not meet early stopping. Best iteration is:
 [166]	training's l2: 0.00128244	valid_1's l2: 0.00193449
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.176110 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.180864 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -5805,7 +5805,7 @@ Training until validation scores don't improve for 30 rounds
 [188]	training's l2: 0.00157628	valid_1's l2: 0.00192347
 Did not meet early stopping. Best iteration is:
 [188]	training's l2: 0.00157628	valid_1's l2: 0.00192347
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.182705 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.178473 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -5996,7 +5996,7 @@ Training until validation scores don't improve for 30 rounds
 [183]	training's l2: 0.00166857	valid_1's l2: 0.00193394
 Did not meet early stopping. Best iteration is:
 [183]	training's l2: 0.00166857	valid_1's l2: 0.00193394
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.182032 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.183388 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -6187,7 +6187,7 @@ Training until validation scores don't improve for 30 rounds
 [183]	training's l2: 0.00151987	valid_1's l2: 0.0019265
 Did not meet early stopping. Best iteration is:
 [183]	training's l2: 0.00151987	valid_1's l2: 0.0019265
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.180756 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.189082 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -6388,7 +6388,7 @@ Training until validation scores don't improve for 30 rounds
 [193]	training's l2: 0.00160744	valid_1's l2: 0.00192254
 Did not meet early stopping. Best iteration is:
 [193]	training's l2: 0.00160744	valid_1's l2: 0.00192254
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.178981 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.186902 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -6573,7 +6573,7 @@ Training until validation scores don't improve for 30 rounds
 [177]	training's l2: 0.0016347	valid_1's l2: 0.00192979
 Did not meet early stopping. Best iteration is:
 [177]	training's l2: 0.0016347	valid_1's l2: 0.00192979
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.177428 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.189519 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -6766,7 +6766,7 @@ Training until validation scores don't improve for 30 rounds
 [185]	training's l2: 0.00120335	valid_1's l2: 0.00192774
 Did not meet early stopping. Best iteration is:
 [185]	training's l2: 0.00120335	valid_1's l2: 0.00192774
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.175516 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.183449 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -6967,7 +6967,7 @@ Training until validation scores don't improve for 30 rounds
 [193]	training's l2: 0.00154598	valid_1's l2: 0.00192633
 Did not meet early stopping. Best iteration is:
 [193]	training's l2: 0.00154598	valid_1's l2: 0.00192633
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.179570 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.183597 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -7160,7 +7160,7 @@ Training until validation scores don't improve for 30 rounds
 [185]	training's l2: 0.0012633	valid_1's l2: 0.0019221
 Did not meet early stopping. Best iteration is:
 [185]	training's l2: 0.0012633	valid_1's l2: 0.0019221
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.184533 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.182190 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -7340,7 +7340,7 @@ Training until validation scores don't improve for 30 rounds
 [172]	training's l2: 0.00199491	valid_1's l2: 0.00306802
 Did not meet early stopping. Best iteration is:
 [172]	training's l2: 0.00199491	valid_1's l2: 0.00306802
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.188152 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.180476 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -7514,7 +7514,7 @@ Training until validation scores don't improve for 30 rounds
 [166]	training's l2: 0.00224203	valid_1's l2: 0.00308263
 Early stopping, best iteration is:
 [136]	training's l2: 0.00236125	valid_1's l2: 0.00307815
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.177031 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.171483 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -7674,7 +7674,7 @@ Training until validation scores don't improve for 30 rounds
 [152]	training's l2: 0.00213025	valid_1's l2: 0.00306139
 Did not meet early stopping. Best iteration is:
 [152]	training's l2: 0.00213025	valid_1's l2: 0.00306139
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.170512 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.183847 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -7871,7 +7871,7 @@ Training until validation scores don't improve for 30 rounds
 [189]	training's l2: 0.00202269	valid_1's l2: 0.00307506
 Did not meet early stopping. Best iteration is:
 [189]	training's l2: 0.00202269	valid_1's l2: 0.00307506
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.176168 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.179110 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -8052,7 +8052,7 @@ Training until validation scores don't improve for 30 rounds
 [173]	training's l2: 0.00203498	valid_1's l2: 0.00308383
 Early stopping, best iteration is:
 [143]	training's l2: 0.00217578	valid_1's l2: 0.0030817
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.176801 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.180116 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -8179,7 +8179,7 @@ Training until validation scores don't improve for 30 rounds
 [119]	training's l2: 0.00226993	valid_1's l2: 0.00307427
 Did not meet early stopping. Best iteration is:
 [119]	training's l2: 0.00226993	valid_1's l2: 0.00307427
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.175218 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.181242 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -8325,7 +8325,7 @@ Training until validation scores don't improve for 30 rounds
 [138]	training's l2: 0.00200521	valid_1's l2: 0.003073
 Early stopping, best iteration is:
 [108]	training's l2: 0.00217108	valid_1's l2: 0.00306863
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.176793 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.185857 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -8432,7 +8432,7 @@ Training until validation scores don't improve for 30 rounds
 [99]	training's l2: 0.00215795	valid_1's l2: 0.00306774
 Did not meet early stopping. Best iteration is:
 [99]	training's l2: 0.00215795	valid_1's l2: 0.00306774
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.175155 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.176006 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -8565,7 +8565,7 @@ Training until validation scores don't improve for 30 rounds
 [125]	training's l2: 0.00231249	valid_1's l2: 0.00307726
 Did not meet early stopping. Best iteration is:
 [125]	training's l2: 0.00231249	valid_1's l2: 0.00307726
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.189959 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.191018 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -8677,7 +8677,7 @@ Training until validation scores don't improve for 30 rounds
 [104]	training's l2: 0.00214302	valid_1's l2: 0.00309072
 Early stopping, best iteration is:
 [74]	training's l2: 0.00236469	valid_1's l2: 0.00308822
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.179245 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.176319 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -8874,7 +8874,7 @@ Training until validation scores don't improve for 30 rounds
 [189]	training's l2: 0.2616	valid_1's l2: 0.426067
 Did not meet early stopping. Best iteration is:
 [189]	training's l2: 0.2616	valid_1's l2: 0.426067
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.170750 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.185819 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -9046,7 +9046,7 @@ Training until validation scores don't improve for 30 rounds
 [164]	training's l2: 0.276617	valid_1's l2: 0.427839
 Early stopping, best iteration is:
 [134]	training's l2: 0.295559	valid_1's l2: 0.42708
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.180387 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.183262 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -9216,7 +9216,7 @@ Training until validation scores don't improve for 30 rounds
 [162]	training's l2: 0.22782	valid_1's l2: 0.426711
 Did not meet early stopping. Best iteration is:
 [162]	training's l2: 0.22782	valid_1's l2: 0.426711
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.184814 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.177226 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -9341,7 +9341,7 @@ Training until validation scores don't improve for 30 rounds
 [117]	training's l2: 0.221391	valid_1's l2: 0.426018
 Did not meet early stopping. Best iteration is:
 [117]	training's l2: 0.221391	valid_1's l2: 0.426018
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.176720 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.173988 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -9541,7 +9541,7 @@ Training until validation scores don't improve for 30 rounds
 [192]	training's l2: 0.239729	valid_1's l2: 0.426472
 Did not meet early stopping. Best iteration is:
 [192]	training's l2: 0.239729	valid_1's l2: 0.426472
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.175832 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.177371 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -9701,7 +9701,7 @@ Training until validation scores don't improve for 30 rounds
 [152]	training's l2: 0.254457	valid_1's l2: 0.424152
 Did not meet early stopping. Best iteration is:
 [152]	training's l2: 0.254457	valid_1's l2: 0.424152
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.174014 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.183227 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -9853,7 +9853,7 @@ Training until validation scores don't improve for 30 rounds
 [144]	training's l2: 0.245702	valid_1's l2: 0.430254
 Did not meet early stopping. Best iteration is:
 [144]	training's l2: 0.245702	valid_1's l2: 0.430254
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.187675 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.192513 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -10011,7 +10011,7 @@ Training until validation scores don't improve for 30 rounds
 [150]	training's l2: 0.229248	valid_1's l2: 0.42748
 Did not meet early stopping. Best iteration is:
 [150]	training's l2: 0.229248	valid_1's l2: 0.42748
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.182653 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.183825 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -10124,7 +10124,7 @@ Did not meet early stopping. Best iteration is:
 [103]	training's l2: 0.318767	valid_1's l2: 0.425104
 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
 [LightGBM] [Warning] Accuracy may be bad since you didn't explicitly set num_leaves OR 2^max_depth > num_leaves. (num_leaves=31).
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.185417 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.185931 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -10324,7 +10324,7 @@ Training until validation scores don't improve for 30 rounds
 [191]	training's l2: 0.301661	valid_1's l2: 0.426445
 Did not meet early stopping. Best iteration is:
 [191]	training's l2: 0.301661	valid_1's l2: 0.426445
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.178168 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.181681 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -10493,7 +10493,7 @@ Training until validation scores don't improve for 30 rounds
 [161]	training's l2: 0.259658	valid_1's l2: 0.449482
 Did not meet early stopping. Best iteration is:
 [161]	training's l2: 0.259658	valid_1's l2: 0.449482
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.182402 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.181960 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -10680,7 +10680,7 @@ Training until validation scores don't improve for 30 rounds
 [179]	training's l2: 0.250261	valid_1's l2: 0.442815
 Did not meet early stopping. Best iteration is:
 [179]	training's l2: 0.250261	valid_1's l2: 0.442815
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.179560 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.177198 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -10871,7 +10871,7 @@ Training until validation scores don't improve for 30 rounds
 [183]	training's l2: 0.244373	valid_1's l2: 0.447903
 Did not meet early stopping. Best iteration is:
 [183]	training's l2: 0.244373	valid_1's l2: 0.447903
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.191819 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.188235 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -11079,7 +11079,7 @@ Training until validation scores don't improve for 30 rounds
 [200]	training's l2: 0.293138	valid_1's l2: 0.446323
 Did not meet early stopping. Best iteration is:
 [200]	training's l2: 0.293138	valid_1's l2: 0.446323
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.185912 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.182772 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -11271,7 +11271,7 @@ Training until validation scores don't improve for 30 rounds
 [184]	training's l2: 0.289878	valid_1's l2: 0.443741
 Did not meet early stopping. Best iteration is:
 [184]	training's l2: 0.289878	valid_1's l2: 0.443741
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.178844 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.179368 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -11430,7 +11430,7 @@ Training until validation scores don't improve for 30 rounds
 [151]	training's l2: 0.240741	valid_1's l2: 0.446749
 Early stopping, best iteration is:
 [121]	training's l2: 0.266333	valid_1's l2: 0.446651
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.172142 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.181652 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -11617,7 +11617,7 @@ Training until validation scores don't improve for 30 rounds
 [179]	training's l2: 0.263528	valid_1's l2: 0.445089
 Did not meet early stopping. Best iteration is:
 [179]	training's l2: 0.263528	valid_1's l2: 0.445089
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.176822 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.179521 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -11781,7 +11781,7 @@ Training until validation scores don't improve for 30 rounds
 [156]	training's l2: 0.244579	valid_1's l2: 0.448567
 Early stopping, best iteration is:
 [126]	training's l2: 0.269005	valid_1's l2: 0.448342
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.184752 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.180123 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
@@ -11950,7 +11950,7 @@ Training until validation scores don't improve for 30 rounds
 [161]	training's l2: 0.239168	valid_1's l2: 0.446805
 Did not meet early stopping. Best iteration is:
 [161]	training's l2: 0.239168	valid_1's l2: 0.446805
-[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.180199 seconds.
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.182228 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 139397
 [LightGBM] [Info] Number of data points in the train set: 44675, number of used features: 651
