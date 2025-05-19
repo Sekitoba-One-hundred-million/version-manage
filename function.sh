@@ -9,8 +9,7 @@ sekitoba_use_data='sekitoba_use_data'
 sekitoba_data_collect='sekitoba_data_collect'
 sekitoba_data="/Volumes/Gilgamesh/sekitoba-data"
 
-version_line=`cat CHANGELOG.md| grep -m1 '##'`
-version=v${version_line: -4:4}
+version=`cat CHANGELOG.md| grep -m1 '##' | awk -F ' ' '{ print "v"$3 }'`
 
 function init {
     while read line
@@ -65,7 +64,7 @@ function git_hash_get {
     hash_value=`git rev-parse HEAD`
     cd ..
     rm -rf $1
-    return 1
+    echo ${hash_value}
 }
 
 function git_clone {

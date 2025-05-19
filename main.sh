@@ -58,8 +58,8 @@ for line in `cat "${repository_txt}"`; do
             fi
         done < "${data_dir}/${repository}.txt"
     fi
-    
-    commit_hash=`git_hash_get $repository`
+
+    commit_hash=`git_hash_get ${repository}`
     echo "${repository} ${commit_hash}" >> "${data_dir}/git-commit.txt"
     IFS=$'\n'
 done

@@ -1,3 +1,6 @@
+## version 2.2
+add recovery model
+
 ## version 2.01
 model update
 

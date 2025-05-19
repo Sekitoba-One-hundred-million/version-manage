@@ -20,6 +20,10 @@ race_cource_info.pickle sekitoba_use_data/race_cource_info.py
 race_info_data.pickle sekitoba_data_collect/race_info_collect.py
 race_money_data.pickle sekitoba_data_collect/race_money.py
 race_pace_analyze_data.pickle sekitoba_use_data/race_pace_analyze.py
+rank_model.pickle None
+recovery_cluster_data.pickle None
+recovery_learn_data.pickle None
+recovery_simu_data.pickle None
 up3_learn_data.pickle None
 up3_simu_data.pickle None
 wrap_data.pickle sekitoba_data_collect/wrap_data_collect.py
