@@ -1,3 +1,6 @@
+## version 2.3
+update bet simulation
+
 ## version 2.2
 add recovery model
 
