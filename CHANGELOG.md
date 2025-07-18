@@ -1,3 +1,6 @@
+## version 2.4
+fix learn data
+
 ## version 2.3
 update bet simulation
 

@@ -1,5 +1,5 @@
 Looking in indexes: https://pypi.org/simple, http://100.95.241.19
-Requirement already satisfied: SekitobaLibrary in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (1.3.19)
+Requirement already satisfied: SekitobaLibrary in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (1.3.22)
 Requirement already satisfied: requests in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary) (2.32.3)
 Requirement already satisfied: pandas in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary) (2.2.3)
 Requirement already satisfied: lightgbm in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary) (4.6.0)
@@ -15,44 +15,44 @@ Requirement already satisfied: jpholiday in /home/athena/.pyenv/versions/3.10.1/
 Requirement already satisfied: jmespath<2.0.0,>=0.7.1 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from boto3->SekitobaLibrary) (1.0.1)
 Requirement already satisfied: s3transfer<0.11.0,>=0.10.0 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from boto3->SekitobaLibrary) (0.10.3)
 Requirement already satisfied: botocore<1.36.0,>=1.35.51 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from boto3->SekitobaLibrary) (1.35.51)
-Requirement already satisfied: urllib3!=2.2.0,<3,>=1.25.4 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from botocore<1.36.0,>=1.35.51->boto3->SekitobaLibrary) (2.2.3)
 Requirement already satisfied: python-dateutil<3.0.0,>=2.1 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from botocore<1.36.0,>=1.35.51->boto3->SekitobaLibrary) (2.9.0.post0)
+Requirement already satisfied: urllib3!=2.2.0,<3,>=1.25.4 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from botocore<1.36.0,>=1.35.51->boto3->SekitobaLibrary) (2.2.3)
 Requirement already satisfied: six>=1.5 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from python-dateutil<3.0.0,>=2.1->botocore<1.36.0,>=1.35.51->boto3->SekitobaLibrary) (1.16.0)
 Requirement already satisfied: beautifulsoup4 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from bs4->SekitobaLibrary) (4.12.3)
 Requirement already satisfied: soupsieve>1.2 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from beautifulsoup4->bs4->SekitobaLibrary) (2.6)
 Requirement already satisfied: scipy in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from lightgbm->SekitobaLibrary) (1.14.1)
-Requirement already satisfied: fonttools>=4.22.0 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary) (4.54.1)
-Requirement already satisfied: pyparsing>=2.3.1 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary) (3.2.0)
-Requirement already satisfied: pillow>=8 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary) (11.0.0)
-Requirement already satisfied: kiwisolver>=1.3.1 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary) (1.4.7)
 Requirement already satisfied: cycler>=0.10 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary) (0.12.1)
-Requirement already satisfied: contourpy>=1.0.1 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary) (1.3.0)
+Requirement already satisfied: pyparsing>=2.3.1 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary) (3.2.0)
+Requirement already satisfied: fonttools>=4.22.0 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary) (4.54.1)
+Requirement already satisfied: kiwisolver>=1.3.1 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary) (1.4.7)
 Requirement already satisfied: packaging>=20.0 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary) (24.1)
-Requirement already satisfied: tzdata>=2022.7 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from pandas->SekitobaLibrary) (2024.2)
+Requirement already satisfied: contourpy>=1.0.1 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary) (1.3.0)
+Requirement already satisfied: pillow>=8 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary) (11.0.0)
 Requirement already satisfied: pytz>=2020.1 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from pandas->SekitobaLibrary) (2024.2)
-Requirement already satisfied: idna<4,>=2.5 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from requests->SekitobaLibrary) (3.10)
-Requirement already satisfied: charset-normalizer<4,>=2 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from requests->SekitobaLibrary) (3.4.0)
+Requirement already satisfied: tzdata>=2022.7 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from pandas->SekitobaLibrary) (2024.2)
 Requirement already satisfied: certifi>=2017.4.17 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from requests->SekitobaLibrary) (2024.8.30)
+Requirement already satisfied: charset-normalizer<4,>=2 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from requests->SekitobaLibrary) (3.4.0)
+Requirement already satisfied: idna<4,>=2.5 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from requests->SekitobaLibrary) (3.10)
 Requirement already satisfied: docutils>=0.3 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from statistics->SekitobaLibrary) (0.21.2)
-Requirement already satisfied: nvidia-cusparse-cu12==12.3.1.170 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (12.3.1.170)
-Requirement already satisfied: networkx in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (3.4.2)
-Requirement already satisfied: fsspec in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (2024.10.0)
-Requirement already satisfied: nvidia-cuda-cupti-cu12==12.4.127 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (12.4.127)
-Requirement already satisfied: sympy==1.13.1 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (1.13.1)
-Requirement already satisfied: nvidia-cuda-nvrtc-cu12==12.4.127 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (12.4.127)
-Requirement already satisfied: nvidia-cusolver-cu12==11.6.1.9 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (11.6.1.9)
-Requirement already satisfied: nvidia-cudnn-cu12==9.1.0.70 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (9.1.0.70)
-Requirement already satisfied: typing-extensions>=4.8.0 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (4.12.2)
-Requirement already satisfied: filelock in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (3.16.1)
-Requirement already satisfied: nvidia-nccl-cu12==2.21.5 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (2.21.5)
-Requirement already satisfied: nvidia-cublas-cu12==12.4.5.8 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (12.4.5.8)
-Requirement already satisfied: nvidia-cuda-runtime-cu12==12.4.127 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (12.4.127)
-Requirement already satisfied: nvidia-curand-cu12==10.3.5.147 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (10.3.5.147)
-Requirement already satisfied: triton==3.1.0 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (3.1.0)
-Requirement already satisfied: nvidia-nvjitlink-cu12==12.4.127 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (12.4.127)
 Requirement already satisfied: nvidia-cufft-cu12==11.2.1.3 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (11.2.1.3)
-Requirement already satisfied: nvidia-nvtx-cu12==12.4.127 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (12.4.127)
+Requirement already satisfied: nvidia-cusparse-cu12==12.3.1.170 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (12.3.1.170)
+Requirement already satisfied: filelock in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (3.16.1)
+Requirement already satisfied: fsspec in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (2024.10.0)
+Requirement already satisfied: nvidia-cuda-runtime-cu12==12.4.127 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (12.4.127)
+Requirement already satisfied: nvidia-nccl-cu12==2.21.5 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (2.21.5)
+Requirement already satisfied: nvidia-cusolver-cu12==11.6.1.9 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (11.6.1.9)
+Requirement already satisfied: typing-extensions>=4.8.0 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (4.12.2)
+Requirement already satisfied: nvidia-cudnn-cu12==9.1.0.70 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (9.1.0.70)
+Requirement already satisfied: nvidia-cublas-cu12==12.4.5.8 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (12.4.5.8)
+Requirement already satisfied: nvidia-cuda-nvrtc-cu12==12.4.127 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (12.4.127)
+Requirement already satisfied: sympy==1.13.1 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (1.13.1)
+Requirement already satisfied: nvidia-nvjitlink-cu12==12.4.127 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (12.4.127)
+Requirement already satisfied: nvidia-curand-cu12==10.3.5.147 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (10.3.5.147)
 Requirement already satisfied: jinja2 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (3.1.4)
+Requirement already satisfied: networkx in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (3.4.2)
+Requirement already satisfied: nvidia-nvtx-cu12==12.4.127 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (12.4.127)
+Requirement already satisfied: triton==3.1.0 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (3.1.0)
+Requirement already satisfied: nvidia-cuda-cupti-cu12==12.4.127 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (12.4.127)
 Requirement already satisfied: mpmath<1.4,>=1.1.0 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from sympy==1.13.1->torch->SekitobaLibrary) (1.3.0)
 Requirement already satisfied: MarkupSafe>=2.0 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from jinja2->torch->SekitobaLibrary) (3.0.2)
 wrap_data.pickle download finish Gilgamesh
@@ -63,9 +63,9 @@ predict_first_passing_rank.pickle download finish Gilgamesh
 predict_last_passing_rank.pickle download finish Gilgamesh
 predict_up3.pickle download finish Gilgamesh
 start rank:3
-start rank:2
-start rank:1
 start rank:4
+start rank:1
+start rank:2
 start rank:5
 1-instance.pickle download finish Gilgamesh
 2-instance.pickle download finish Gilgamesh
@@ -76,97 +76,99 @@ rank_model.pickle download finish Gilgamesh
 odds_data.pickle download finish Gilgamesh
 
 選択数:1
-単勝 回収率83.38705854467885%
-複勝 回収率86.77411708935662%
-単勝 勝率32.02180611519317%
-複勝 勝率63.33254325669589%
-賭けたレース数4219回
-賭けた金額4219
-金額:-102135.0
-最低金額:-103260.0
-mdcd:15.9884
+単勝 回収率86.25587355830852%
+複勝 回収率88.27637761640229%
+単勝 勝率32.742417770183685%
+複勝 勝率63.690730457069634%
+賭けたレース数4682回
+賭けた金額4682
+金額:-93525.0
+最低金額:-93525.0
+mdcd:15.9484
 rank_learn_data.pickle download finish Gilgamesh
 rank_simu_data.pickle download finish Gilgamesh
-[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.050254 seconds.
+[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.020646 seconds.
+You can set `force_row_wise=true` to remove the overhead.
+And if memory is not enough, you can set `force_col_wise=true`.
+[LightGBM] [Info] Total Bins 33726
+[LightGBM] [Info] Number of data points in the train set: 684399, number of used features: 191
+Training until validation scores don't improve for 30 rounds
+Early stopping, best iteration is:
+[203]	training's ndcg@1: 0.696679	training's ndcg@2: 0.708915	training's ndcg@3: 0.722742	valid_1's ndcg@1: 0.621153	valid_1's ndcg@2: 0.655568	valid_1's ndcg@3: 0.681783
+[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.020026 seconds.
+You can set `force_row_wise=true` to remove the overhead.
+And if memory is not enough, you can set `force_col_wise=true`.
+[LightGBM] [Info] Total Bins 33726
+[LightGBM] [Info] Number of data points in the train set: 684399, number of used features: 191
+Training until validation scores don't improve for 30 rounds
+Early stopping, best iteration is:
+[250]	training's ndcg@1: 0.708106	training's ndcg@2: 0.71826	training's ndcg@3: 0.729989	valid_1's ndcg@1: 0.624733	valid_1's ndcg@2: 0.657126	valid_1's ndcg@3: 0.682524
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.052278 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 33726
 [LightGBM] [Info] Number of data points in the train set: 684399, number of used features: 191
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[121]	training's ndcg@1: 0.699563	training's ndcg@2: 0.709876	training's ndcg@3: 0.723234	valid_1's ndcg@1: 0.619814	valid_1's ndcg@2: 0.652314	valid_1's ndcg@3: 0.680017
-[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.055092 seconds.
+[209]	training's ndcg@1: 0.714555	training's ndcg@2: 0.722763	training's ndcg@3: 0.733323	valid_1's ndcg@1: 0.622302	valid_1's ndcg@2: 0.655602	valid_1's ndcg@3: 0.681642
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.050257 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 33726
 [LightGBM] [Info] Number of data points in the train set: 684399, number of used features: 191
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[281]	training's ndcg@1: 0.68946	training's ndcg@2: 0.704127	training's ndcg@3: 0.719076	valid_1's ndcg@1: 0.620773	valid_1's ndcg@2: 0.653616	valid_1's ndcg@3: 0.680939
-[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.050264 seconds.
+[141]	training's ndcg@1: 0.675899	training's ndcg@2: 0.694165	training's ndcg@3: 0.711346	valid_1's ndcg@1: 0.620895	valid_1's ndcg@2: 0.654093	valid_1's ndcg@3: 0.680864
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.055163 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 33726
 [LightGBM] [Info] Number of data points in the train set: 684399, number of used features: 191
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[221]	training's ndcg@1: 0.723574	training's ndcg@2: 0.729257	training's ndcg@3: 0.738512	valid_1's ndcg@1: 0.621271	valid_1's ndcg@2: 0.656116	valid_1's ndcg@3: 0.682517
-[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.049416 seconds.
+[175]	training's ndcg@1: 0.691155	training's ndcg@2: 0.704852	training's ndcg@3: 0.719918	valid_1's ndcg@1: 0.623356	valid_1's ndcg@2: 0.654849	valid_1's ndcg@3: 0.682077
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.057258 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 33726
 [LightGBM] [Info] Number of data points in the train set: 684399, number of used features: 191
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[104]	training's ndcg@1: 0.673039	training's ndcg@2: 0.692023	training's ndcg@3: 0.709761	valid_1's ndcg@1: 0.618574	valid_1's ndcg@2: 0.652619	valid_1's ndcg@3: 0.678817
-[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.051167 seconds.
+[229]	training's ndcg@1: 0.675636	training's ndcg@2: 0.69363	training's ndcg@3: 0.711229	valid_1's ndcg@1: 0.618977	valid_1's ndcg@2: 0.652242	valid_1's ndcg@3: 0.678981
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.053488 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 33726
 [LightGBM] [Info] Number of data points in the train set: 684399, number of used features: 191
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[137]	training's ndcg@1: 0.743607	training's ndcg@2: 0.743719	training's ndcg@3: 0.749394	valid_1's ndcg@1: 0.622918	valid_1's ndcg@2: 0.656161	valid_1's ndcg@3: 0.682157
-[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.050252 seconds.
+[197]	training's ndcg@1: 0.710551	training's ndcg@2: 0.719481	training's ndcg@3: 0.731141	valid_1's ndcg@1: 0.623799	valid_1's ndcg@2: 0.655344	valid_1's ndcg@3: 0.682026
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.051980 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 33726
 [LightGBM] [Info] Number of data points in the train set: 684399, number of used features: 191
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[160]	training's ndcg@1: 0.751508	training's ndcg@2: 0.75075	training's ndcg@3: 0.754072	valid_1's ndcg@1: 0.619713	valid_1's ndcg@2: 0.654053	valid_1's ndcg@3: 0.680112
-[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.055784 seconds.
+[119]	training's ndcg@1: 0.694829	training's ndcg@2: 0.708051	training's ndcg@3: 0.721807	valid_1's ndcg@1: 0.621661	valid_1's ndcg@2: 0.653808	valid_1's ndcg@3: 0.680791
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.055172 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 33726
 [LightGBM] [Info] Number of data points in the train set: 684399, number of used features: 191
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[117]	training's ndcg@1: 0.713054	training's ndcg@2: 0.720407	training's ndcg@3: 0.730884	valid_1's ndcg@1: 0.619559	valid_1's ndcg@2: 0.653303	valid_1's ndcg@3: 0.679268
-[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.051311 seconds.
+[142]	training's ndcg@1: 0.713644	training's ndcg@2: 0.72163	training's ndcg@3: 0.73212	valid_1's ndcg@1: 0.624514	valid_1's ndcg@2: 0.656817	valid_1's ndcg@3: 0.682051
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.049989 seconds.
 You can set `force_col_wise=true` to remove the overhead.
 [LightGBM] [Info] Total Bins 33726
 [LightGBM] [Info] Number of data points in the train set: 684399, number of used features: 191
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[174]	training's ndcg@1: 0.713779	training's ndcg@2: 0.722338	training's ndcg@3: 0.733399	valid_1's ndcg@1: 0.621502	valid_1's ndcg@2: 0.654767	valid_1's ndcg@3: 0.681974
-[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.050178 seconds.
-You can set `force_col_wise=true` to remove the overhead.
-[LightGBM] [Info] Total Bins 33726
-[LightGBM] [Info] Number of data points in the train set: 684399, number of used features: 191
-Training until validation scores don't improve for 30 rounds
-Early stopping, best iteration is:
-[61]	training's ndcg@1: 0.66176	training's ndcg@2: 0.683892	training's ndcg@3: 0.703656	valid_1's ndcg@1: 0.617815	valid_1's ndcg@2: 0.6515	valid_1's ndcg@3: 0.677473
-[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.050041 seconds.
-You can set `force_col_wise=true` to remove the overhead.
-[LightGBM] [Info] Total Bins 33726
-[LightGBM] [Info] Number of data points in the train set: 684399, number of used features: 191
-Training until validation scores don't improve for 30 rounds
-Early stopping, best iteration is:
-[218]	training's ndcg@1: 0.711751	training's ndcg@2: 0.720742	training's ndcg@3: 0.732283	valid_1's ndcg@1: 0.622899	valid_1's ndcg@2: 0.657268	valid_1's ndcg@3: 0.682817
+[124]	training's ndcg@1: 0.706385	training's ndcg@2: 0.715586	training's ndcg@3: 0.72743	valid_1's ndcg@1: 0.620947	valid_1's ndcg@2: 0.654268	valid_1's ndcg@3: 0.679798
 rank_model.pickle download finish Gilgamesh
 odds_data.pickle download finish Gilgamesh
 
 選択数:1
-単勝 回収率83.38705854467895%
-複勝 回収率86.77411708935648%
-単勝 勝率32.02180611519317%
-複勝 勝率63.33254325669589%
-賭けたレース数4219回
-賭けた金額4219
-金額:-102135.0
-最低金額:-102210.0
-mdcd:15.9884
+単勝 回収率84.8077744553611%
+複勝 回収率87.93677915420638%
+単勝 勝率32.42204186245195%
+複勝 勝率63.54122170012815%
+賭けたレース数4682回
+賭けた金額4682
+金額:-103695.0
+最低金額:-105750.0
+mdcd:16.0061
