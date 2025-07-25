@@ -1,3 +1,6 @@
+## version 2.5
+fix float value
+
 ## version 2.4
 fix learn data
 
