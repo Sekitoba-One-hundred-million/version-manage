@@ -1,3 +1,6 @@
+## version 2.6
+add dev odds and popular
+
 ## version 2.5
 fix float value
 
