@@ -1,3 +1,6 @@
+## version 2.7
+keep data
+
 ## version 2.6
 add dev odds and popular
 
