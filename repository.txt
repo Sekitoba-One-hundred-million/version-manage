@@ -8,3 +8,4 @@ simulation_test ./start.sh
 sekitoba_data_collect
 sekitoba_use_data
 sekitoba_library
+sekitoba_data_update
