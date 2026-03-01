@@ -1,3 +1,6 @@
+## version 2.10
+add category_index_data
+
 ## version 2.9
 add version sekitoba_update
 

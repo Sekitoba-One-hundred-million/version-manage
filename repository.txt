@@ -2,6 +2,7 @@ race_pace_simulation ./module/learn_start.sh -t 2
 first_passing_rank ./module/learn_start.sh -t 2
 last_passing_rank ./module/learn_start.sh -t 2
 up3 ./module/learn_start.sh -t 2
+predict_time_index ./module/learn_start.sh -t 2
 rank_learn ./module/learn_start.sh -t 2
 recovery_analyze ./learn_start.sh -t 5
 simulation_test ./start.sh
