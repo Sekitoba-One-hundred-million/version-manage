@@ -5,6 +5,8 @@
 5-instance.pickle None
 first_passing_rank_learn_data.pickle None
 first_passing_rank_simu_data.pickle None
+first_up3_learn_data.pickle None
+first_up3_simu_data.pickle None
 foot_used.pickle sekitoba_use_data/foot_used.py
 last_passing_rank_learn_data.pickle None
 last_passing_rank_simu_data.pickle None
@@ -12,6 +14,7 @@ next_race_data.pickle sekitoba_use_data/race_level.py
 odds_data.pickle sekitoba_data_collect/odds_collect.py
 pace_learn_data.pickle None
 predict_first_passing_rank.pickle None
+predict_first_up3.pickle None
 predict_last_passing_rank.pickle None
 predict_pace_data.pickle None
 predict_time_index.pickle None
@@ -27,8 +30,6 @@ recovery_learn_data.pickle None
 recovery_simu_data.pickle None
 time_index_learn_data.pickle None
 time_index_simu_data.pickle None
-up3_learn_data.pickle None
-up3_simu_data.pickle None
 wrap_data.pickle sekitoba_data_collect/wrap_data_collect.py
 pace_model.pickle None
 train_model.pickle None
