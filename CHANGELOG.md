@@ -1,3 +1,10 @@
+## version 2.14
+fix horce_past_data
+
+## version 2.13
+add predict rate
+fix simulation
+
 ## version 2.12
 add predict diff
 

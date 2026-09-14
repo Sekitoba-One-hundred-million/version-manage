@@ -1,9 +1,9 @@
 Looking in indexes: https://pypi.org/simple, http://100.95.241.19
-Requirement already satisfied: SekitobaLibrary in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (1.3.111)
+Requirement already satisfied: SekitobaLibrary in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (1.3.192)
 Requirement already satisfied: requests in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary) (2.32.3)
 Requirement already satisfied: pandas in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary) (2.2.3)
 Requirement already satisfied: lightgbm in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary) (4.6.0)
-Requirement already satisfied: numpy in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary) (1.26.4)
+Requirement already satisfied: numpy in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary) (2.2.6)
 Requirement already satisfied: matplotlib in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary) (3.9.2)
 Requirement already satisfied: tqdm in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary) (4.66.6)
 Requirement already satisfied: statistics in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary) (1.0.3.5)
@@ -12,50 +12,51 @@ Requirement already satisfied: torch in /home/athena/.pyenv/versions/3.10.1/lib/
 Requirement already satisfied: trueskill in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary) (0.4.5)
 Requirement already satisfied: bs4 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary) (0.0.2)
 Requirement already satisfied: jpholiday in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary) (0.1.10)
-Requirement already satisfied: jmespath<2.0.0,>=0.7.1 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from boto3->SekitobaLibrary) (1.0.1)
 Requirement already satisfied: botocore<1.36.0,>=1.35.51 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from boto3->SekitobaLibrary) (1.35.51)
+Requirement already satisfied: jmespath<2.0.0,>=0.7.1 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from boto3->SekitobaLibrary) (1.0.1)
 Requirement already satisfied: s3transfer<0.11.0,>=0.10.0 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from boto3->SekitobaLibrary) (0.10.3)
-Requirement already satisfied: urllib3!=2.2.0,<3,>=1.25.4 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from botocore<1.36.0,>=1.35.51->boto3->SekitobaLibrary) (2.5.0)
 Requirement already satisfied: python-dateutil<3.0.0,>=2.1 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from botocore<1.36.0,>=1.35.51->boto3->SekitobaLibrary) (2.9.0.post0)
+Requirement already satisfied: urllib3!=2.2.0,<3,>=1.25.4 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from botocore<1.36.0,>=1.35.51->boto3->SekitobaLibrary) (2.5.0)
 Requirement already satisfied: six>=1.5 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from python-dateutil<3.0.0,>=2.1->botocore<1.36.0,>=1.35.51->boto3->SekitobaLibrary) (1.16.0)
 Requirement already satisfied: beautifulsoup4 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from bs4->SekitobaLibrary) (4.12.3)
 Requirement already satisfied: soupsieve>1.2 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from beautifulsoup4->bs4->SekitobaLibrary) (2.6)
 Requirement already satisfied: scipy in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from lightgbm->SekitobaLibrary) (1.14.1)
+Requirement already satisfied: contourpy>=1.0.1 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary) (1.3.0)
+Requirement already satisfied: cycler>=0.10 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary) (0.12.1)
 Requirement already satisfied: fonttools>=4.22.0 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary) (4.54.1)
+Requirement already satisfied: kiwisolver>=1.3.1 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary) (1.4.7)
 Requirement already satisfied: packaging>=20.0 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary) (24.1)
 Requirement already satisfied: pillow>=8 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary) (11.0.0)
-Requirement already satisfied: contourpy>=1.0.1 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary) (1.3.0)
 Requirement already satisfied: pyparsing>=2.3.1 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary) (3.2.0)
-Requirement already satisfied: kiwisolver>=1.3.1 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary) (1.4.7)
-Requirement already satisfied: cycler>=0.10 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from matplotlib->SekitobaLibrary) (0.12.1)
 Requirement already satisfied: pytz>=2020.1 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from pandas->SekitobaLibrary) (2024.2)
 Requirement already satisfied: tzdata>=2022.7 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from pandas->SekitobaLibrary) (2024.2)
-Requirement already satisfied: certifi>=2017.4.17 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from requests->SekitobaLibrary) (2025.10.5)
-Requirement already satisfied: idna<4,>=2.5 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from requests->SekitobaLibrary) (3.10)
 Requirement already satisfied: charset-normalizer<4,>=2 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from requests->SekitobaLibrary) (3.4.0)
+Requirement already satisfied: idna<4,>=2.5 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from requests->SekitobaLibrary) (3.10)
+Requirement already satisfied: certifi>=2017.4.17 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from requests->SekitobaLibrary) (2025.10.5)
 Requirement already satisfied: docutils>=0.3 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from statistics->SekitobaLibrary) (0.21.2)
-Requirement already satisfied: nvidia-cuda-cupti-cu12==12.4.127 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (12.4.127)
-Requirement already satisfied: nvidia-cuda-nvrtc-cu12==12.4.127 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (12.4.127)
-Requirement already satisfied: nvidia-cublas-cu12==12.4.5.8 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (12.4.5.8)
-Requirement already satisfied: nvidia-cusolver-cu12==11.6.1.9 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (11.6.1.9)
-Requirement already satisfied: triton==3.1.0 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (3.1.0)
-Requirement already satisfied: nvidia-nvjitlink-cu12==12.4.127 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (12.4.127)
-Requirement already satisfied: jinja2 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (3.1.4)
-Requirement already satisfied: sympy==1.13.1 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (1.13.1)
-Requirement already satisfied: networkx in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (3.4.2)
-Requirement already satisfied: typing-extensions>=4.8.0 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (4.15.0)
-Requirement already satisfied: nvidia-curand-cu12==10.3.5.147 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (10.3.5.147)
-Requirement already satisfied: nvidia-nvtx-cu12==12.4.127 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (12.4.127)
-Requirement already satisfied: fsspec in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (2024.10.0)
-Requirement already satisfied: nvidia-cusparse-cu12==12.3.1.170 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (12.3.1.170)
-Requirement already satisfied: nvidia-cufft-cu12==11.2.1.3 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (11.2.1.3)
-Requirement already satisfied: nvidia-cudnn-cu12==9.1.0.70 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (9.1.0.70)
-Requirement already satisfied: nvidia-cuda-runtime-cu12==12.4.127 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (12.4.127)
 Requirement already satisfied: filelock in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (3.16.1)
+Requirement already satisfied: typing-extensions>=4.8.0 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (4.15.0)
+Requirement already satisfied: networkx in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (3.4.2)
+Requirement already satisfied: jinja2 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (3.1.4)
+Requirement already satisfied: fsspec in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (2024.10.0)
+Requirement already satisfied: nvidia-cuda-nvrtc-cu12==12.4.127 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (12.4.127)
+Requirement already satisfied: nvidia-cuda-runtime-cu12==12.4.127 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (12.4.127)
+Requirement already satisfied: nvidia-cuda-cupti-cu12==12.4.127 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (12.4.127)
+Requirement already satisfied: nvidia-cudnn-cu12==9.1.0.70 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (9.1.0.70)
+Requirement already satisfied: nvidia-cublas-cu12==12.4.5.8 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (12.4.5.8)
+Requirement already satisfied: nvidia-cufft-cu12==11.2.1.3 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (11.2.1.3)
+Requirement already satisfied: nvidia-curand-cu12==10.3.5.147 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (10.3.5.147)
+Requirement already satisfied: nvidia-cusolver-cu12==11.6.1.9 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (11.6.1.9)
+Requirement already satisfied: nvidia-cusparse-cu12==12.3.1.170 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (12.3.1.170)
 Requirement already satisfied: nvidia-nccl-cu12==2.21.5 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (2.21.5)
+Requirement already satisfied: nvidia-nvtx-cu12==12.4.127 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (12.4.127)
+Requirement already satisfied: nvidia-nvjitlink-cu12==12.4.127 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (12.4.127)
+Requirement already satisfied: triton==3.1.0 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (3.1.0)
+Requirement already satisfied: sympy==1.13.1 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from torch->SekitobaLibrary) (1.13.1)
 Requirement already satisfied: mpmath<1.4,>=1.1.0 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from sympy==1.13.1->torch->SekitobaLibrary) (1.3.0)
 Requirement already satisfied: MarkupSafe>=2.0 in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from jinja2->torch->SekitobaLibrary) (3.0.2)
 wrap_data.pickle download finish Gilgamesh
+run_add_dist.pickle download finish Gilgamesh
 race_money_data.pickle download finish Gilgamesh
 next_race_data.pickle download finish Gilgamesh
 race_cource_info.pickle download finish Gilgamesh
@@ -64,9 +65,9 @@ predict_train_score.pickle download finish Gilgamesh
 predict_pace_data.pickle download finish Gilgamesh
 predict_last_passing_rank.pickle download finish Gilgamesh
 start rank:1
-start rank:3
 start rank:2
 start rank:4
+start rank:3
 start rank:5
 1-instance.pickle download finish Gilgamesh
 2-instance.pickle download finish Gilgamesh
@@ -75,44 +76,251 @@ start rank:5
 5-instance.pickle download finish Gilgamesh
 up3_learn_data.pickle download finish Gilgamesh
 up3_simu_data.pickle download finish Gilgamesh
-[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.123694 seconds.
-You can set `force_col_wise=true` to remove the overhead.
-[LightGBM] [Info] Total Bins 66065
-[LightGBM] [Info] Number of data points in the train set: 729917, number of used features: 353
-[LightGBM] [Info] Start training from score 37.114133
+0 147074
+[LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
+[LightGBM] [Info] Total Bins 66165
+[LightGBM] [Info] Number of data points in the train set: 588294, number of used features: 352
+[LightGBM] [Info] Start training from score 36.849420
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[970]	training's l2: 1.06129	valid_1's l2: 1.66756
-[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.117953 seconds.
-You can set `force_col_wise=true` to remove the overhead.
-[LightGBM] [Info] Total Bins 66065
-[LightGBM] [Info] Number of data points in the train set: 729917, number of used features: 353
-[LightGBM] [Info] Start training from score 37.114133
+[569]	training's l2: 1.38695	valid_1's l2: 1.8168
+147074 294148
+[LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
+[LightGBM] [Info] Total Bins 66215
+[LightGBM] [Info] Number of data points in the train set: 588294, number of used features: 352
+[LightGBM] [Info] Start training from score 36.869348
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[331]	training's l2: 1.06015	valid_1's l2: 1.67091
-[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.120410 seconds.
-You can set `force_col_wise=true` to remove the overhead.
-[LightGBM] [Info] Total Bins 66065
-[LightGBM] [Info] Number of data points in the train set: 729917, number of used features: 353
-[LightGBM] [Info] Start training from score 37.114133
+[546]	training's l2: 1.46818	valid_1's l2: 2.09757
+294148 441222
+[LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
+[LightGBM] [Info] Total Bins 66215
+[LightGBM] [Info] Number of data points in the train set: 588294, number of used features: 352
+[LightGBM] [Info] Start training from score 36.882822
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[891]	training's l2: 1.06388	valid_1's l2: 1.66954
-[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.118963 seconds.
-You can set `force_col_wise=true` to remove the overhead.
-[LightGBM] [Info] Total Bins 66065
-[LightGBM] [Info] Number of data points in the train set: 729917, number of used features: 353
-[LightGBM] [Info] Start training from score 37.114133
+[602]	training's l2: 1.46995	valid_1's l2: 2.05476
+441222 588296
+[LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
+[LightGBM] [Info] Total Bins 66216
+[LightGBM] [Info] Number of data points in the train set: 588294, number of used features: 352
+[LightGBM] [Info] Start training from score 36.861564
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[662]	training's l2: 1.0761	valid_1's l2: 1.6705
-[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.122044 seconds.
-You can set `force_col_wise=true` to remove the overhead.
-[LightGBM] [Info] Total Bins 66065
-[LightGBM] [Info] Number of data points in the train set: 729917, number of used features: 353
-[LightGBM] [Info] Start training from score 37.114133
+[538]	training's l2: 1.49059	valid_1's l2: 2.06567
+588296 735368
+[LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
+[LightGBM] [Info] Total Bins 66231
+[LightGBM] [Info] Number of data points in the train set: 588296, number of used features: 352
+[LightGBM] [Info] Start training from score 36.832005
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[725]	training's l2: 1.10453	valid_1's l2: 1.66785
-score: 0.9241625171419225
+[521]	training's l2: 1.46943	valid_1's l2: 2.25184
+[LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
+[LightGBM] [Info] Total Bins 66257
+[LightGBM] [Info] Number of data points in the train set: 735368, number of used features: 352
+[LightGBM] [Info] Start training from score 36.859032
+Training until validation scores don't improve for 30 rounds
+Early stopping, best iteration is:
+[713]	training's l2: 1.43693	valid_1's l2: 2.17922
+0 147074
+[LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
+[LightGBM] [Info] Total Bins 66165
+[LightGBM] [Info] Number of data points in the train set: 588294, number of used features: 352
+[LightGBM] [Info] Start training from score 36.849420
+Training until validation scores don't improve for 30 rounds
+Early stopping, best iteration is:
+[167]	training's l2: 1.41083	valid_1's l2: 1.82379
+147074 294148
+[LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
+[LightGBM] [Info] Total Bins 66215
+[LightGBM] [Info] Number of data points in the train set: 588294, number of used features: 352
+[LightGBM] [Info] Start training from score 36.869348
+Training until validation scores don't improve for 30 rounds
+Early stopping, best iteration is:
+[171]	training's l2: 1.48623	valid_1's l2: 2.11156
+294148 441222
+[LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
+[LightGBM] [Info] Total Bins 66215
+[LightGBM] [Info] Number of data points in the train set: 588294, number of used features: 352
+[LightGBM] [Info] Start training from score 36.882822
+Training until validation scores don't improve for 30 rounds
+Early stopping, best iteration is:
+[159]	training's l2: 1.51829	valid_1's l2: 2.05744
+441222 588296
+[LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
+[LightGBM] [Info] Total Bins 66216
+[LightGBM] [Info] Number of data points in the train set: 588294, number of used features: 352
+[LightGBM] [Info] Start training from score 36.861564
+Training until validation scores don't improve for 30 rounds
+Early stopping, best iteration is:
+[160]	training's l2: 1.51716	valid_1's l2: 2.06683
+588296 735368
+[LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
+[LightGBM] [Info] Total Bins 66231
+[LightGBM] [Info] Number of data points in the train set: 588296, number of used features: 352
+[LightGBM] [Info] Start training from score 36.832005
+Training until validation scores don't improve for 30 rounds
+Early stopping, best iteration is:
+[214]	training's l2: 1.42992	valid_1's l2: 2.24411
+[LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
+[LightGBM] [Info] Total Bins 66257
+[LightGBM] [Info] Number of data points in the train set: 735368, number of used features: 352
+[LightGBM] [Info] Start training from score 36.859032
+Training until validation scores don't improve for 30 rounds
+Early stopping, best iteration is:
+[291]	training's l2: 1.39806	valid_1's l2: 2.16872
+0 147074
+[LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
+[LightGBM] [Info] Total Bins 66165
+[LightGBM] [Info] Number of data points in the train set: 588294, number of used features: 352
+[LightGBM] [Info] Start training from score 36.849420
+Training until validation scores don't improve for 30 rounds
+Early stopping, best iteration is:
+[565]	training's l2: 1.37503	valid_1's l2: 1.8221
+147074 294148
+[LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
+[LightGBM] [Info] Total Bins 66215
+[LightGBM] [Info] Number of data points in the train set: 588294, number of used features: 352
+[LightGBM] [Info] Start training from score 36.869348
+Training until validation scores don't improve for 30 rounds
+Early stopping, best iteration is:
+[599]	training's l2: 1.43057	valid_1's l2: 2.10144
+294148 441222
+[LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
+[LightGBM] [Info] Total Bins 66215
+[LightGBM] [Info] Number of data points in the train set: 588294, number of used features: 352
+[LightGBM] [Info] Start training from score 36.882822
+Training until validation scores don't improve for 30 rounds
+Early stopping, best iteration is:
+[737]	training's l2: 1.3986	valid_1's l2: 2.21055
+441222 588296
+[LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
+[LightGBM] [Info] Total Bins 66216
+[LightGBM] [Info] Number of data points in the train set: 588294, number of used features: 352
+[LightGBM] [Info] Start training from score 36.861564
+Training until validation scores don't improve for 30 rounds
+Early stopping, best iteration is:
+[476]	training's l2: 1.49558	valid_1's l2: 2.08559
+588296 735368
+[LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
+[LightGBM] [Info] Total Bins 66231
+[LightGBM] [Info] Number of data points in the train set: 588296, number of used features: 352
+[LightGBM] [Info] Start training from score 36.832005
+Training until validation scores don't improve for 30 rounds
+Early stopping, best iteration is:
+[578]	training's l2: 1.42537	valid_1's l2: 2.26037
+[LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
+[LightGBM] [Info] Total Bins 66257
+[LightGBM] [Info] Number of data points in the train set: 735368, number of used features: 352
+[LightGBM] [Info] Start training from score 36.859032
+Training until validation scores don't improve for 30 rounds
+Early stopping, best iteration is:
+[622]	training's l2: 1.4432	valid_1's l2: 2.21218
+0 147074
+[LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
+[LightGBM] [Info] Total Bins 66165
+[LightGBM] [Info] Number of data points in the train set: 588294, number of used features: 352
+[LightGBM] [Info] Start training from score 36.849420
+Training until validation scores don't improve for 30 rounds
+Early stopping, best iteration is:
+[519]	training's l2: 1.34828	valid_1's l2: 1.82773
+147074 294148
+[LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
+[LightGBM] [Info] Total Bins 66215
+[LightGBM] [Info] Number of data points in the train set: 588294, number of used features: 352
+[LightGBM] [Info] Start training from score 36.869348
+Training until validation scores don't improve for 30 rounds
+Early stopping, best iteration is:
+[767]	training's l2: 1.31227	valid_1's l2: 2.23605
+294148 441222
+[LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
+[LightGBM] [Info] Total Bins 66215
+[LightGBM] [Info] Number of data points in the train set: 588294, number of used features: 352
+[LightGBM] [Info] Start training from score 36.882822
+Training until validation scores don't improve for 30 rounds
+Early stopping, best iteration is:
+[493]	training's l2: 1.43239	valid_1's l2: 2.27141
+441222 588296
+[LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
+[LightGBM] [Info] Total Bins 66216
+[LightGBM] [Info] Number of data points in the train set: 588294, number of used features: 352
+[LightGBM] [Info] Start training from score 36.861564
+Training until validation scores don't improve for 30 rounds
+Early stopping, best iteration is:
+[519]	training's l2: 1.41902	valid_1's l2: 2.2495
+588296 735368
+[LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
+[LightGBM] [Info] Total Bins 66231
+[LightGBM] [Info] Number of data points in the train set: 588296, number of used features: 352
+[LightGBM] [Info] Start training from score 36.832005
+Training until validation scores don't improve for 30 rounds
+Early stopping, best iteration is:
+[669]	training's l2: 1.33464	valid_1's l2: 2.27945
+[LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
+[LightGBM] [Info] Total Bins 66257
+[LightGBM] [Info] Number of data points in the train set: 735368, number of used features: 352
+[LightGBM] [Info] Start training from score 36.859032
+Training until validation scores don't improve for 30 rounds
+Early stopping, best iteration is:
+[625]	training's l2: 1.39137	valid_1's l2: 2.23821
+0 147074
+[LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
+[LightGBM] [Info] Total Bins 66165
+[LightGBM] [Info] Number of data points in the train set: 588294, number of used features: 352
+[LightGBM] [Info] Start training from score 36.849420
+Training until validation scores don't improve for 30 rounds
+Early stopping, best iteration is:
+[479]	training's l2: 1.41858	valid_1's l2: 1.81725
+147074 294148
+[LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
+[LightGBM] [Info] Total Bins 66215
+[LightGBM] [Info] Number of data points in the train set: 588294, number of used features: 352
+[LightGBM] [Info] Start training from score 36.869348
+Training until validation scores don't improve for 30 rounds
+Early stopping, best iteration is:
+[765]	training's l2: 1.403	valid_1's l2: 2.07896
+294148 441222
+[LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
+[LightGBM] [Info] Total Bins 66215
+[LightGBM] [Info] Number of data points in the train set: 588294, number of used features: 352
+[LightGBM] [Info] Start training from score 36.882822
+Training until validation scores don't improve for 30 rounds
+Early stopping, best iteration is:
+[431]	training's l2: 1.54221	valid_1's l2: 2.04825
+441222 588296
+[LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
+[LightGBM] [Info] Total Bins 66216
+[LightGBM] [Info] Number of data points in the train set: 588294, number of used features: 352
+[LightGBM] [Info] Start training from score 36.861564
+Training until validation scores don't improve for 30 rounds
+Early stopping, best iteration is:
+[524]	training's l2: 1.49783	valid_1's l2: 2.05229
+588296 735368
+[LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
+[LightGBM] [Info] Total Bins 66231
+[LightGBM] [Info] Number of data points in the train set: 588296, number of used features: 352
+[LightGBM] [Info] Start training from score 36.832005
+Training until validation scores don't improve for 30 rounds
+Early stopping, best iteration is:
+[464]	training's l2: 1.49446	valid_1's l2: 2.22126
+[LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
+[LightGBM] [Info] Total Bins 66257
+[LightGBM] [Info] Number of data points in the train set: 735368, number of used features: 352
+[LightGBM] [Info] Start training from score 36.859032
+Training until validation scores don't improve for 30 rounds
+Early stopping, best iteration is:
+[485]	training's l2: 1.51122	valid_1's l2: 2.18161
+score: 1.0277931952057726
+up3_model.pickle download finish Gilgamesh
+odds_data.pickle download finish Gilgamesh
+
+選択数:1
+単勝 回収率72.61218254725983%
+複勝 回収率103.45235822035556%
+単勝 勝率19.05671185793393%
+複勝 勝率51.747183502004965%
+賭けたレース数5237回
+賭けた金額5237
+金額:-212145.0
+最低金額:-213735.0
