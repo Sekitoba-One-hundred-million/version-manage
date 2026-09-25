@@ -1,5 +1,5 @@
 Looking in indexes: https://pypi.org/simple, http://100.95.241.19
-Requirement already satisfied: SekitobaLibrary in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (1.3.192)
+Requirement already satisfied: SekitobaLibrary in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (1.3.194)
 Requirement already satisfied: requests in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary) (2.32.3)
 Requirement already satisfied: pandas in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary) (2.2.3)
 Requirement already satisfied: lightgbm in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary) (4.6.0)
@@ -68,11 +68,11 @@ predict_diff.pickle download finish Gilgamesh
 predict_time_index.pickle download finish Gilgamesh
 predict_test.pickle download finish Gilgamesh
 predict_race_time.pickle download finish Gilgamesh
-start rank:3
 start rank:1
-start rank:5
 start rank:2
 start rank:4
+start rank:3
+start rank:5
 1-instance.pickle download finish Gilgamesh
 2-instance.pickle download finish Gilgamesh
 3-instance.pickle download finish Gilgamesh
@@ -82,106 +82,91 @@ rank_model.pickle download finish Gilgamesh
 odds_data.pickle download finish Gilgamesh
 
 選択数:1
-単勝 回収率80.83635669276302%
-複勝 回収率90.70460187130037%
-単勝 勝率30.570937559671567%
-複勝 勝率63.681497040290246%
+単勝 回収率79.56654573228941%
+複勝 回収率85.569982814588%
+単勝 勝率30.628222264655335%
+複勝 勝率62.745846858888676%
 賭けたレース数5237回
 賭けた金額5237
-金額:-147540.0
-最低金額:-147840.0
-mdcd:2.7835
+金額:-157515.0
+最低金額:-157950.0
+mdcd:2.7994
 rank_learn_data.pickle download finish Gilgamesh
 rank_simu_data.pickle download finish Gilgamesh
-[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.001057 seconds.
+[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.000959 seconds.
 You can set `force_row_wise=true` to remove the overhead.
 And if memory is not enough, you can set `force_col_wise=true`.
 [LightGBM] [Info] Total Bins 3709
-[LightGBM] [Info] Number of data points in the train set: 735368, number of used features: 21
+[LightGBM] [Info] Number of data points in the train set: 730121, number of used features: 21
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[71]	training's ndcg@1: 0.644733	training's ndcg@2: 0.67291	training's ndcg@3: 0.69466	valid_1's ndcg@1: 0.621069	valid_1's ndcg@2: 0.655754	valid_1's ndcg@3: 0.680576
-[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.000971 seconds.
+[18]	training's ndcg@1: 0.63817	training's ndcg@2: 0.67119	training's ndcg@3: 0.694441	valid_1's ndcg@1: 0.618679	valid_1's ndcg@2: 0.65635	valid_1's ndcg@3: 0.678704
+[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.001037 seconds.
 You can set `force_row_wise=true` to remove the overhead.
 And if memory is not enough, you can set `force_col_wise=true`.
 [LightGBM] [Info] Total Bins 3709
-[LightGBM] [Info] Number of data points in the train set: 735368, number of used features: 21
+[LightGBM] [Info] Number of data points in the train set: 730121, number of used features: 21
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[77]	training's ndcg@1: 0.639607	training's ndcg@2: 0.669715	training's ndcg@3: 0.692771	valid_1's ndcg@1: 0.619085	valid_1's ndcg@2: 0.655671	valid_1's ndcg@3: 0.679938
-[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.000993 seconds.
+[42]	training's ndcg@1: 0.639952	training's ndcg@2: 0.672224	training's ndcg@3: 0.695343	valid_1's ndcg@1: 0.61962	valid_1's ndcg@2: 0.655392	valid_1's ndcg@3: 0.679726
+[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.000948 seconds.
 You can set `force_row_wise=true` to remove the overhead.
 And if memory is not enough, you can set `force_col_wise=true`.
 [LightGBM] [Info] Total Bins 3709
-[LightGBM] [Info] Number of data points in the train set: 735368, number of used features: 21
+[LightGBM] [Info] Number of data points in the train set: 730121, number of used features: 21
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[76]	training's ndcg@1: 0.644177	training's ndcg@2: 0.673177	training's ndcg@3: 0.6948	valid_1's ndcg@1: 0.61899	valid_1's ndcg@2: 0.655624	valid_1's ndcg@3: 0.679893
-[0]	validation_0-ndcg@2:0.38253
-[10]	validation_0-ndcg@2:0.42289
-[20]	validation_0-ndcg@2:0.42371
-[30]	validation_0-ndcg@2:0.42450
-[40]	validation_0-ndcg@2:0.42500
-[50]	validation_0-ndcg@2:0.42698
-[60]	validation_0-ndcg@2:0.42717
-[70]	validation_0-ndcg@2:0.42815
-[80]	validation_0-ndcg@2:0.42866
-[90]	validation_0-ndcg@2:0.43037
-[100]	validation_0-ndcg@2:0.42987
-[110]	validation_0-ndcg@2:0.43085
-[120]	validation_0-ndcg@2:0.43193
-[130]	validation_0-ndcg@2:0.43269
-[140]	validation_0-ndcg@2:0.43311
-[150]	validation_0-ndcg@2:0.43319
-[160]	validation_0-ndcg@2:0.43363
-[170]	validation_0-ndcg@2:0.43383
-[180]	validation_0-ndcg@2:0.43403
-[190]	validation_0-ndcg@2:0.43400
-[200]	validation_0-ndcg@2:0.43391
-[210]	validation_0-ndcg@2:0.43414
-[220]	validation_0-ndcg@2:0.43380
-[223]	validation_0-ndcg@2:0.43409
-[0]	validation_0-ndcg@2:0.41406
-[10]	validation_0-ndcg@2:0.42627
-[20]	validation_0-ndcg@2:0.42765
-[30]	validation_0-ndcg@2:0.42936
-[40]	validation_0-ndcg@2:0.43041
-[50]	validation_0-ndcg@2:0.43175
-[60]	validation_0-ndcg@2:0.43201
-[70]	validation_0-ndcg@2:0.43284
-[80]	validation_0-ndcg@2:0.43318
-[90]	validation_0-ndcg@2:0.43327
-[100]	validation_0-ndcg@2:0.43255
-[110]	validation_0-ndcg@2:0.43227
-[115]	validation_0-ndcg@2:0.43268
-[0]	validation_0-ndcg@2:0.38253
-[10]	validation_0-ndcg@2:0.42255
-[20]	validation_0-ndcg@2:0.42163
-[30]	validation_0-ndcg@2:0.42438
-[40]	validation_0-ndcg@2:0.42495
-[50]	validation_0-ndcg@2:0.42680
-[60]	validation_0-ndcg@2:0.42821
-[70]	validation_0-ndcg@2:0.42930
-[80]	validation_0-ndcg@2:0.42916
-[90]	validation_0-ndcg@2:0.43010
-[100]	validation_0-ndcg@2:0.43090
-[110]	validation_0-ndcg@2:0.43161
-[120]	validation_0-ndcg@2:0.43264
-[130]	validation_0-ndcg@2:0.43363
-[140]	validation_0-ndcg@2:0.43427
-[150]	validation_0-ndcg@2:0.43403
-[160]	validation_0-ndcg@2:0.43448
-[166]	validation_0-ndcg@2:0.43411
+[42]	training's ndcg@1: 0.642289	training's ndcg@2: 0.674363	training's ndcg@3: 0.697054	valid_1's ndcg@1: 0.619751	valid_1's ndcg@2: 0.65558	valid_1's ndcg@3: 0.679916
+[0]	validation_0-ndcg@2:0.40061
+[10]	validation_0-ndcg@2:0.43003
+[20]	validation_0-ndcg@2:0.43168
+[30]	validation_0-ndcg@2:0.43256
+[40]	validation_0-ndcg@2:0.43280
+[50]	validation_0-ndcg@2:0.43359
+[60]	validation_0-ndcg@2:0.43483
+[70]	validation_0-ndcg@2:0.43553
+[80]	validation_0-ndcg@2:0.43552
+[90]	validation_0-ndcg@2:0.43540
+[100]	validation_0-ndcg@2:0.43565
+[110]	validation_0-ndcg@2:0.43553
+[114]	validation_0-ndcg@2:0.43555
+[0]	validation_0-ndcg@2:0.42313
+[10]	validation_0-ndcg@2:0.43257
+[20]	validation_0-ndcg@2:0.43255
+[30]	validation_0-ndcg@2:0.43358
+[40]	validation_0-ndcg@2:0.43345
+[50]	validation_0-ndcg@2:0.43348
+[60]	validation_0-ndcg@2:0.43475
+[70]	validation_0-ndcg@2:0.43412
+[80]	validation_0-ndcg@2:0.43484
+[90]	validation_0-ndcg@2:0.43514
+[100]	validation_0-ndcg@2:0.43542
+[110]	validation_0-ndcg@2:0.43603
+[120]	validation_0-ndcg@2:0.43524
+[130]	validation_0-ndcg@2:0.43537
+[140]	validation_0-ndcg@2:0.43546
+[142]	validation_0-ndcg@2:0.43585
+[0]	validation_0-ndcg@2:0.40061
+[10]	validation_0-ndcg@2:0.42858
+[20]	validation_0-ndcg@2:0.43151
+[30]	validation_0-ndcg@2:0.43157
+[40]	validation_0-ndcg@2:0.43383
+[50]	validation_0-ndcg@2:0.43448
+[60]	validation_0-ndcg@2:0.43608
+[70]	validation_0-ndcg@2:0.43640
+[80]	validation_0-ndcg@2:0.43623
+[90]	validation_0-ndcg@2:0.43586
+[92]	validation_0-ndcg@2:0.43531
 rank_model.pickle download finish Gilgamesh
 odds_data.pickle download finish Gilgamesh
 
 選択数:1
-単勝 回収率81.31181974412836%
-複勝 回収率85.35993889631423%
-単勝 勝率31.010120297880466%
-複勝 勝率62.688562153904904%
+単勝 回収率79.66965820126016%
+複勝 回収率86.0416268856211%
+単勝 勝率30.60912736299408%
+複勝 勝率63.10864999045255%
 賭けたレース数5237回
 賭けた金額5237
-金額:-143805.0
-最低金額:-143805.0
-mdcd:2.8003
+金額:-156705.0
+最低金額:-156705.0
+mdcd:2.7988

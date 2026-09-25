@@ -1,5 +1,5 @@
 Looking in indexes: https://pypi.org/simple, http://100.95.241.19
-Requirement already satisfied: SekitobaLibrary in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (1.3.192)
+Requirement already satisfied: SekitobaLibrary in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (1.3.194)
 Requirement already satisfied: requests in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary) (2.32.3)
 Requirement already satisfied: pandas in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary) (2.2.3)
 Requirement already satisfied: lightgbm in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary) (4.6.0)
@@ -67,9 +67,9 @@ rate_simu_data.pickle download finish Gilgamesh
 rate_model.pickle download finish Gilgamesh
 odds_data.pickle download finish Gilgamesh
 
-回収率108.9902280130293%
-勝率3.474484256243214%
-賭けたレース数921回
-賭けた金額27630
-金額:6444.0
-最低金額:237.0
+回収率86.42701525054467%
+勝率3.376906318082789%
+賭けたレース数918回
+賭けた金額27540
+金額:192.0
+最低金額:-114.0

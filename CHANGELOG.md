@@ -1,3 +1,6 @@
+## version 2.15
+fix race_check
+
 ## version 2.14
 fix horce_past_data
 
