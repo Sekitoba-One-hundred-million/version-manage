@@ -1,5 +1,5 @@
 Looking in indexes: https://pypi.org/simple, http://100.95.241.19
-Requirement already satisfied: SekitobaLibrary in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (1.3.194)
+Requirement already satisfied: SekitobaLibrary in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (1.3.203)
 Requirement already satisfied: requests in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary) (2.32.3)
 Requirement already satisfied: pandas in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary) (2.2.3)
 Requirement already satisfied: lightgbm in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary) (4.6.0)
@@ -59,20 +59,43 @@ wrap_data.pickle download finish Gilgamesh
 run_add_dist.pickle download finish Gilgamesh
 race_money_data.pickle download finish Gilgamesh
 next_race_data.pickle download finish Gilgamesh
-foot_used.pickle download finish Gilgamesh
+predict_pace_data.pickle download finish Gilgamesh
+predict_first_up3.pickle download finish Gilgamesh
+predict_first_passing_rank.pickle download finish Gilgamesh
+predict_first_passing_rank.pickle download finish Gilgamesh
+predict_first_passing_rank.pickle download finish Gilgamesh
+predict_first_passing_rank.pickle download finish Gilgamesh
 predict_first_passing_rank.pickle download finish Gilgamesh
 predict_last_passing_rank.pickle download finish Gilgamesh
+predict_last_passing_rank.pickle download finish Gilgamesh
+predict_last_passing_rank.pickle download finish Gilgamesh
+predict_last_passing_rank.pickle download finish Gilgamesh
+predict_last_passing_rank.pickle download finish Gilgamesh
 predict_up3.pickle download finish Gilgamesh
-predict_first_up3.pickle download finish Gilgamesh
+predict_up3.pickle download finish Gilgamesh
+predict_up3.pickle download finish Gilgamesh
+predict_up3.pickle download finish Gilgamesh
+predict_up3.pickle download finish Gilgamesh
 predict_diff.pickle download finish Gilgamesh
-predict_time_index.pickle download finish Gilgamesh
-predict_test.pickle download finish Gilgamesh
+predict_diff.pickle download finish Gilgamesh
+predict_diff.pickle download finish Gilgamesh
+predict_diff.pickle download finish Gilgamesh
+predict_diff.pickle download finish Gilgamesh
 predict_race_time.pickle download finish Gilgamesh
-start rank:1
+predict_race_time.pickle download finish Gilgamesh
+predict_race_time.pickle download finish Gilgamesh
+predict_race_time.pickle download finish Gilgamesh
+predict_race_time.pickle download finish Gilgamesh
+predict_time_index.pickle download finish Gilgamesh
+predict_time_index.pickle download finish Gilgamesh
 start rank:2
 start rank:4
-start rank:3
+predict_time_index.pickle download finish Gilgamesh
 start rank:5
+predict_time_index.pickle download finish Gilgamesh
+start rank:3
+predict_time_index.pickle download finish Gilgamesh
+start rank:1
 1-instance.pickle download finish Gilgamesh
 2-instance.pickle download finish Gilgamesh
 3-instance.pickle download finish Gilgamesh
@@ -82,91 +105,185 @@ rank_model.pickle download finish Gilgamesh
 odds_data.pickle download finish Gilgamesh
 
 選択数:1
-単勝 回収率79.56654573228941%
-複勝 回収率85.569982814588%
-単勝 勝率30.628222264655335%
-複勝 勝率62.745846858888676%
-賭けたレース数5237回
-賭けた金額5237
-金額:-157515.0
-最低金額:-157950.0
-mdcd:2.7994
+単勝 回収率81.18347742555233%
+複勝 回収率86.02113352545594%
+単勝 勝率31.143131604226703%
+複勝 勝率63.49663784822286%
+賭けたレース数5205回
+賭けた金額5205
+金額:-143910.0
+最低金額:-144120.0
+mdcd:2.7505
 rank_learn_data.pickle download finish Gilgamesh
 rank_simu_data.pickle download finish Gilgamesh
-[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.000959 seconds.
-You can set `force_row_wise=true` to remove the overhead.
-And if memory is not enough, you can set `force_col_wise=true`.
-[LightGBM] [Info] Total Bins 3709
-[LightGBM] [Info] Number of data points in the train set: 730121, number of used features: 21
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.109164 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 71179
+[LightGBM] [Info] Number of data points in the train set: 723341, number of used features: 387
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
 Training until validation scores don't improve for 30 rounds
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
 Early stopping, best iteration is:
-[18]	training's ndcg@1: 0.63817	training's ndcg@2: 0.67119	training's ndcg@3: 0.694441	valid_1's ndcg@1: 0.618679	valid_1's ndcg@2: 0.65635	valid_1's ndcg@3: 0.678704
-[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.001037 seconds.
-You can set `force_row_wise=true` to remove the overhead.
-And if memory is not enough, you can set `force_col_wise=true`.
-[LightGBM] [Info] Total Bins 3709
-[LightGBM] [Info] Number of data points in the train set: 730121, number of used features: 21
+[5]	training's ndcg@1: 0.799823	training's ndcg@2: 0.764188	training's ndcg@3: 0.733422	valid_1's ndcg@1: 0.791897	valid_1's ndcg@2: 0.75859	valid_1's ndcg@3: 0.725967
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.107289 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 71179
+[LightGBM] [Info] Number of data points in the train set: 723341, number of used features: 387
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
 Training until validation scores don't improve for 30 rounds
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
 Early stopping, best iteration is:
-[42]	training's ndcg@1: 0.639952	training's ndcg@2: 0.672224	training's ndcg@3: 0.695343	valid_1's ndcg@1: 0.61962	valid_1's ndcg@2: 0.655392	valid_1's ndcg@3: 0.679726
-[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.000948 seconds.
-You can set `force_row_wise=true` to remove the overhead.
-And if memory is not enough, you can set `force_col_wise=true`.
-[LightGBM] [Info] Total Bins 3709
-[LightGBM] [Info] Number of data points in the train set: 730121, number of used features: 21
+[5]	training's ndcg@1: 0.799804	training's ndcg@2: 0.764161	training's ndcg@3: 0.733447	valid_1's ndcg@1: 0.791897	valid_1's ndcg@2: 0.758531	valid_1's ndcg@3: 0.725921
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.106879 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 71179
+[LightGBM] [Info] Number of data points in the train set: 723341, number of used features: 387
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
 Training until validation scores don't improve for 30 rounds
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
 Early stopping, best iteration is:
-[42]	training's ndcg@1: 0.642289	training's ndcg@2: 0.674363	training's ndcg@3: 0.697054	valid_1's ndcg@1: 0.619751	valid_1's ndcg@2: 0.65558	valid_1's ndcg@3: 0.679916
-[0]	validation_0-ndcg@2:0.40061
-[10]	validation_0-ndcg@2:0.43003
-[20]	validation_0-ndcg@2:0.43168
-[30]	validation_0-ndcg@2:0.43256
-[40]	validation_0-ndcg@2:0.43280
-[50]	validation_0-ndcg@2:0.43359
-[60]	validation_0-ndcg@2:0.43483
-[70]	validation_0-ndcg@2:0.43553
-[80]	validation_0-ndcg@2:0.43552
-[90]	validation_0-ndcg@2:0.43540
-[100]	validation_0-ndcg@2:0.43565
-[110]	validation_0-ndcg@2:0.43553
-[114]	validation_0-ndcg@2:0.43555
-[0]	validation_0-ndcg@2:0.42313
-[10]	validation_0-ndcg@2:0.43257
-[20]	validation_0-ndcg@2:0.43255
-[30]	validation_0-ndcg@2:0.43358
-[40]	validation_0-ndcg@2:0.43345
-[50]	validation_0-ndcg@2:0.43348
-[60]	validation_0-ndcg@2:0.43475
-[70]	validation_0-ndcg@2:0.43412
-[80]	validation_0-ndcg@2:0.43484
-[90]	validation_0-ndcg@2:0.43514
-[100]	validation_0-ndcg@2:0.43542
-[110]	validation_0-ndcg@2:0.43603
-[120]	validation_0-ndcg@2:0.43524
-[130]	validation_0-ndcg@2:0.43537
-[140]	validation_0-ndcg@2:0.43546
-[142]	validation_0-ndcg@2:0.43585
-[0]	validation_0-ndcg@2:0.40061
-[10]	validation_0-ndcg@2:0.42858
-[20]	validation_0-ndcg@2:0.43151
-[30]	validation_0-ndcg@2:0.43157
-[40]	validation_0-ndcg@2:0.43383
-[50]	validation_0-ndcg@2:0.43448
-[60]	validation_0-ndcg@2:0.43608
-[70]	validation_0-ndcg@2:0.43640
-[80]	validation_0-ndcg@2:0.43623
-[90]	validation_0-ndcg@2:0.43586
-[92]	validation_0-ndcg@2:0.43531
+[5]	training's ndcg@1: 0.799804	training's ndcg@2: 0.764168	training's ndcg@3: 0.733444	valid_1's ndcg@1: 0.791897	valid_1's ndcg@2: 0.758531	valid_1's ndcg@3: 0.725921
+[0]	validation_0-ndcg@2:0.73080
+[10]	validation_0-ndcg@2:0.75564
+[20]	validation_0-ndcg@2:0.75763
+[30]	validation_0-ndcg@2:0.75812
+[40]	validation_0-ndcg@2:0.75844
+[50]	validation_0-ndcg@2:0.75747
+[60]	validation_0-ndcg@2:0.75916
+[70]	validation_0-ndcg@2:0.75954
+[80]	validation_0-ndcg@2:0.75920
+[90]	validation_0-ndcg@2:0.75940
+[100]	validation_0-ndcg@2:0.75919
+[110]	validation_0-ndcg@2:0.75938
+[119]	validation_0-ndcg@2:0.75941
+[0]	validation_0-ndcg@2:0.73574
+[10]	validation_0-ndcg@2:0.75427
+[20]	validation_0-ndcg@2:0.75500
+[30]	validation_0-ndcg@2:0.75595
+[40]	validation_0-ndcg@2:0.75617
+[50]	validation_0-ndcg@2:0.75721
+[60]	validation_0-ndcg@2:0.75706
+[70]	validation_0-ndcg@2:0.75771
+[80]	validation_0-ndcg@2:0.75798
+[86]	validation_0-ndcg@2:0.75766
+[0]	validation_0-ndcg@2:0.73594
+[10]	validation_0-ndcg@2:0.75513
+[20]	validation_0-ndcg@2:0.75609
+[30]	validation_0-ndcg@2:0.75686
+[40]	validation_0-ndcg@2:0.75759
+[50]	validation_0-ndcg@2:0.75784
+[60]	validation_0-ndcg@2:0.75767
+[70]	validation_0-ndcg@2:0.75813
+[72]	validation_0-ndcg@2:0.75815
 rank_model.pickle download finish Gilgamesh
 odds_data.pickle download finish Gilgamesh
 
 選択数:1
-単勝 回収率79.66965820126016%
-複勝 回収率86.0416268856211%
-単勝 勝率30.60912736299408%
-複勝 勝率63.10864999045255%
-賭けたレース数5237回
-賭けた金額5237
-金額:-156705.0
-最低金額:-156705.0
-mdcd:2.7988
+単勝 回収率81.73871277617671%
+複勝 回収率85.71950048030678%
+単勝 勝率31.296829971181555%
+複勝 勝率63.38136407300673%
+賭けたレース数5205回
+賭けた金額5205
+金額:-139575.0
+最低金額:-139890.0
+mdcd:2.7406

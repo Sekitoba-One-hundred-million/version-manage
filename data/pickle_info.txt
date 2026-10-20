@@ -22,7 +22,6 @@ predict_first_up3.pickle None
 predict_last_passing_rank.pickle None
 predict_pace_data.pickle None
 predict_race_time.pickle None
-predict_test.pickle None
 predict_time_index.pickle None
 predict_train_score.pickle None
 predict_up3.pickle None
@@ -30,6 +29,7 @@ race_cource_info.pickle sekitoba_use_data/race_cource_info.py
 race_info_data.pickle sekitoba_data_collect/race_info_collect.py
 race_money_data.pickle sekitoba_data_collect/race_money.py
 race_pace_analyze_data.pickle sekitoba_use_data/race_pace_analyze.py
+race_time_learn_data.pickle None
 race_time_model.pickle None
 race_time_simu_data.pickle None
 rank_model.pickle None

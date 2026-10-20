@@ -1,5 +1,5 @@
 Looking in indexes: https://pypi.org/simple, http://100.95.241.19
-Requirement already satisfied: SekitobaLibrary in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (1.3.194)
+Requirement already satisfied: SekitobaLibrary in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (1.3.203)
 Requirement already satisfied: requests in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary) (2.32.3)
 Requirement already satisfied: pandas in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary) (2.2.3)
 Requirement already satisfied: lightgbm in /home/athena/.pyenv/versions/3.10.1/lib/python3.10/site-packages (from SekitobaLibrary) (4.6.0)
@@ -64,11 +64,11 @@ predict_first_up3.pickle download finish Gilgamesh
 predict_train_score.pickle download finish Gilgamesh
 predict_pace_data.pickle download finish Gilgamesh
 predict_last_passing_rank.pickle download finish Gilgamesh
-start rank:2
-start rank:3
 start rank:1
-start rank:4
+start rank:3
+start rank:2
 start rank:5
+start rank:4
 1-instance.pickle download finish Gilgamesh
 2-instance.pickle download finish Gilgamesh
 3-instance.pickle download finish Gilgamesh
@@ -78,249 +78,249 @@ up3_learn_data.pickle download finish Gilgamesh
 up3_simu_data.pickle download finish Gilgamesh
 0 146025
 [LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
-[LightGBM] [Info] Total Bins 66102
+[LightGBM] [Info] Total Bins 67099
 [LightGBM] [Info] Number of data points in the train set: 584096, number of used features: 352
 [LightGBM] [Info] Start training from score 37.091339
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[24]	training's l2: 8.55887	valid_1's l2: 3.82591
+[44]	training's l2: 7.74157	valid_1's l2: 3.32705
 146025 292050
 [LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
-[LightGBM] [Info] Total Bins 66170
+[LightGBM] [Info] Total Bins 67164
 [LightGBM] [Info] Number of data points in the train set: 584096, number of used features: 352
 [LightGBM] [Info] Start training from score 37.116238
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[36]	training's l2: 11.6608	valid_1's l2: 3.60314
+[37]	training's l2: 11.5688	valid_1's l2: 3.43796
 292050 438075
 [LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
-[LightGBM] [Info] Total Bins 66178
+[LightGBM] [Info] Total Bins 67167
 [LightGBM] [Info] Number of data points in the train set: 584096, number of used features: 352
 [LightGBM] [Info] Start training from score 37.142462
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[396]	training's l2: 4.2757	valid_1's l2: 1.83984
+[283]	training's l2: 4.42084	valid_1's l2: 1.82053
 438075 584100
 [LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
-[LightGBM] [Info] Total Bins 66185
+[LightGBM] [Info] Total Bins 67191
 [LightGBM] [Info] Number of data points in the train set: 584096, number of used features: 352
 [LightGBM] [Info] Start training from score 37.106704
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[53]	training's l2: 11.1522	valid_1's l2: 3.21146
+[47]	training's l2: 11.2232	valid_1's l2: 3.15512
 584100 730121
 [LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
-[LightGBM] [Info] Total Bins 66197
+[LightGBM] [Info] Total Bins 66209
 [LightGBM] [Info] Number of data points in the train set: 584100, number of used features: 352
 [LightGBM] [Info] Start training from score 37.081211
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[167]	training's l2: 9.8863	valid_1's l2: 2.94666
+[41]	training's l2: 11.384	valid_1's l2: 3.15398
 [LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
-[LightGBM] [Info] Total Bins 66205
+[LightGBM] [Info] Total Bins 67188
 [LightGBM] [Info] Number of data points in the train set: 730121, number of used features: 352
 [LightGBM] [Info] Start training from score 37.107591
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[92]	training's l2: 8.77095	valid_1's l2: 2.67309
+[222]	training's l2: 7.86642	valid_1's l2: 2.10144
 0 146025
 [LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
-[LightGBM] [Info] Total Bins 66102
+[LightGBM] [Info] Total Bins 67099
 [LightGBM] [Info] Number of data points in the train set: 584096, number of used features: 352
 [LightGBM] [Info] Start training from score 37.091339
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[7]	training's l2: 8.75336	valid_1's l2: 4.15643
+[34]	training's l2: 7.84288	valid_1's l2: 3.33323
 146025 292050
 [LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
-[LightGBM] [Info] Total Bins 66170
+[LightGBM] [Info] Total Bins 67164
 [LightGBM] [Info] Number of data points in the train set: 584096, number of used features: 352
 [LightGBM] [Info] Start training from score 37.116238
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[12]	training's l2: 11.7015	valid_1's l2: 3.4806
+[31]	training's l2: 11.5587	valid_1's l2: 3.42577
 292050 438075
 [LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
-[LightGBM] [Info] Total Bins 66178
+[LightGBM] [Info] Total Bins 67167
 [LightGBM] [Info] Number of data points in the train set: 584096, number of used features: 352
 [LightGBM] [Info] Start training from score 37.142462
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[137]	training's l2: 4.266	valid_1's l2: 1.84502
+[311]	training's l2: 4.18224	valid_1's l2: 1.82465
 438075 584100
 [LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
-[LightGBM] [Info] Total Bins 66185
+[LightGBM] [Info] Total Bins 67191
 [LightGBM] [Info] Number of data points in the train set: 584096, number of used features: 352
 [LightGBM] [Info] Start training from score 37.106704
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[86]	training's l2: 9.42472	valid_1's l2: 2.9075
+[156]	training's l2: 9.6438	valid_1's l2: 1.94649
 584100 730121
 [LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
-[LightGBM] [Info] Total Bins 66197
+[LightGBM] [Info] Total Bins 66209
 [LightGBM] [Info] Number of data points in the train set: 584100, number of used features: 352
 [LightGBM] [Info] Start training from score 37.081211
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[58]	training's l2: 9.87372	valid_1's l2: 2.86212
+[42]	training's l2: 11.1058	valid_1's l2: 3.22761
 [LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
-[LightGBM] [Info] Total Bins 66205
+[LightGBM] [Info] Total Bins 67188
 [LightGBM] [Info] Number of data points in the train set: 730121, number of used features: 352
 [LightGBM] [Info] Start training from score 37.107591
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[31]	training's l2: 8.78966	valid_1's l2: 2.75025
+[175]	training's l2: 7.89774	valid_1's l2: 2.05004
 0 146025
 [LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
-[LightGBM] [Info] Total Bins 66102
+[LightGBM] [Info] Total Bins 67099
 [LightGBM] [Info] Number of data points in the train set: 584096, number of used features: 352
 [LightGBM] [Info] Start training from score 37.091339
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[21]	training's l2: 8.82315	valid_1's l2: 4.03602
+[38]	training's l2: 7.78822	valid_1's l2: 3.30123
 146025 292050
 [LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
-[LightGBM] [Info] Total Bins 66170
+[LightGBM] [Info] Total Bins 67164
 [LightGBM] [Info] Number of data points in the train set: 584096, number of used features: 352
 [LightGBM] [Info] Start training from score 37.116238
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[30]	training's l2: 12.0093	valid_1's l2: 3.83834
+[34]	training's l2: 11.5207	valid_1's l2: 3.4043
 292050 438075
 [LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
-[LightGBM] [Info] Total Bins 66178
+[LightGBM] [Info] Total Bins 67167
 [LightGBM] [Info] Number of data points in the train set: 584096, number of used features: 352
 [LightGBM] [Info] Start training from score 37.142462
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[445]	training's l2: 4.1438	valid_1's l2: 1.83574
+[317]	training's l2: 4.22255	valid_1's l2: 1.83227
 438075 584100
 [LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
-[LightGBM] [Info] Total Bins 66185
+[LightGBM] [Info] Total Bins 67191
 [LightGBM] [Info] Number of data points in the train set: 584096, number of used features: 352
 [LightGBM] [Info] Start training from score 37.106704
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[56]	training's l2: 11.1652	valid_1's l2: 3.24777
+[196]	training's l2: 9.42839	valid_1's l2: 1.99172
 584100 730121
 [LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
-[LightGBM] [Info] Total Bins 66197
+[LightGBM] [Info] Total Bins 66209
 [LightGBM] [Info] Number of data points in the train set: 584100, number of used features: 352
 [LightGBM] [Info] Start training from score 37.081211
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[142]	training's l2: 10.0455	valid_1's l2: 2.91024
+[31]	training's l2: 11.6015	valid_1's l2: 3.26024
 [LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
-[LightGBM] [Info] Total Bins 66205
+[LightGBM] [Info] Total Bins 67188
 [LightGBM] [Info] Number of data points in the train set: 730121, number of used features: 352
 [LightGBM] [Info] Start training from score 37.107591
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[87]	training's l2: 8.86436	valid_1's l2: 3.15807
+[190]	training's l2: 7.8675	valid_1's l2: 2.12568
 0 146025
 [LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
-[LightGBM] [Info] Total Bins 66102
+[LightGBM] [Info] Total Bins 67099
 [LightGBM] [Info] Number of data points in the train set: 584096, number of used features: 352
 [LightGBM] [Info] Start training from score 37.091339
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[33]	training's l2: 8.22824	valid_1's l2: 4.05674
+[40]	training's l2: 7.80074	valid_1's l2: 3.31656
 146025 292050
 [LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
-[LightGBM] [Info] Total Bins 66170
+[LightGBM] [Info] Total Bins 67164
 [LightGBM] [Info] Number of data points in the train set: 584096, number of used features: 352
 [LightGBM] [Info] Start training from score 37.116238
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[32]	training's l2: 11.8593	valid_1's l2: 3.89729
+[36]	training's l2: 11.5283	valid_1's l2: 3.42457
 292050 438075
 [LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
-[LightGBM] [Info] Total Bins 66178
+[LightGBM] [Info] Total Bins 67167
 [LightGBM] [Info] Number of data points in the train set: 584096, number of used features: 352
 [LightGBM] [Info] Start training from score 37.142462
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[402]	training's l2: 4.0761	valid_1's l2: 1.84661
+[271]	training's l2: 4.39065	valid_1's l2: 1.83259
 438075 584100
 [LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
-[LightGBM] [Info] Total Bins 66185
+[LightGBM] [Info] Total Bins 67191
 [LightGBM] [Info] Number of data points in the train set: 584096, number of used features: 352
 [LightGBM] [Info] Start training from score 37.106704
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[60]	training's l2: 10.9654	valid_1's l2: 3.1603
+[43]	training's l2: 11.2676	valid_1's l2: 3.10067
 584100 730121
 [LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
-[LightGBM] [Info] Total Bins 66197
+[LightGBM] [Info] Total Bins 66209
 [LightGBM] [Info] Number of data points in the train set: 584100, number of used features: 352
 [LightGBM] [Info] Start training from score 37.081211
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[38]	training's l2: 11.5616	valid_1's l2: 3.5758
+[46]	training's l2: 11.1567	valid_1's l2: 3.13424
 [LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
-[LightGBM] [Info] Total Bins 66205
+[LightGBM] [Info] Total Bins 67188
 [LightGBM] [Info] Number of data points in the train set: 730121, number of used features: 352
 [LightGBM] [Info] Start training from score 37.107591
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[201]	training's l2: 7.83582	valid_1's l2: 2.46334
+[207]	training's l2: 7.83775	valid_1's l2: 2.03268
 0 146025
 [LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
-[LightGBM] [Info] Total Bins 66102
+[LightGBM] [Info] Total Bins 67099
 [LightGBM] [Info] Number of data points in the train set: 584096, number of used features: 352
 [LightGBM] [Info] Start training from score 37.091339
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[18]	training's l2: 8.67863	valid_1's l2: 3.83791
+[136]	training's l2: 6.30976	valid_1's l2: 2.02515
 146025 292050
 [LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
-[LightGBM] [Info] Total Bins 66170
+[LightGBM] [Info] Total Bins 67164
 [LightGBM] [Info] Number of data points in the train set: 584096, number of used features: 352
 [LightGBM] [Info] Start training from score 37.116238
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[29]	training's l2: 11.7018	valid_1's l2: 3.54673
+[24]	training's l2: 11.6819	valid_1's l2: 3.47202
 292050 438075
 [LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
-[LightGBM] [Info] Total Bins 66178
+[LightGBM] [Info] Total Bins 67167
 [LightGBM] [Info] Number of data points in the train set: 584096, number of used features: 352
 [LightGBM] [Info] Start training from score 37.142462
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[311]	training's l2: 4.29664	valid_1's l2: 1.83457
+[252]	training's l2: 4.22604	valid_1's l2: 1.831
 438075 584100
 [LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
-[LightGBM] [Info] Total Bins 66185
+[LightGBM] [Info] Total Bins 67191
 [LightGBM] [Info] Number of data points in the train set: 584096, number of used features: 352
 [LightGBM] [Info] Start training from score 37.106704
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[45]	training's l2: 11.1222	valid_1's l2: 3.20615
+[137]	training's l2: 9.61054	valid_1's l2: 1.98706
 584100 730121
 [LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
-[LightGBM] [Info] Total Bins 66197
+[LightGBM] [Info] Total Bins 66209
 [LightGBM] [Info] Number of data points in the train set: 584100, number of used features: 352
 [LightGBM] [Info] Start training from score 37.081211
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[29]	training's l2: 11.6545	valid_1's l2: 3.63363
+[40]	training's l2: 10.9623	valid_1's l2: 3.05104
 [LightGBM] [Warning] Using sparse features with CUDA is currently not supported.
-[LightGBM] [Info] Total Bins 66205
+[LightGBM] [Info] Total Bins 67188
 [LightGBM] [Info] Number of data points in the train set: 730121, number of used features: 352
 [LightGBM] [Info] Start training from score 37.107591
 Training until validation scores don't improve for 30 rounds
 Early stopping, best iteration is:
-[63]	training's l2: 8.95566	valid_1's l2: 2.95127
-score: 1.0521042177474593
+[146]	training's l2: 7.91378	valid_1's l2: 2.0583
+score: 0.9667566041660615
 up3_model.pickle download finish Gilgamesh
 odds_data.pickle download finish Gilgamesh
 
 選択数:1
-単勝 回収率72.28756921901856%
-複勝 回収率78.53351155241495%
-単勝 勝率17.66278403666221%
-複勝 勝率44.03284323085736%
+単勝 回収率74.92266564827187%
+複勝 回収率78.4685888867666%
+単勝 勝率18.197441283177394%
+複勝 勝率44.47202596906626%
 賭けたレース数5237回
 賭けた金額5237
-金額:-214695.0
-最低金額:-214695.0
+金額:-193995.0
+最低金額:-194295.0
